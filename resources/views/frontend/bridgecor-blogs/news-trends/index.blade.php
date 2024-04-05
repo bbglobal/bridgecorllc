@@ -4,6 +4,10 @@
     <title>News &amp; Trends - Bridgecor LLC</title>
 @endpush
 
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/news-trends">
+@endpush
+
 @push('style')
     <link rel='stylesheet' id='elementor-post-8964-css' href='/wp-content/uploads/elementor/css/post-8964.css?ver=1710761237'
         type='text/css' media='all'>
@@ -273,10 +277,11 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('home')}}"
+                                                                                    <a href="{{ route('home') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="{{route('blogs.news.trends')}}"
-                                                                                        rel="category tag">News & Trends</a>
+                                                                                    <a href="{{ route('blogs.news.trends') }}"
+                                                                                        rel="category tag">News &
+                                                                                        Trends</a>
                                                                                 </div>
 
                                                                                 <span
@@ -370,14 +375,15 @@
 
                                                                                 <span
                                                                                     class="premium-blog-meta-separator">•</span>
-                                                                                    <div
+                                                                                <div
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('home')}}"
+                                                                                    <a href="{{ route('home') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="{{route('blogs.news.trends')}}"
-                                                                                        rel="category tag">News & Trends</a>
+                                                                                    <a href="{{ route('blogs.news.trends') }}"
+                                                                                        rel="category tag">News &
+                                                                                        Trends</a>
                                                                                 </div>
 
                                                                                 <span

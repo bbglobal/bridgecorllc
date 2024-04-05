@@ -1,7 +1,11 @@
 ﻿@extends('layout.main')
 
 @push('title')
-	<title>Interview Success Tips - Bridgecor LLC</title>
+    <title>Interview Success Tips - Bridgecor LLC</title>
+@endpush
+
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/interview-success-tips">
 @endpush
 
 @push('style')
@@ -360,7 +364,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{route('blogs.panel.interviews')}}/#respond">No
+                                                                                        href="../{{ route('blogs.panel.interviews') }}/#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -403,7 +407,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{route('blogs.virtual.interview')}}/"
+                                                                                href="../{{ route('blogs.virtual.interview') }}/"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Nailing
                                                                                     the Virtual Interview: A
@@ -418,7 +422,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{route('blogs.virtual.interview')}}/"
+                                                                                <a href="../{{ route('blogs.virtual.interview') }}/"
                                                                                     target="_blank">
                                                                                     Nailing the Virtual Interview: A
                                                                                     Comprehensive Guide to Success
@@ -463,7 +467,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{route('blogs.virtual.interview')}}/#respond">No
+                                                                                        href="../{{ route('blogs.virtual.interview') }}/#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>

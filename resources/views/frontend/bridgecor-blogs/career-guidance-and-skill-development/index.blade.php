@@ -4,6 +4,10 @@
     <title>Interview Success Tips - Bridgecor LLC</title>
 @endpush
 
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/career-guidance-and-skill-development">
+@endpush
+
 @push('style')
     <link rel='stylesheet' id='elementor-post-9243-css' href='/wp-content/uploads/elementor/css/post-9243.css?ver=1710761237'
         type='text/css' media='all'>
@@ -262,7 +266,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{route('blogs.platforms')}}"
+                                                                                href="../{{ route('blogs.platforms') }}"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Navigating
                                                                                     Online Learning Platforms: A
@@ -275,7 +279,7 @@
 
                                                                         <div class="premium-blog-inner-container">
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{route('blogs.platforms')}}"
+                                                                                <a href="../{{ route('blogs.platforms') }}"
                                                                                     target="_blank">
                                                                                     Navigating Online Learning
                                                                                     Platforms: A Comprehensive Guide
@@ -307,9 +311,9 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="../{{route('blogs')}}"
+                                                                                    <a href="../{{ route('blogs') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="../{{route('blogs.career.guidance')}}"
+                                                                                    <a href="../{{ route('blogs.career.guidance') }}"
                                                                                         rel="category tag">Career
                                                                                         Guidance and Skill
                                                                                         Development:</a>
@@ -322,7 +326,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{route('blogs.platforms')}}#respond">No
+                                                                                        href="../{{ route('blogs.platforms') }}#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -365,7 +369,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{route('blogs.visions')}}"
+                                                                                href="../{{ route('blogs.visions') }}"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Crafting a
                                                                                     Vision: The Blueprint for Your
@@ -378,7 +382,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{route('blogs.visions')}}"
+                                                                                <a href="../{{ route('blogs.visions') }}"
                                                                                     target="_blank">
                                                                                     Crafting a Vision: The Blueprint
                                                                                     for Your Professional Future
@@ -409,7 +413,7 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="../{{route('blogs.career.guidance')}}"
+                                                                                    <a href="../{{ route('blogs.career.guidance') }}"
                                                                                         rel="category tag">Career
                                                                                         Guidance and Skill
                                                                                         Development:</a>
@@ -422,7 +426,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{route('blogs.visions')}}#respond">No
+                                                                                        href="../{{ route('blogs.visions') }}#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
