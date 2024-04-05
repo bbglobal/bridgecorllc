@@ -16,7 +16,6 @@
     @stack('canonical')
     <meta name="description"
         content="Bridgecor LLC: Your staffing solution for IT, cybersecurity, design, web development, and more. Skilled professionals ready to propel your success.">
-    <link rel="canonical" href="{{ asset('/') }}">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Home">
