@@ -7,7 +7,6 @@
 @push('canonical')
     <link rel="canonical" href="https://bridgecorllc.com/">
 @endpush
-
 @section('main-section')
 
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
