@@ -216,7 +216,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{ route('blogs.diversity') }}"
+                                                                                href="{{ route('blogs.diversity') }}"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Diversity
                                                                                     in the Workplace: Legal
@@ -229,7 +229,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{ route('blogs.diversity') }}"
+                                                                                <a href="{{ route('blogs.diversity') }}"
                                                                                     target="_blank">
                                                                                     Diversity in the Workplace:
                                                                                     Legal Considerations </a>

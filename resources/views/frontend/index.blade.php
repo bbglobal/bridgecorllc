@@ -22,7 +22,7 @@
                         data-elementor-post-type="page">
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-71de28c elementor-section-full_width elementor-section-height-min-height elementor-section-stretched elementor-section-height-default elementor-section-items-middle"
-                            style="height: 90vh;" data-id="71de28c" data-element_type="section"
+                            style="height: 100%;" data-id="71de28c" data-element_type="section"
                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4684f4a"
