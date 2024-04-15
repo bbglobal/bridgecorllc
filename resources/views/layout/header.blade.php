@@ -1841,8 +1841,15 @@
 <body
     class="home page-template page-template-elementor_header_footer page page-id-7048 wp-custom-logo  ehf-template-yootheme ehf-stylesheet-yootheme mega-menu-navbar mega-menu-mobile qodef-qi--no-touch qi-addons-for-elementor-1.6.9 elementor-default elementor-template-full-width elementor-kit-5312 elementor-page elementor-page-7048">
 
+<<<<<<< HEAD
     <div class="container" id="preloader"><img
                 src="{{ url('wp-content/uploads/2024/03/Comp 1.gif') }}" alt="image" max-width="100%"></h1>
+=======
+    <div class="container" id="preloader">
+        <h1 class="our-text">Hiring Beyond Borders <br /> At Home <img
+                src="{{ url('wp-content/uploads/2024/03/images.jpg') }}" alt="image" width="100px"
+                style="margin-bottom: 10px;"></h1>
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
     </div>
 
     <div class="tm-page">

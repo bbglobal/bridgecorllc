@@ -1,12 +1,25 @@
 ﻿@extends('layout.main')
 
 @push('title')
+<<<<<<< HEAD
 	<title>Legal Compliance - Bridgecor LLC</title>
 @endpush
 
 @push('style')
 	<link rel='stylesheet' id='elementor-post-8955-css'
 		href='../../wp-content/uploads/elementor/css/post-8955.css?ver=1710761292' type='text/css' media='all'>
+=======
+    <title>Legal Compliance - Bridgecor LLC</title>
+@endpush
+
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/legal-compliance">
+@endpush
+
+@push('style')
+    <link rel='stylesheet' id='elementor-post-8955-css'
+        href='../../wp-content/uploads/elementor/css/post-8955.css?ver=1710761292' type='text/css' media='all'>
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
     <link rel='stylesheet' id='pa-frontend-css'
         href='/wp-content/uploads/premium-addons-elementor/pa-frontend-365916e9b.min.css?ver=1710776214' type='text/css'
         media='all'>
@@ -212,7 +225,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.diversity')}}"
+=======
+                                                                                href="../{{ route('blogs.diversity') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Diversity
                                                                                     in the Workplace: Legal
@@ -225,7 +242,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.diversity')}}"
+=======
+                                                                                <a href="../{{ route('blogs.diversity') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Diversity in the Workplace:
                                                                                     Legal Considerations </a>
@@ -235,7 +256,11 @@
                                                                                     class="premium-blog-post-author premium-blog-meta-data">
                                                                                     <i class="fa fa-user fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="{{route('home')}}"
+=======
+                                                                                    <a href="{{ route('home') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         title="Posts by Steven"
                                                                                         rel="author">Steven</a>
                                                                                 </div>
@@ -255,10 +280,18 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="{{route('blogs')}}"
                                                                                         rel="category tag">All</a>,
                                                                                     <a href="{{route('blogs.legal.compliance')}}"
                                                                                         rel="category tag">Legal Compliance</a>
+=======
+                                                                                    <a href="{{ route('blogs') }}"
+                                                                                        rel="category tag">All</a>,
+                                                                                    <a href="{{ route('blogs.legal.compliance') }}"
+                                                                                        rel="category tag">Legal
+                                                                                        Compliance</a>
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 </div>
 
                                                                                 <span
@@ -268,7 +301,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="{{route('blogs.diversity')}}">No
+=======
+                                                                                        href="{{ route('blogs.diversity') }}">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -311,7 +348,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="{{route('blogs.demystifying')}}"
+=======
+                                                                                href="{{ route('blogs.demystifying') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>The
                                                                                     Ethical Recruiter: Ensuring
@@ -325,7 +366,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="{{route('blogs.ethical')}}"
+=======
+                                                                                <a href="{{ route('blogs.ethical') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     The Ethical Recruiter: Ensuring
                                                                                     Compliance in Talent Acquisition
@@ -336,7 +381,11 @@
                                                                                     class="premium-blog-post-author premium-blog-meta-data">
                                                                                     <i class="fa fa-user fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="{{route('home')}}"
+=======
+                                                                                    <a href="{{ route('home') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         title="Posts by Steven"
                                                                                         rel="author">Steven</a>
                                                                                 </div>
@@ -352,6 +401,7 @@
 
                                                                                 <span
                                                                                     class="premium-blog-meta-separator">•</span>
+<<<<<<< HEAD
                                                                                     <div
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
@@ -360,6 +410,16 @@
                                                                                         rel="category tag">All</a>,
                                                                                     <a href="{{route('blogs.legal.compliance')}}"
                                                                                         rel="category tag">Legal 
+=======
+                                                                                <div
+                                                                                    class="premium-blog-post-categories premium-blog-meta-data">
+                                                                                    <i class="fa fa-align-left fa-fw"
+                                                                                        aria-hidden="true"></i>
+                                                                                    <a href="{{ route('blogs') }}"
+                                                                                        rel="category tag">All</a>,
+                                                                                    <a href="{{ route('blogs.legal.compliance') }}"
+                                                                                        rel="category tag">Legal
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Compliance</a>
                                                                                 </div>
 
@@ -370,7 +430,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="{{route('blogs.ethical')}}/">No
+=======
+                                                                                        href="{{ route('blogs.ethical') }}/">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>

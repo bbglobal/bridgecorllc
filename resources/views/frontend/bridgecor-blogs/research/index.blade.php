@@ -1,6 +1,7 @@
 ﻿@extends('layout.main')
 
 @push('title')
+<<<<<<< HEAD
 	<title>Research - Bridgecor LLC</title>
 @endpush
 
@@ -9,6 +10,21 @@
 	<link rel='stylesheet' id='pa-frontend-css'
 		href='/wp-content/uploads/premium-addons-elementor/pa-frontend-365916e9b.min.css?ver=1710776214'
 		type='text/css' media='all'>
+=======
+    <title>Research - Bridgecor LLC</title>
+@endpush
+
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/research">
+@endpush
+
+@push('style')
+    <link rel='stylesheet' id='elementor-post-8968-css' href='/wp-content/uploads/elementor/css/post-8968.css?ver=1710761286'
+        type='text/css' media='all'>
+    <link rel='stylesheet' id='pa-frontend-css'
+        href='/wp-content/uploads/premium-addons-elementor/pa-frontend-365916e9b.min.css?ver=1710776214' type='text/css'
+        media='all'>
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 @endpush
 
 @section('main-section')
@@ -266,9 +282,15 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="{{route('home')}}"
                                                                                         rel="category tag">All</a>,
                                                                                     <a href="{{route('blogs.research')}}"
+=======
+                                                                                    <a href="{{ route('home') }}"
+                                                                                        rel="category tag">All</a>,
+                                                                                    <a href="{{ route('blogs.research') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         rel="category tag">Research</a>
                                                                                 </div>
 
@@ -367,9 +389,15 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="{{route('home')}}"
                                                                                         rel="category tag">All</a>,
                                                                                     <a href="{{route('blogs.research')}}"
+=======
+                                                                                    <a href="{{ route('home') }}"
+                                                                                        rel="category tag">All</a>,
+                                                                                    <a href="{{ route('blogs.research') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         rel="category tag">Research</a>
                                                                                 </div>
 

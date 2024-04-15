@@ -291,18 +291,56 @@
     };
     /* ]]> */
 </script>
+<<<<<<< HEAD
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+=======
+<script src="https://cdn.jsdelivr.net/npm/split-type"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const ourText = new SplitType('h1.our-text', {
+            types: ['words', 'chars']
+        });
+        const charsAndImg = [...ourText.words, ...ourText.chars, document.querySelector('.our-text img')];
+        gsap.fromTo(
+            charsAndImg, {
+                y: 100,
+                opacity: 0
+            }, {
+                y: 0,
+                opacity: 1,
+                stagger: 0.05,
+                duration: 2,
+                ease: 'power4.out',
+                onComplete: preLoader
+            }
+        );
+
+        gsap.set('.our-text', {
+            visibility: "visible"
+        });
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 
         var loader = document.getElementById("preloader");
 
         function preLoader() {
             loader.style.display = "none";
         }
+<<<<<<< HEAD
         window.addEventListener("load", () => {
             preLoader();
         }, );
     });
+=======
+    });
+
+
+    // window.addEventListener("load", () => {
+    // 	// Call preLoader function when window is fully loaded
+    // 	preLoader();
+    // },);
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 </script>
 <script type="text/javascript" src="{{ asset('/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.2') }}"
     id="contact-form-7-js"></script>

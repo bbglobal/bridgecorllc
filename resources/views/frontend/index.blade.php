@@ -7,7 +7,10 @@
 @push('canonical')
     <link rel="canonical" href="https://bridgecorllc.com/">
 @endpush
+<<<<<<< HEAD
 
+=======
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 @section('main-section')
 
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">

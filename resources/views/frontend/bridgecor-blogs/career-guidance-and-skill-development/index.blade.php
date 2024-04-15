@@ -4,6 +4,13 @@
     <title>Interview Success Tips - Bridgecor LLC</title>
 @endpush
 
+<<<<<<< HEAD
+=======
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/career-guidance-and-skill-development">
+@endpush
+
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 @push('style')
     <link rel='stylesheet' id='elementor-post-9243-css' href='/wp-content/uploads/elementor/css/post-9243.css?ver=1710761237'
         type='text/css' media='all'>
@@ -262,7 +269,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.platforms')}}"
+=======
+                                                                                href="../{{ route('blogs.platforms') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Navigating
                                                                                     Online Learning Platforms: A
@@ -275,7 +286,11 @@
 
                                                                         <div class="premium-blog-inner-container">
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.platforms')}}"
+=======
+                                                                                <a href="../{{ route('blogs.platforms') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Navigating Online Learning
                                                                                     Platforms: A Comprehensive Guide
@@ -307,9 +322,15 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="../{{route('blogs')}}"
                                                                                         rel="category tag">All</a>,
                                                                                     <a href="../{{route('blogs.career.guidance')}}"
+=======
+                                                                                    <a href="../{{ route('blogs') }}"
+                                                                                        rel="category tag">All</a>,
+                                                                                    <a href="../{{ route('blogs.career.guidance') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         rel="category tag">Career
                                                                                         Guidance and Skill
                                                                                         Development:</a>
@@ -322,7 +343,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="../{{route('blogs.platforms')}}#respond">No
+=======
+                                                                                        href="../{{ route('blogs.platforms') }}#respond">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -365,7 +390,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.visions')}}"
+=======
+                                                                                href="../{{ route('blogs.visions') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Crafting a
                                                                                     Vision: The Blueprint for Your
@@ -378,7 +407,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.visions')}}"
+=======
+                                                                                <a href="../{{ route('blogs.visions') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Crafting a Vision: The Blueprint
                                                                                     for Your Professional Future
@@ -409,7 +442,11 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="../{{route('blogs.career.guidance')}}"
+=======
+                                                                                    <a href="../{{ route('blogs.career.guidance') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         rel="category tag">Career
                                                                                         Guidance and Skill
                                                                                         Development:</a>
@@ -422,7 +459,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="../{{route('blogs.visions')}}#respond">No
+=======
+                                                                                        href="../{{ route('blogs.visions') }}#respond">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>

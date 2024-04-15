@@ -1,7 +1,15 @@
 ﻿@extends('layout.main')
 
 @push('title')
+<<<<<<< HEAD
 	<title>Industry Insights and Trends - Bridgecor LLC</title>
+=======
+    <title>Industry Insights and Trends - Bridgecor LLC</title>
+@endpush
+
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/industry-insights-and-trends">
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 @endpush
 
 @push('style')
@@ -325,7 +333,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.soft.skills')}}"
+=======
+                                                                                href="../{{ route('blogs.soft.skills') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Cultivating
                                                                                     Soft Skills: The Unseen Trend in
@@ -338,7 +350,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.soft.skills')}}"
+=======
+                                                                                <a href="../{{ route('blogs.soft.skills') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Cultivating Soft Skills: The
                                                                                     Unseen Trend in Hiring </a>
@@ -380,7 +396,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="../{{route('blogs.soft.skills')}}#respond">No
+=======
+                                                                                        href="../{{ route('blogs.soft.skills') }}#respond">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -424,7 +444,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.trends')}}"
+=======
+                                                                                href="../{{ route('blogs.trends') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Navigating
                                                                                     the Current Job Market: Trends
@@ -438,7 +462,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.trends')}}"
+=======
+                                                                                <a href="../{{ route('blogs.trends') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Navigating the Current Job
                                                                                     Market: Trends and Opportunities
@@ -481,7 +509,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="../{{route('blogs.trends')}}#respond">No
+=======
+                                                                                        href="../{{ route('blogs.trends') }}#respond">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>

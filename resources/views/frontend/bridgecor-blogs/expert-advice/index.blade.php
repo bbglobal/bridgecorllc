@@ -1,9 +1,18 @@
 ﻿@extends('layout.main')
 
 @push('title')
+<<<<<<< HEAD
 	<title>Expert Advice and Industry Best Practices - Bridgecor LLC</title>
 @endpush
 
+=======
+    <title>Expert Advice and Industry Best Practices - Bridgecor LLC</title>
+@endpush
+
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/expert-advice">
+@endpush
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
 
 @push('style')
     <link rel='stylesheet' id='elementor-post-9266-css' href='/wp-content/uploads/elementor/css/post-9266.css?ver=1710761237'
@@ -304,7 +313,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.mentorship')}}/"
+=======
+                                                                                href="../{{ route('blogs.mentorship') }}/"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Mentorship
                                                                                     Matters: The Impact of
@@ -318,7 +331,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.mentorship')}}/"
+=======
+                                                                                <a href="../{{ route('blogs.mentorship') }}/"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Mentorship Matters: The Impact
                                                                                     of Mentorship on Career
@@ -329,7 +346,11 @@
                                                                                     class="premium-blog-post-author premium-blog-meta-data">
                                                                                     <i class="fa fa-user fa-fw"
                                                                                         aria-hidden="true"></i>
+<<<<<<< HEAD
                                                                                     <a href="{{route('home')}}"
+=======
+                                                                                    <a href="{{ route('home') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         title="Posts by Steven"
                                                                                         rel="author">Steven</a>
                                                                                 </div>
@@ -362,7 +383,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="../{{route('blogs.mentorship')}}/#respond">No
+=======
+                                                                                        href="../{{ route('blogs.mentorship') }}/#respond">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -405,7 +430,11 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
+<<<<<<< HEAD
                                                                                 href="../{{route('blogs.time.management')}}"
+=======
+                                                                                href="../{{ route('blogs.time.management') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Strategies
                                                                                     for Effective Time Management:
@@ -419,7 +448,11 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
+<<<<<<< HEAD
                                                                                 <a href="../{{route('blogs.time.management')}}"
+=======
+                                                                                <a href="../{{ route('blogs.time.management') }}"
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                     target="_blank">
                                                                                     Strategies for Effective Time
                                                                                     Management: Insights from
@@ -463,7 +496,11 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
+<<<<<<< HEAD
                                                                                         href="../{{route('blogs.time.management')}}#respond">No
+=======
+                                                                                        href="../{{ route('blogs.time.management') }}#respond">No
+>>>>>>> b34dad3bc9c86e6eb81e289f22b9290f0e025433
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
