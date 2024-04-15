@@ -329,7 +329,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{ route('blogs.soft.skills') }}"
+                                                                                href="{{ route('blogs.soft.skills') }}"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Cultivating
                                                                                     Soft Skills: The Unseen Trend in
@@ -342,7 +342,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{ route('blogs.soft.skills') }}"
+                                                                                <a href="{{ route('blogs.soft.skills') }}"
                                                                                     target="_blank">
                                                                                     Cultivating Soft Skills: The
                                                                                     Unseen Trend in Hiring </a>
@@ -384,7 +384,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{ route('blogs.soft.skills') }}#respond">No
+                                                                                        href="{{ route('blogs.soft.skills') }}#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -428,7 +428,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{ route('blogs.trends') }}"
+                                                                                href="{{ route('blogs.trends') }}"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Navigating
                                                                                     the Current Job Market: Trends
@@ -442,7 +442,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{ route('blogs.trends') }}"
+                                                                                <a href="{{ route('blogs.trends') }}"
                                                                                     target="_blank">
                                                                                     Navigating the Current Job
                                                                                     Market: Trends and Opportunities
@@ -485,7 +485,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{ route('blogs.trends') }}#respond">No
+                                                                                        href="{{ route('blogs.trends') }}#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>

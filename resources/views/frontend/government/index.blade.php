@@ -256,7 +256,7 @@
                     </div>
 
                     <div class="oakslider__slide" data-slide="4">
-                        <div class="slide__image"><img src="../wp-content/uploads/2024/03/image-43.png" alt="">
+                        <div class="slide__image"><img src="../wp-content/uploads/2024/03/image-43.webp" alt="">
                         </div>
                         <div class="slide__container">
                             <div class="slide__content">
