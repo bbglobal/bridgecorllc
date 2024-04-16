@@ -44,6 +44,7 @@ Route::prefix('/')->group(function () {
     Route::get('/global-perspectives-security-clearance-jobs-in-international-settings', [FrontendController::class, 'global'])->name('blogs.global');
     Route::get('/the-role-of-soft-skills-in-cybersecurity-recruiting-a-holistic-approach-to-talent-acquisition', [FrontendController::class, 'cyber'])->name('blogs.cyber');
     Route::get('/local-heroes-exploring-the-impact-of-it-staffing-agencies-in-the-usa', [FrontendController::class, 'local'])->name('blogs.local');
+    Route::get('/strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc', [FrontendController::class, 'potential'])->name('blogs.potential');
 
     
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');

@@ -115,4 +115,7 @@ class FrontendController extends Controller
     public function local() {
         return view('frontend.local-heroes-exploring-the-impact-of-it-staffing-agencies-in-the-usa.index');
     }
+    public function potential() {
+        return view('frontend.strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc.index');
+    }
 }
