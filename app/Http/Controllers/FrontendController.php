@@ -115,4 +115,59 @@ class FrontendController extends Controller
     public function local() {
         return view('frontend.local-heroes-exploring-the-impact-of-it-staffing-agencies-in-the-usa.index');
     }
+    public function potential()
+{
+    return view('frontend.strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc.index');
+}
+
+public function futureofsecurity()
+{
+    return view('frontend.cracking-the-code-how-cybersecurity-recruitment-agencies-like-bridgecor-llc-shape-the-future-of-security.index');
+}
+
+public function futureofdigital()
+{
+    return view('frontend.from-resumes-to-resilience-how-cybersecurity-recruitment-agencies-shape-the-future-of-digital-defense.index');
+}
+
+public function futureready()
+{
+    return view('frontend.future-ready-workforce-trends-in-it-staffing-and-recruitment.index');
+}
+
+public function horizon()
+{
+    return view('frontend.navigating-the-digital-horizon-it-engineering-at-its-finest.index');
+}
+
+public function strategicStaffing()
+{
+    return view('frontend.strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc.index');
+}
+
+public function techMavericks()
+{
+    return view('frontend.tech-mavericks-unleashing-innovation-through-bridgecor-llcs-it-staffing-solutions.index');
+}
+
+public function unlockingSuccess()
+{
+    return view('frontend.unlocking-success-how-security-clearance-jobs-shape-your-career-path.index');
+}
+
+public function cybersecurityInEngineering()
+    {
+        return view('frontend.cybersecurity-in-it-engineering-services-navigating-the-digital-threat-landscape.index');
+    }
+
+    public function unlockingBusinessPotential()
+    {
+        return view('frontend.unlocking-business-potential-a-comprehensive-guide-to-enhancing-agility-with-it-engineering-services.index');
+    }
+
+    public function balancingAct()
+    {
+        return view('frontend.balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills.index');
+    }
+
 }
