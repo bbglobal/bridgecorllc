@@ -1012,7 +1012,7 @@
 
 
 
-#diversity {
+/* #diversity {
     background-image: url(../../../uploads/2024/03/man-near-window-05-scaled.jpg);
     background-attachment: scroll;
     left: -351.5px;
@@ -1126,15 +1126,106 @@
         transform: translate(0px, 0px);
         visibility: visible;
     }
+} */
+#diversity {
+    background-image: url(../../../uploads/2024/03/man-near-window-05-scaled.jpg);
+    background-attachment: scroll;
+    position: relative; /* Ensure positioning context */
+    left: 0; /* Reset left position */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full width of the viewport */
+    background-size: cover; /* Ensure background covers the container */
+    background-position: center; /* Center the background image */
+}
+
+#diversity h2 {
+    z-index: 5;
+    font-family: Oswald, sans-serif;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    width: 958px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 74px;
+    font-weight: 500;
+    font-size: 63px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+#diversity p {
+    z-index: 9;
+    font-family: Oswald, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    width: 1157px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 38px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 25px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+@media (min-width: 480px) {
+    #diversity {
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full width of the viewport */
+        left: 0; /* Reset left position */
+        padding: 5px;
+    }
+
+    #diversity h2 {
+        font-size: 3.5rem; /* Adjusted font size for larger screens */
+        line-height: 1.2; /* Maintain consistent line height */
+        padding: 10px;
+    }
+
+    #diversity p {
+        font-size: 35px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 10px;
+    }
+}
+@media (max-width: 900px) {
+    #diversity h2{
+        font-size: 35px;
+        padding: 25px;
+    }
+    #diversity p {
+        font-size: 25px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 25px;
+    }
 }
 
 #career {
     background-image: url(../../../uploads/2024/03/man-near-window.jpg);
     background-attachment: scroll;
-    left: -351.5px;
-    height: 100%;
-    width: 1903px;
-    max-height: none;
+    position: relative; /* Ensure positioning context */
+    left: 0; /* Reset left position */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full width of the viewport */
+    background-size: cover; /* Ensure background covers the container */
+    background-position: center; /* Center the background image */
 }
 
 #career h2 {
@@ -1175,7 +1266,7 @@
     line-height: 38px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     backdrop-filter: none;
     filter: none;
     transform-origin: 50% 50%;
@@ -1183,14 +1274,46 @@
     transform: translate(0px, 0px);
     visibility: visible;
 }
+@media (min-width: 480px) {
+    #career {
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full width of the viewport */
+        left: 0; /* Reset left position */
+        padding: 5px;
+    }
 
+    #career h2 {
+        font-size: 3.5rem; /* Adjusted font size for larger screens */
+        line-height: 1.2; /* Maintain consistent line height */
+        padding: 10px;
+    }
+
+    #career p {
+        font-size: 35px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 10px;
+    }
+}
+@media (max-width: 900px) {
+    #career h2{
+        font-size: 35px;
+        padding: 25px;
+    }
+    #career p {
+        font-size: 25px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 25px;
+    }
+}
 #gender-gap {
     background-image: url(../../../uploads/2024/03/Banner-Overlay-11-1-scaled.jpg);
     background-attachment: scroll;
-    left: -351.5px;
-    height: 100%;
-    width: 1903px;
-    max-height: none;
+    position: relative; /* Ensure positioning context */
+    left: 0; /* Reset left position */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full width of the viewport */
+    background-size: cover; /* Ensure background covers the container */
+    background-position: center; /* Center the background image */
 }
 
 #gender-gap h2 {
@@ -1231,7 +1354,7 @@
     line-height: 38px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     backdrop-filter: none;
     filter: none;
     transform-origin: 50% 50%;
@@ -1239,14 +1362,46 @@
     transform: translate(0px, 0px);
     visibility: visible;
 }
+@media (min-width: 480px) {
+    #gender-gap {
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full width of the viewport */
+        left: 0; /* Reset left position */
+        padding: 5px;
+    }
 
+    #gender-gap h2 {
+        font-size: 3.5rem; /* Adjusted font size for larger screens */
+        line-height: 1.2; /* Maintain consistent line height */
+        padding: 10px;
+    }
+
+    #gender-gap p {
+        font-size: 35px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 10px;
+    }
+}
+@media (max-width: 900px) {
+    #gender-gap h2{
+        font-size: 35px;
+        padding: 25px;
+    }
+    #gender-gap p {
+        font-size: 25px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 25px;
+    }
+}
 #culture {
     background-image: url(../../../uploads/2024/03/man-near-window-04-scaled.jpg);
     background-attachment: scroll;
-    left: -351.5px;
-    height: 100%;
-    width: 1903px;
-    max-height: none;
+    position: relative; /* Ensure positioning context */
+    left: 0; /* Reset left position */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full width of the viewport */
+    background-size: cover; /* Ensure background covers the container */
+    background-position: center; /* Center the background image */
 }
 
 #culture h2 {
@@ -1287,7 +1442,7 @@
     line-height: 38px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     backdrop-filter: none;
     filter: none;
     transform-origin: 50% 50%;
@@ -1295,14 +1450,47 @@
     transform: translate(0px, 0px);
     visibility: visible;
 }
+@media (min-width: 480px) {
+    #culture {
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full width of the viewport */
+        left: 0; /* Reset left position */
+        padding: 5px;
+    }
+
+    #culture h2 {
+        font-size: 3.5rem; /* Adjusted font size for larger screens */
+        line-height: 1.2; /* Maintain consistent line height */
+        padding: 10px;
+    }
+
+    #culture p {
+        font-size: 35px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 10px;
+    }
+}
+@media (max-width: 900px) {
+    #culture h2{
+        font-size: 35px;
+        padding: 25px;
+    }
+    #culture p {
+        font-size: 25px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 25px;
+    }
+}
 
 #premier {
     background-image: url(../../../uploads/2024/03/img_hero-JCWA_1920x1080-darken.webp);
     background-attachment: scroll;
-    left: -351.5px;
-    height: 100%;
-    width: 1903px;
-    max-height: none;
+    position: relative; /* Ensure positioning context */
+    left: 0; /* Reset left position */
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full width of the viewport */
+    background-size: cover; /* Ensure background covers the container */
+    background-position: center; /* Center the background image */
 }
 
 #premier h2 {
@@ -1343,13 +1531,44 @@
     line-height: 38px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
     backdrop-filter: none;
     filter: none;
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
     visibility: visible;
+}
+@media (min-width: 480px) {
+    #premier {
+        height: 100%; /* Full viewport height */
+        width: 100%; /* Full width of the viewport */
+        left: 0; /* Reset left position */
+        padding: 5px;
+    }
+
+    #premier h2 {
+        font-size: 3.5rem; /* Adjusted font size for larger screens */
+        line-height: 1.2; /* Maintain consistent line height */
+        padding: 10px;
+    }
+
+    #premier p {
+        font-size: 35px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 10px;
+    }
+}
+@media (max-width: 900px) {
+    #premier h2{
+        font-size: 35px;
+        padding: 25px;
+    }
+    #premier p {
+        font-size: 25px; /* Adjusted font size for larger screens */
+        line-height: 1.5; /* Maintain consistent line height */
+        padding: 25px;
+    }
 }
 
 .er {

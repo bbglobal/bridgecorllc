@@ -303,6 +303,7 @@
             preLoader();
         }, );
     });
+
 </script>
 <script type="text/javascript" src="{{ asset('/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.2') }}"
     id="contact-form-7-js"></script>
