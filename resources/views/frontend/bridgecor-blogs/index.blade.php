@@ -2185,15 +2185,15 @@
                                                 </div>
 
                                                 <!-- <div class="premium-blog-footer">
-                                                        <nav class="premium-blog-pagination-container" role="navigation"
-                                                            aria-label="Pagination">
-                                                            <span aria-current="page" class="page-numbers current">1</span>
-                                                            <a class="page-numbers" href="page/2/">2</a>
-                                                            <a class="page-numbers" href="page/3/">3</a>
-                                                            <a class="page-numbers" href="page/4/">4</a>
-                                                            <a class="next page-numbers" href="page/2/">Next »</a>
-                                                        </nav>
-                                                    </div> -->
+                                                            <nav class="premium-blog-pagination-container" role="navigation"
+                                                                aria-label="Pagination">
+                                                                <span aria-current="page" class="page-numbers current">1</span>
+                                                                <a class="page-numbers" href="page/2/">2</a>
+                                                                <a class="page-numbers" href="page/3/">3</a>
+                                                                <a class="page-numbers" href="page/4/">4</a>
+                                                                <a class="next page-numbers" href="page/2/">Next »</a>
+                                                            </nav>
+                                                        </div> -->
                                             </div>
                                         </div>
                                     </div>

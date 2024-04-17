@@ -1,9 +1,12 @@
 ﻿@extends('layout.main')
 
 @push('title')
-	<title>Expert Advice and Industry Best Practices - Bridgecor LLC</title>
+    <title>Expert Advice and Industry Best Practices - Bridgecor LLC</title>
 @endpush
 
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/expert-advice">
+@endpush
 
 @push('style')
     <link rel='stylesheet' id='elementor-post-9266-css' href='/wp-content/uploads/elementor/css/post-9266.css?ver=1710761237'
@@ -304,7 +307,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{route('blogs.mentorship')}}/"
+                                                                                href="{{ route('blogs.mentorship') }}/"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Mentorship
                                                                                     Matters: The Impact of
@@ -318,7 +321,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{route('blogs.mentorship')}}/"
+                                                                                <a href="{{ route('blogs.mentorship') }}/"
                                                                                     target="_blank">
                                                                                     Mentorship Matters: The Impact
                                                                                     of Mentorship on Career
@@ -329,7 +332,7 @@
                                                                                     class="premium-blog-post-author premium-blog-meta-data">
                                                                                     <i class="fa fa-user fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('home')}}"
+                                                                                    <a href="{{ route('home') }}"
                                                                                         title="Posts by Steven"
                                                                                         rel="author">Steven</a>
                                                                                 </div>
@@ -362,7 +365,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{route('blogs.mentorship')}}/#respond">No
+                                                                                        href="{{ route('blogs.mentorship') }}/#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>
@@ -405,7 +408,7 @@
                                                                         </div>
                                                                         <div class="premium-blog-thumbnail-overlay">
                                                                             <a class="elementor-icon"
-                                                                                href="../{{route('blogs.time.management')}}"
+                                                                                href="{{ route('blogs.time.management') }}"
                                                                                 target="_blank"
                                                                                 aria-hidden="true"><span>Strategies
                                                                                     for Effective Time Management:
@@ -419,7 +422,7 @@
                                                                         <div class="premium-blog-inner-container">
 
                                                                             <h2 class="premium-blog-entry-title">
-                                                                                <a href="../{{route('blogs.time.management')}}"
+                                                                                <a href="{{ route('blogs.time.management') }}"
                                                                                     target="_blank">
                                                                                     Strategies for Effective Time
                                                                                     Management: Insights from
@@ -463,7 +466,7 @@
                                                                                     <i class="fa fa-comments-o fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a
-                                                                                        href="../{{route('blogs.time.management')}}#respond">No
+                                                                                        href="{{ route('blogs.time.management') }}#respond">No
                                                                                         Comments</a>
                                                                                 </div>
                                                                             </div>

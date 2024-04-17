@@ -1,7 +1,7 @@
 ﻿@extends('layout.main')
 
 @push('title')
-    <title>Diversity in the Workplace: Legal Considerations Bridgecor LLC</title>
+    <title>Global Perspectives: Security Clearance Jobs in International Settings</title>
 @endpush
 
 @push('canonical')

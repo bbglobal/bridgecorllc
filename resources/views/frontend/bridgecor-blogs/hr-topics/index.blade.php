@@ -4,6 +4,10 @@
     <title>HR Topics - Bridgecor LLC</title>
 @endpush
 
+@push('canonical')
+    <link rel="canonical" href="https://bridgecorllc.com/hr-topics">
+@endpush
+
 @push('style')
     <link rel='stylesheet' id='elementor-post-8960-css' href='/wp-content/uploads/elementor/css/post-8960.css?ver=1710761237'
         type='text/css' media='all'>
@@ -234,7 +238,7 @@
                                                                                     class="premium-blog-post-author premium-blog-meta-data">
                                                                                     <i class="fa fa-user fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('home')}}"
+                                                                                    <a href="{{ route('home') }}"
                                                                                         title="Posts by Steven"
                                                                                         rel="author">Steven</a>
                                                                                 </div>
@@ -254,9 +258,9 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('blogs')}}"
+                                                                                    <a href="{{ route('blogs') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="{{route('blogs.hr.topics')}}"
+                                                                                    <a href="{{ route('blogs.hr.topics') }}"
                                                                                         rel="category tag">HR
                                                                                         Topics</a>
                                                                                 </div>
@@ -332,13 +336,13 @@
                                                                                     Professionals </a>
                                                                             </h2>
                                                                             <div class="premium-blog-entry-meta">
-                                                                            <div
+                                                                                <div
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('blogs')}}"
+                                                                                    <a href="{{ route('blogs') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="{{route('blogs.hr.topics')}}"
+                                                                                    <a href="{{ route('blogs.hr.topics') }}"
                                                                                         rel="category tag">HR
                                                                                         Topics</a>
                                                                                 </div>
@@ -358,9 +362,9 @@
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
-                                                                                    <a href="{{route('home')}}"
+                                                                                    <a href="{{ route('home') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="{{route('blogs.news.trends')}}"
+                                                                                    <a href="{{ route('blogs.news.trends') }}"
                                                                                         rel="category tag">HR Topics</a>
                                                                                 </div>
 
