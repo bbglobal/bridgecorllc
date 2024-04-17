@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::prefix('/')->group(function () {
-    
+
     Route::get('/', [FrontendController::class, 'home'])->name('home');
     Route::get('/about', [FrontendController::class, 'about'])->name('about');
     Route::get('/employers', [FrontendController::class, 'employers'])->name('employers');
@@ -46,23 +46,22 @@ Route::prefix('/')->group(function () {
     Route::get('/local-heroes-exploring-the-impact-of-it-staffing-agencies-in-the-usa', [FrontendController::class, 'potential'])->name('blogs.potential');
     Route::get('/strn-the-usa', [FrontendController::class, 'local'])->name('blogs.local');
     Route::get('/strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc', [FrontendController::class, 'potential'])->name('blogs.potential');
-Route::get('/cracking-the-code-how-cybersecurity-recruitment-agencies-like-bridgecor-llc-shape-the-future-of-security', [FrontendController::class, 'futureofsecurity'])->name('blogs.futureofsecurity');
-Route::get('/from-resumes-to-resilience-how-cybersecurity-recruitment-agencies-shape-the-future-of-digital-defense', [FrontendController::class, 'futureofdigital'])->name('blogs.futureofdigital');
-Route::get('/future-ready-workforce-trends-in-it-staffing-and-recruitment', [FrontendController::class, 'futureready'])->name('blogs.futureready');
-Route::get('/navigating-the-digital-horizon-it-engineering-at-its-finest', [FrontendController::class, 'horizon'])->name('blogs.horizon');
-Route::get('/strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc', [FrontendController::class, 'strategicStaffing'])->name('blogs.strategicStaffing');
-Route::get('/tech-mavericks-unleashing-innovation-through-bridgecor-llcs-it-staffing-solutions', [FrontendController::class, 'techMavericks'])->name('blogs.techMavericks');
-Route::get('/unlocking-success-how-security-clearance-jobs-shape-your-career-path', [FrontendController::class, 'unlockingSuccess'])->name('blogs.unlockingSuccess');
+    Route::get('/cracking-the-code-how-cybersecurity-recruitment-agencies-like-bridgecor-llc-shape-the-future-of-security', [FrontendController::class, 'futureofsecurity'])->name('blogs.futureofsecurity');
+    Route::get('/from-resumes-to-resilience-how-cybersecurity-recruitment-agencies-shape-the-future-of-digital-defense', [FrontendController::class, 'futureofdigital'])->name('blogs.futureofdigital');
+    Route::get('/future-ready-workforce-trends-in-it-staffing-and-recruitment', [FrontendController::class, 'futureready'])->name('blogs.futureready');
+    Route::get('/navigating-the-digital-horizon-it-engineering-at-its-finest', [FrontendController::class, 'horizon'])->name('blogs.horizon');
+    Route::get('/strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc', [FrontendController::class, 'strategicStaffing'])->name('blogs.strategicStaffing');
+    Route::get('/tech-mavericks-unleashing-innovation-through-bridgecor-llcs-it-staffing-solutions', [FrontendController::class, 'techMavericks'])->name('blogs.techMavericks');
+    Route::get('/unlocking-success-how-security-clearance-jobs-shape-your-career-path', [FrontendController::class, 'unlockingSuccess'])->name('blogs.unlockingSuccess');
 
-Route::get('/cybersecurity-in-it-engineering-services-navigating-the-digital-threat-landscape', [FrontendController::class, 'cybersecurityInEngineering'])
-    ->name('blogs.cybersecurityInEngineering');
+    Route::get('/cybersecurity-in-it-engineering-services-navigating-the-digital-threat-landscape', [FrontendController::class, 'cybersecurityInEngineering'])
+        ->name('blogs.cybersecurityInEngineering');
 
-Route::get('/unlocking-business-potential-a-comprehensive-guide-to-enhancing-agility-with-it-engineering-services', [FrontendController::class, 'unlockingBusinessPotential'])
-    ->name('blogs.unlockingBusinessPotential');
+    Route::get('/unlocking-business-potential-a-comprehensive-guide-to-enhancing-agility-with-it-engineering-services', [FrontendController::class, 'unlockingBusinessPotential'])
+        ->name('blogs.unlockingBusinessPotential');
 
-Route::get('/balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills', [FrontendController::class, 'balancingAct'])
-    ->name('blogs.balancingAct');
-    
+    Route::get('/balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills', [FrontendController::class, 'balancingAct'])
+        ->name('blogs.balancingAct');
+
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
-   
 });
