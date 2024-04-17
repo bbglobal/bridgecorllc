@@ -1838,10 +1838,11 @@
     </style>
 </head>
 
-<body class="home page-template page-template-elementor_header_footer page page-id-7048 wp-custom-logo  ehf-template-yootheme ehf-stylesheet-yootheme mega-menu-navbar mega-menu-mobile qodef-qi--no-touch qi-addons-for-elementor-1.6.9 elementor-default elementor-template-full-width elementor-kit-5312 elementor-page elementor-page-7048">
+<body
+    class="home page-template page-template-elementor_header_footer page page-id-7048 wp-custom-logo  ehf-template-yootheme ehf-stylesheet-yootheme mega-menu-navbar mega-menu-mobile qodef-qi--no-touch qi-addons-for-elementor-1.6.9 elementor-default elementor-template-full-width elementor-kit-5312 elementor-page elementor-page-7048">
 
-    <div class="container" id="preloader"><img
-            src="{{ url('wp-content/uploads/2024/03/loader.gif') }}" alt="image" width="50%"></h1>
+    <div class="container" id="preloader">
+        <img src="{{ url('wp-content/uploads/2024/03/loader.gif') }}" alt="image" width="50%">
     </div>
 
     <div class="tm-page">
@@ -2136,3 +2137,4 @@
 
 
         </div>
+    </div>
