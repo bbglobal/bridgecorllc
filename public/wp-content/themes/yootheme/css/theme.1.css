@@ -4743,7 +4743,7 @@ select.uk-form-width-xsmall {
 
 .uk-section {
     box-sizing: border-box;
-    padding-top: 40px;
+    padding: 40px;
     padding-bottom: 40px
 }
 
