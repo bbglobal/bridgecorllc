@@ -37,7 +37,7 @@
                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/bridgecorllc.com\/wp-content\/uploads\/2024\/01\/import_62e0e90ade6356.13174770.mp4&quot;,&quot;background_motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;background_motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
                             <div class="elementor-background-video-container elementor-hidden-phone">
                                 <video class="elementor-background-video-hosted elementor-html5-video" autoplay=""
-                                    muted="" playsinline="" loop=""></video>
+                                    muted="" playsinline="" loop="" ></video>
                             </div>
                             <div class="elementor-background-overlay"></div>
                             <div class="elementor-container elementor-column-gap-default">

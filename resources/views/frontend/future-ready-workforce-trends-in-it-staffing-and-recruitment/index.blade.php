@@ -30,7 +30,7 @@
 
 
                         <div class="uk-margin-large-bottom" property="image" typeof="ImageObject">
-                            <img fetchpriority="high" width="1000" height="563"
+                            <img fetchpriority="high" width="100%" height="563"
                                 src="../wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg"
                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                 property="url" decoding="async"

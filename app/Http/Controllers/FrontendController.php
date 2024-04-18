@@ -175,12 +175,6 @@ class FrontendController extends Controller
     {
         return view('frontend.navigating-the-digital-horizon-it-engineering-at-its-finest.index');
     }
-
-    public function strategicStaffing()
-    {
-        return view('frontend.strategic-staffing-in-the-digital-age-unlocking-potential-with-bridgecor-llc.index');
-    }
-
     public function techMavericks()
     {
         return view('frontend.tech-mavericks-unleashing-innovation-through-bridgecor-llcs-it-staffing-solutions.index');
