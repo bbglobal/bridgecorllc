@@ -104,14 +104,14 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-e7ce195 ob-has-background-overlay elementor-widget elementor-widget-video"
+                                                        <div class="elementor-element elementor-element-e7ce195 ob-has-background-overlay elementor-widget elementor-widget-video" style="padding: 40px;"
                                                             data-id="e7ce195" data-element_type="widget"
                                                             data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
                                                             data-widget_type="video.default">
                                                             <div class="elementor-widget-container">
                                                                 <div
                                                                     class="e-hosted-video elementor-wrapper elementor-open-inline">
-                                                                    <video class="elementor-video"
+                                                                    <video class="elementor-video" 
                                                                         src="../wp-content/uploads/2022/08/05619939.mp4"
                                                                         autoplay="" loop=""
                                                                         controlslist="nodownload"></video>

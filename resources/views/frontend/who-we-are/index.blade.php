@@ -14,6 +14,7 @@
 
     <style>
         .uk-section-primary {
+         padding: 40px 40px 40px 40px;
             margin-top: 0px !important;
         }
     </style>
