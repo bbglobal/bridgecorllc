@@ -1,7 +1,7 @@
 ﻿@extends('layout.main')
 
 @push('title')
-    <title>Exploring the Impact of IT Staffing Agencies in the USA</title>
+    <title>Local Heroes: Exploring the Impact of IT Staffing Agencies in USA</title>
 @endpush
 @push('canonical')
     <link rel="canonical"
@@ -35,7 +35,7 @@
 
 
                         <div class="uk-margin-large-bottom" property="image" typeof="ImageObject">
-                            <img fetchpriority="high" width="1000" height="563"
+                            <img fetchpriority="high" width="100%" height="563"
                                 src="../wp-content/uploads/2024/02/6_Mesa-de-trabajo-1-1.png"
                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                 property="url" decoding="async"

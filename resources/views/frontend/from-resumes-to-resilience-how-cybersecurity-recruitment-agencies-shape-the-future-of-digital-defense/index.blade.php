@@ -31,7 +31,7 @@
 
 
                             <div class="uk-margin-large-bottom" property="image" typeof="ImageObject">
-                                <img fetchpriority="high" width="1000" height="335"
+                                <img fetchpriority="high" width="100%" height="335"
                                     src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png"
                                     class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                     property="url" decoding="async"
