@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
+use App\Models\Lead;
+use App\Models\Leads;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -57,5 +59,21 @@ class AdminController extends Controller
     public function contact()
     {
         // Logic to fetch and display contacts
-        return view('admin.pages.contact');
-    }}
+        $leads = Lead::all();
+        return view('admin.pages.contact', compact('leads'));
+    }
+
+    public function leads(Request $request)
+    {
+        // dd($request->all());
+        $leads = new Lead;
+        $leads->name = $request->input('name');
+        $leads->email = $request->input('email');
+        $leads->phone = $request->input('phone');
+        $leads->role = $request->input('role');
+        $leads->message = $request->input('message');
+        $leads->save();
+
+        return redirect()->back()->with('success', 'Your request submitted');
+    }
+}

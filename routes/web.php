@@ -70,8 +70,8 @@ Route::prefix('/')->group(function () {
 });
 
 
-    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
-    Route::get('/admin/users', [AdminController::class, 'users'])->name('admin.users');
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+Route::get('/admin/users', [AdminController::class, 'users'])->name('admin.users');
 Route::get('/admin/users/create', [AdminController::class, 'create'])->name('admin.create');
 Route::post('/admin/users/store', [AdminController::class, 'store'])->name('admin.store');
 
@@ -85,5 +85,6 @@ Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.lo
 
 // Route for contact management
 Route::get('/admin/contact', [AdminController::class, 'contact'])->name('admin.contact');
+Route::post('/admin/contact', [AdminController::class, 'leads'])->name('admin.leads');
 
-    
+
