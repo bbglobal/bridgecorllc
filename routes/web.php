@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\Admin\AdminController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -62,4 +63,27 @@ Route::prefix('/')->group(function () {
         ->name('blogs.balancingAct');
 
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+
+    // Backend routes
+
+
 });
+
+
+    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/admin/users', [AdminController::class, 'users'])->name('admin.users');
+Route::get('/admin/users/create', [AdminController::class, 'create'])->name('admin.create');
+Route::post('/admin/users/store', [AdminController::class, 'store'])->name('admin.store');
+
+// Routes for job requests management
+Route::get('/admin/jobs', [AdminController::class, 'jobs'])->name('admin.jobs');
+
+// Routes for authentication (login/logout)
+Route::get('/admin/login', [AdminController::class, 'showLoginForm'])->name('admin.login');
+Route::post('/admin/login', [AdminController::class, 'login'])->name('admin.login');
+Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
+
+// Route for contact management
+Route::get('/admin/contact', [AdminController::class, 'contact'])->name('admin.contact');
+
+    

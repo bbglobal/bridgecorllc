@@ -432,16 +432,16 @@
                                                 </a>
                                             </div>
                                         </div>
+                                    
+                               
                                     </div>
                                 </div>
                             </div>
-                        </section>
-
-                        <section id="diversity"
+                            <section id="diversity"
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-f7502d7 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                             <div class="elementor-container er elementor-column-gap-no">
                                 <h2>Bridging Diversity: Empowering Veterans and Females</h2>
-                                <p>Bridging the Talent Divide for Equality and Excellence:</p>
+                                <p><b>Bridging the Talent Divide for Equality and Excellence:</b></p>
 
                                 <p>Bridgecor envisions a future where organizations seamlessly access the unique
                                     talent
@@ -516,6 +516,9 @@
                             </div>
                         </section>
 
+                        </section>
+
+                      
                     </div>
 
                 </div>
