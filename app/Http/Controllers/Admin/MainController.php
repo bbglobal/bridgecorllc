@@ -58,7 +58,7 @@ public function login(Request $request)
                     ->first(); // Retrieve the first user matching the query
     
         if ($user) {
-            session()->put('id',$user->id); // Store user ID in session
+            session()->put('id', $user->id); // Store user ID in session
             session()->put('role', $user->role); // Store user role in session
     
             if ($user->role == 'user') {
