@@ -82,7 +82,7 @@
                     <li class="nav-item">
                         <a href="{{ route("admin.contact") }}" class="nav-link">
                             <i class="nav-icon fas fa-file-alt"></i>
-                            <p>Contact</p>
+                            <p>Leads</p>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -92,7 +92,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route("admin.users") }}" class="nav-link">
+                        <a href="{{ route("admin.users.user") }}" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
                             <p>Users</p>
                         </a>
