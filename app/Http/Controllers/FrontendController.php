@@ -199,4 +199,13 @@ class FrontendController extends Controller
     {
         return view('frontend.balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills.index');
     }
+    public function showRevitalizingWorkplaceMorale(){
+    // Your content here
+    return view('frontend.revitalizing-workplace-morale-innovative-strategies-2024.index');
+    }
+    public function RecruitmentMarketing(){
+    // Your content here
+    return view('frontend.Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.index');
+    }
+
 }

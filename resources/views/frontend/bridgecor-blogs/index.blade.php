@@ -2268,10 +2268,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2.jpg"
+                                                                        src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Tech Mavericks: Unleashing Innovation Through BridgeCor LLC's IT Staffing Solutions"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2.jpg 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-300x169.jpg 300w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-360x203.jpg 360w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-768x432.jpg 768w"
+                                                                        srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2.jpg 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-300x169.jpg 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-360x203.jpg 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2327,10 +2327,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2.jpg"
+                                                                        src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Navigating the Digital Horizon: IT Engineering at Its Finest"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2.jpg 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-300x169.jpg 300w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-360x203.jpg 360w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-768x432.jpg 768w"
+                                                                        srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2.jpg 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-300x169.jpg 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-360x203.jpg 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2383,10 +2383,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1.png"
+                                                                        src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1.png"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Navigating the Digital Horizon: IT Engineering at Its Finest"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1.png 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-300x169.png 300w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-360x203.png 360w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-768x432.png 768w"
+                                                                        srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1.png 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-300x169.png 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-360x203.png 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2440,10 +2440,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png"
+                                                                        src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="From Resumes to Resilience: How Cybersecurity Recruitment Agencies Shape the Future of Digital Defense"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-300x169.png 300w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-360x203.png 360w, http://127.0.0.1:8000/wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-768x432.png 768w"
+                                                                        srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-300x169.png 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-360x203.png 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2496,10 +2496,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-01-1.jpg"
+                                                                        src="../wp-content/uploads/2024/01/Blogs-Banner-01-1.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Unlocking Success: How Security Clearance Jobs Shape Your Career Path"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-01-1.jpg 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-01-1-300x169.jpg 300w, http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-01-1-360x203.jpg 360w, http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-01-1-768x432.jpg 768w"
+                                                                        srcset="../wp-content/uploads/2024/01/Blogs-Banner-01-1.jpg 1000w, ../wp-content/uploads/2024/01/Blogs-Banner-01-1-300x169.jpg 300w, ../wp-content/uploads/2024/01/Blogs-Banner-01-1-360x203.jpg 360w, ../wp-content/uploads/2024/01/Blogs-Banner-01-1-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2552,10 +2552,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg"
+                                                                        src="../wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Future-Ready Workforce: Trends in IT Staffing and Recruitment"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-02-1-300x169.jpg 300w, http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-02-1-360x203.jpg 360w, http://127.0.0.1:8000/wp-content/uploads/2024/01/Blogs-Banner-02-1-768x432.jpg 768w"
+                                                                        srcset="../wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg 1000w, ../wp-content/uploads/2024/01/Blogs-Banner-02-1-300x169.jpg 300w, ../wp-content/uploads/2024/01/Blogs-Banner-02-1-360x203.jpg 360w, ../wp-content/uploads/2024/01/Blogs-Banner-02-1-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2608,10 +2608,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/02/4-1.png"
+                                                                        src="../wp-content/uploads/2024/02/4-1.png"
                                                                         class="attachment-full size-full wp-image-8785"
                                                                         alt="Cybersecurity in IT Engineering Services: Navigating the Digital Threat Landscape"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/02/4-1.png 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/02/4-1-300x169.png 300w, http://127.0.0.1:8000/wp-content/uploads/2024/02/4-1-360x203.png 360w, http://127.0.0.1:8000/wp-content/uploads/2024/02/4-1-768x432.png 768w"
+                                                                        srcset="../wp-content/uploads/2024/02/4-1.png 1000w, ../wp-content/uploads/2024/02/4-1-300x169.png 300w, ../wp-content/uploads/2024/02/4-1-360x203.png 360w, ../wp-content/uploads/2024/02/4-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2664,10 +2664,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1.png"
+                                                                        src="../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1.png"
                                                                         class="attachment-full size-full wp-image-8786"
                                                                         alt="Enhancing Business Agility with IT Engineering Services: A Comprehensive Guide"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1.png 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-300x169.png 300w, http://127.0.0.1:8000/wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-360x203.png 360w, http://127.0.0.1:8000/wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-768x432.png 768w"
+                                                                        srcset="../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1.png 1000w, ../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-300x169.png 300w, ../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-360x203.png 360w, ../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2720,10 +2720,10 @@
                                                             <div class="premium-blog-thumb-effect-wrapper">
                                                                 <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async" width="1000" height="563"
-                                                                        src="http://127.0.0.1:8000/wp-content/uploads/2024/02/Blogs-Banner-03-1.jpg"
+                                                                        src="../wp-content/uploads/2024/02/Blogs-Banner-03-1.jpg"
                                                                         class="attachment-full size-full wp-image-8787"
                                                                         alt="Balancing Act: How IT Staffing Companies Navigate the Demand for Specialized vs. Generalist Skills"
-                                                                        srcset="http://127.0.0.1:8000/wp-content/uploads/2024/02/Blogs-Banner-03-1.jpg 1000w, http://127.0.0.1:8000/wp-content/uploads/2024/02/Blogs-Banner-03-1-300x169.jpg 300w, http://127.0.0.1:8000/wp-content/uploads/2024/02/Blogs-Banner-03-1-360x203.jpg 360w, http://127.0.0.1:8000/wp-content/uploads/2024/02/Blogs-Banner-03-1-768x432.jpg 768w"
+                                                                        srcset="../wp-content/uploads/2024/02/Blogs-Banner-03-1.jpg 1000w, ../wp-content/uploads/2024/02/Blogs-Banner-03-1-300x169.jpg 300w, ../wp-content/uploads/2024/02/Blogs-Banner-03-1-360x203.jpg 360w, ../wp-content/uploads/2024/02/Blogs-Banner-03-1-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
                                                                     <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
                                                                         preserveaspectratio="none">
@@ -2771,6 +2771,123 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\Strategies for Increasing Employee Engagement.png"
+                                                                        class="attachment-full size-full wp-image-8787"
+                                                                        alt="Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
+                                                                        preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon" href="{{ route('blogs.panel.revitalizing_workplace_morale') }}" target="_blank" aria-hidden="true">
+                                                                        <span>Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}" target="_blank">
+                                                                            Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                            <span>April 26, 2024</span>
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                            <span>Business</span>
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
+                                                                            <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}#respond">No Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">Implementing effective strategies to boost employee engagement and morale is crucial for organizational success.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.png"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
+                                                                        preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon" href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}" target="_blank" aria-hidden="true">
+                                                                        <span>Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}" target="_blank">
+                                                                            Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}" title="Posts by [Author Name]" rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>February 26, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
+                                                                            <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}#respond">No Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">Implementing effective recruitment marketing strategies is key to enhancing your hiring process and attracting top talent.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
                                                     
                                                     
                                                     

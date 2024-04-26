@@ -124,108 +124,110 @@
                                                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                             <ul></ul>
                                                         </div>
-                                                        <form action="/find-job/#wpcf7-f6365-p7564-o1" method="post"
-                                                            class="wpcf7-form init" aria-label="Contact form"
-                                                            novalidate="novalidate" data-status="init">
-                                                            <div style="display: none;">
-                                                                <input type="hidden" name="_wpcf7" value="6365">
-                                                                <input type="hidden" name="_wpcf7_version"
-                                                                    value="5.9.2">
-                                                                <input type="hidden" name="_wpcf7_locale"
-                                                                    value="en_US">
-                                                                <input type="hidden" name="_wpcf7_unit_tag"
-                                                                    value="wpcf7-f6365-p7564-o1">
-                                                                <input type="hidden" name="_wpcf7_container_post"
-                                                                    value="7564">
-                                                                <input type="hidden" name="_wpcf7_posted_data_hash"
-                                                                    value="">
-                                                            </div>
-                                                            <span class="wpcf7-form-control-wrap"
-                                                                data-name="your-name"><input size="40"
-                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required uk-input"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    placeholder="Your Name" value="" type="text"
-                                                                    name="your-name"></span>
-
-                                                            <span class="wpcf7-form-control-wrap"
-                                                                data-name="your-email"><input size="40"
-                                                                    class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email uk-input"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    placeholder="Email" value="" type="email"
-                                                                    name="your-email"></span>
-
-                                                            <span class="wpcf7-form-control-wrap" data-name="Phone"><input
-                                                                    size="40"
-                                                                    class="wpcf7-form-control wpcf7-text uk-input"
-                                                                    aria-invalid="false" placeholder="Phone"
-                                                                    value="" type="text" name="Phone"></span>
-
-                                                            <label>Select Your Preferred Feild</label>
-                                                            <span class="wpcf7-form-control-wrap"
-                                                                data-name="include_blank"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    id="select-field" aria-required="true"
-                                                                    aria-invalid="false" name="include_blank">
-                                                                    <option value="Data science">Data science
-                                                                    </option>
-                                                                    <option value="Computer network">Computer
-                                                                        network</option>
-                                                                    <option value="Software Engineer">Software
-                                                                        Engineer</option>
-                                                                    <option value="Computer security">Computer
-                                                                        security</option>
-                                                                    <option value="Software">Software</option>
-                                                                    <option value="Network administrator">Network
-                                                                        administrator</option>
-                                                                    <option value="Web Developer">Web Developer
-                                                                    </option>
-                                                                    <option value="Computer Systems Analyst">
-                                                                        Computer Systems Analyst</option>
-                                                                    <option value="Network Engineer">Network
-                                                                        Engineer</option>
-                                                                    <option value="Database Administrator">Database
-                                                                        Administrator</option>
-                                                                    <option value="Systems analyst">Systems analyst
-                                                                    </option>
-                                                                    <option value="Technical Support">Technical
-                                                                        Support</option>
-                                                                    <option value="Information technology consulting">
-                                                                        Information technology consulting</option>
-                                                                    <option value="Data analysis">Data analysis
-                                                                    </option>
-                                                                    <option value="Computer Engineering">Computer
-                                                                        Engineering</option>
-                                                                    <option value="Information Security Analysts">
-                                                                        Information Security Analysts</option>
-                                                                    <option value="Information security">
-                                                                        Information security</option>
-                                                                    <option value="Analyst">Analyst</option>
-                                                                    <option value="Business">Business</option>
-                                                                    <option value="IT Technician">IT Technician
-                                                                    </option>
-                                                                    <option value="Computer Network Architects">
-                                                                        Computer Network Architects</option>
-                                                                    <option value="Computer scientist">Computer
-                                                                        scientist</option>
-                                                                    <option value="Computer Support Specialists">
-                                                                        Computer Support Specialists</option>
-                                                                    <option value="Architect">Architect</option>
-                                                                </select></span>
-
-
-                                                            <label> Job Descriptions
+                                                        <form id="contact-form" class="wpforms-validate wpforms-form"
+                                                            method="post" action="{{ route('admin.jobreq') }}">
+                                                            @csrf
+                                                            <noscript class="wpforms-error-noscript">
+                                                                Please enable JavaScript in your browser to complete this
+                                                                form.
+                                                            </noscript>
+                                                            <div class="wpforms-field-container">
                                                                 <span class="wpcf7-form-control-wrap"
-                                                                    data-name="your-message">
-                                                                    <textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea uk-textarea" id="job-descriptions"
-                                                                        aria-invalid="false" name="your-message"></textarea>
-                                                                </span> </label>
+                                                                    data-name="your-name"><input size="40"
+                                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required uk-input"
+                                                                        aria-required="true" aria-invalid="false"
+                                                                        placeholder="Your Name" value=""
+                                                                        type="text" name="name"></span>
+                                                                <span class="wpcf7-form-control-wrap"
+                                                                    data-name="your-email"><input size="40"
+                                                                        class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email uk-input"
+                                                                        aria-required="true" aria-invalid="false"
+                                                                        placeholder="Email" value="" type="email"
+                                                                        name="email"></span>
 
-                                                            <input
-                                                                class="wpcf7-form-control wpcf7-submit has-spinner uk-button uk-button-primary"
-                                                                type="submit" value="Submit">
-                                                            <div class="wpcf7-response-output" aria-hidden="true">
+                                                                <span class="wpcf7-form-control-wrap"
+                                                                    data-name="Phone"><input size="40"
+                                                                        class="wpcf7-form-control wpcf7-text uk-input"
+                                                                        aria-invalid="false" placeholder="Phone"
+                                                                        value="" type="text"
+                                                                        name="phone"></span>
+
+                                                                <label>Select Your Preferred Feild</label>
+                                                                <span class="wpcf7-form-control-wrap"
+                                                                    data-name="include_blank"><select
+                                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                                                        id="select-field" aria-required="true"
+                                                                        aria-invalid="false" name="role">
+                                                                        <option value="Data science">Data science
+                                                                        </option>
+                                                                        <option value="Computer network">Computer
+                                                                            network</option>
+                                                                        <option value="Software Engineer">Software
+                                                                            Engineer</option>
+                                                                        <option value="Computer security">Computer
+                                                                            security</option>
+                                                                        <option value="Software">Software</option>
+                                                                        <option value="Network administrator">Network
+                                                                            administrator</option>
+                                                                        <option value="Web Developer">Web Developer
+                                                                        </option>
+                                                                        <option value="Computer Systems Analyst">
+                                                                            Computer Systems Analyst</option>
+                                                                        <option value="Network Engineer">Network
+                                                                            Engineer</option>
+                                                                        <option value="Database Administrator">Database
+                                                                            Administrator</option>
+                                                                        <option value="Systems analyst">Systems analyst
+                                                                        </option>
+                                                                        <option value="Technical Support">Technical
+                                                                            Support</option>
+                                                                        <option value="Information technology consulting">
+                                                                            Information technology consulting</option>
+                                                                        <option value="Data analysis">Data analysis
+                                                                        </option>
+                                                                        <option value="Computer Engineering">Computer
+                                                                            Engineering</option>
+                                                                        <option value="Information Security Analysts">
+                                                                            Information Security Analysts</option>
+                                                                        <option value="Information security">
+                                                                            Information security</option>
+                                                                        <option value="Analyst">Analyst</option>
+                                                                        <option value="Business">Business</option>
+                                                                        <option value="IT Technician">IT Technician
+                                                                        </option>
+                                                                        <option value="Computer Network Architects">
+                                                                            Computer Network Architects</option>
+                                                                        <option value="Computer scientist">Computer
+                                                                            scientist</option>
+                                                                        <option value="Computer Support Specialists">
+                                                                            Computer Support Specialists</option>
+                                                                        <option value="Architect">Architect</option>
+                                                                    </select></span>
+
+
+                                                                <label> Job Descriptions
+                                                                    <span class="wpcf7-form-control-wrap"
+                                                                        data-name="your-message">
+                                                                        <textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea uk-textarea" id="job-descriptions"
+                                                                            aria-invalid="false" name="message"></textarea>
+                                                                    </span> </label>
+                                                                <div class="wpforms-submit-container">
+                                                                    <br>
+                                                                    <button type="submit"
+                                                                        class="wpforms-submit wpforms-field-medium"
+                                                                        style="background-color: #3f3f3f; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                                                                        Submit
+                                                                    </button>
+
+                                                                    <img decoding="async"
+                                                                        src="../wp-content/plugins/wpforms/assets/images/submit-spin.svg"
+                                                                        class="wpforms-submit-spinner"
+                                                                        style="display: none;" width="26"
+                                                                        height="26" alt="">
+                                                                </div>
                                                             </div>
                                                         </form>
+
                                                     </div>
                                                 </div>
                                             </div>

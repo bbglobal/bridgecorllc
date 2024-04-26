@@ -1,69 +1,40 @@
-@include('admin.layout.header')
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>BridgeCor LLC Admin Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .box{
+        width:600px;
+        margin:0 auto;
+        border:1px solid #ccc;
+    }
+    </style>
+    </head>
+    <body>
+    <br />
+    <div class="container box">
+    <h3 align="center">BridgeCor LLC Admin Login</h3><br />
 
-<!-- Your main content goes here -->
-<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">					
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1>Dashboard</h1>
-                </div>
-                <div class="col-sm-6">
-                    
-                </div>
-            </div>
+
+    <form method="post" action="{{ route('login.submit') }}">
+        @csrf
+
+        <div class="form-group">
+            <label for="email">Enter Email</label>
+            <input type="email" name="email" class="form-control" required>
         </div>
-        <!-- /.container-fluid -->
-    </section>
-    <!-- Main content -->
-    <section class="content">
-        <!-- Default box -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-6">							
-                    <div class="small-box card">
-                        <div class="inner">
-                            <h3>150</h3>
-                            <p>Total Contacts</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-bag"></i>
-                        </div>
-                        <a href="{{ url("#") }}" class="small-box-footer text-dark">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-6">							
-                    <div class="small-box card">
-                        <div class="inner">
-                            <h3>50</h3>
-                            <p>Total Jobs Request</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
-                        </div>
-                        <a href="{{ url("#") }}" class="small-box-footer text-dark">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6">							
-                    <div class="small-box card">
-                        <div class="inner">
-                            <h3>50</h3>
-                            <p>Users</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
-                        </div>
-                        <a href="{{ url("#") }}" class="small-box-footer text-dark">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-            
-            </div>
-        </div>					
-        <!-- /.card -->
-    </section>
-    <!-- /.content -->
-</div>
 
-@include('admin.layout.footer')
+        <div class="form-group">
+            <label for="password">Enter Password</label>
+            <input type="password" name="password" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+
+    </div>
+    </body>
+    </html>

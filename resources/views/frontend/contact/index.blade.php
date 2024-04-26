@@ -205,8 +205,10 @@
                                                                                         number only.</div>
                                                                                 </div> --}}
 
-                                                                                <label for="phone" class="wpforms-field-label">Phone</label>
-                                                                                <input type="number" name="phone" id="phone">
+                                                                                <label for="phone"
+                                                                                    class="wpforms-field-label">Phone</label>
+                                                                                <input type="text" name="phone"
+                                                                                    id="phone">
 
                                                                                 <div id="wpforms-4622-field_4-container"
                                                                                     class="wpforms-field wpforms-field-select wpforms-field-select-style-modern"
@@ -229,13 +231,13 @@
                                                                                     <textarea id="wpforms-4622-field_7" class="wpforms-field-medium" name="message"></textarea>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="wpforms-field wpforms-field-hp">
+                                                                            {{-- <div class="wpforms-field wpforms-field-hp">
                                                                                 <label for="wpforms-4622-field-hp"
                                                                                     class="wpforms-field-label">Comment</label><input
                                                                                     type="text" name="wpforms[hp]"
                                                                                     id="wpforms-4622-field-hp"
                                                                                     class="wpforms-field-medium">
-                                                                            </div>
+                                                                            </div> --}}
                                                                             <div class="wpforms-recaptcha-container">
                                                                                 <div class="g-recaptcha"
                                                                                     data-sitekey="6LcKsMsaAAAAAK0vuzqcpC7QJgxUGUoxtICkVxxh">
