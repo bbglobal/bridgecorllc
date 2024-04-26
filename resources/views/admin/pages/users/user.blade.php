@@ -104,19 +104,18 @@
                         <tbody>
                             @foreach ($users as $user)
                                 <tr>
-                                    <td>{{ $user->id }}</td>
+                                    <td>{{$user->id }}</td>
                                     <td>{{ $user->name }}</td>
                                     <td>{{ $user->email }}</td>
-                                 
                                     <td>{{ $user->role }}</td>
                                     <td>
-                                        <a href="{{ route('admin.users.view', ['id' => $user->id]) }}">
+                                        <a href="{{ route('admin.users.view', ['id' =>$user->id]) }}">
                                             <i class="fas fa-eye"></i> 
                                         </a>
                                     </td>
-                                    <td><a href="{{ route('admin.users.edit', ['id' => $user->id]) }}" class="btn btn-sm btn-warning">Edit</a></td>
+                                    <td><a href="{{ route('admin.users.edit', ['id' =>$user->id]) }}" class="btn btn-sm btn-warning">Edit</a></td>
                                     <td>
-                                        <form action="{{ route('admin.users.destroy', ['id' => $user->id]) }}" method="POST">
+                                        <form action="{{ route('admin.users.destroy', ['id' =>$user->id]) }}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</button>

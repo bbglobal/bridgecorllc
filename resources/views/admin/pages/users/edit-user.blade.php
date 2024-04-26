@@ -96,7 +96,7 @@
                     Add New User
                 </div>
                 <div class="card-body">
-                    <form id="userForm" method="post" action="{{ route('admin.users.update', $user->id) }}">
+                    <form id="userForm" method="post" action="{{ route('admin.users.update', ['id' => $user->id]) }}">
                         @csrf
                         <div class="form-group">
                             <label class="form-label" for="name">Name <span class="text-danger">*</span></label>

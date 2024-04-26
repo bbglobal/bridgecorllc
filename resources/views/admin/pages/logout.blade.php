@@ -1,4 +1,4 @@
-@include('admin.layout.header')
+@extends('admin.layout.main')
 
 <!-- Your main content goes here -->
 <div class="content-wrapper">

@@ -1,6 +1,6 @@
-@include('admin.layout.header')
+@extends('admin.layout.main')
 
-@section('content')
+@section('main-section-admin')
     <!-- Content Header (Page header) -->
     <style>
        .form-container {
@@ -110,13 +110,13 @@
                                     <td>{{ $user->phone }}</td>
                                     <td>{{ $user->role }}</td>
                                     <td>
-                                        <a href="{{ route('admin.lead.view', ['id' => $user->id]) }}">
+                                        <a href="{{ route('admin.lead.view', ['id' =>$user->id]) }}">
                                             <i class="fas fa-eye"></i> 
                                         </a>
                                     </td>
-                                    <td><a href="{{ route('admin.lead.edit', ['id' => $user->id]) }}" class="btn btn-sm btn-warning">Edit</a></td>
+                                    <td><a href="{{ route('admin.lead.edit', ['id' =>$user->id]) }}" class="btn btn-sm btn-warning">Edit</a></td>
                                     <td>
-                                        <form action="/admin/leads/delete/{{ $user->id }}" method="POST">
+                                        <form action="{{ route('leads.destroy', ['id' =>$user->id]) }}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger"
@@ -180,6 +180,4 @@
         </div>
     </div>
     <!-- /.card -->
-
-
-    @include('admin.layout.footer')
+    @endsection    

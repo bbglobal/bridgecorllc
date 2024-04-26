@@ -1,6 +1,6 @@
-@include('admin.layout.header')
+@extends('admin.layout.main')
 
-@section('content')
+@section('main-section-admin')
     <!-- Content Header (Page header) -->
     <style>
         .form-container {
@@ -139,6 +139,4 @@
         </div>
     </div>
     <!-- /.card -->
-
-
-    @include('admin.layout.footer')
+@endsection    
