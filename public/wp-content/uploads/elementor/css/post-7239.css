@@ -483,6 +483,13 @@
     background-size: cover;
 }
 
+.elementor-7239 .elementor-element.elementor-element-cfe5c8da:not(.elementor-motion-effects-element-type-background),
+.elementor-7239 .elementor-element.elementor-element-cfe5c8da>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #131313;
+    background-image: url("../../2024/03/man-near-window-05-scaled.jpg");
+    background-size: cover;
+}
+
 .elementor-7239 .elementor-element.elementor-element-f7502d7>.elementor-background-overlay {
     background-color: #0000009E;
     opacity: 0.5;
@@ -1127,13 +1134,14 @@
         visibility: visible;
     }
 } */
+
 #diversity {
     background-image: url(../../../uploads/2024/03/man-near-window-05-scaled.jpg);
     background-attachment: scroll;
     position: relative; /* Ensure positioning context */
-    left: 0; /* Reset left position */
-    height: 100%; /* Full viewport height */
-    width: 100%; /* Full width of the viewport */
+    left: -351.5px;
+    height: 100%;
+    width: 100%;
     background-size: cover; /* Ensure background covers the container */
     background-position: center; /* Center the background image */
 }
