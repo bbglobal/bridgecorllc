@@ -14,6 +14,13 @@
     <link rel='stylesheet' id='pa-frontend-css'
         href='/wp-content/uploads/premium-addons-elementor/pa-frontend-365916e9b.min.css?ver=1710776214' type='text/css'
         media='all'>
+        <style>
+            .uk-article span {
+    font-family: 'Oswald';
+    color: rgb(148, 148, 148); 
+    font-size: 0px;
+}
+        </style>
 @endpush
 
 @section('main-section')
@@ -337,15 +344,14 @@
                                                                             </h2>
                                                                             <div class="premium-blog-entry-meta">
                                                                                 <div
-                                                                                    class="premium-blog-post-categories premium-blog-meta-data">
-                                                                                    <i class="fa fa-align-left fa-fw"
-                                                                                        aria-hidden="true"></i>
-                                                                                    <a href="{{ route('blogs') }}"
-                                                                                        rel="category tag">All</a>,
-                                                                                    <a href="{{ route('blogs.hr.topics') }}"
-                                                                                        rel="category tag">HR
-                                                                                        Topics</a>
-                                                                                </div>
+                                                                                class="premium-blog-post-author premium-blog-meta-data">
+                                                                                <i class="fa fa-user fa-fw"
+                                                                                    aria-hidden="true"></i>
+                                                                                <a href="{{ route('home') }}"
+                                                                                    title="Posts by Steven"
+                                                                                    rel="author">Steven</a>
+                                                                            </div>
+                                                                               
 
                                                                                 <span
                                                                                     class="premium-blog-meta-separator">•</span>
@@ -358,13 +364,13 @@
 
                                                                                 <span
                                                                                     class="premium-blog-meta-separator">•</span>
-                                                                                <div
+                                                                                    <div
                                                                                     class="premium-blog-post-categories premium-blog-meta-data">
                                                                                     <i class="fa fa-align-left fa-fw"
                                                                                         aria-hidden="true"></i>
                                                                                     <a href="{{ route('home') }}"
                                                                                         rel="category tag">All</a>,
-                                                                                    <a href="{{ route('blogs.news.trends') }}"
+                                                                                    <a href="{{ route('blogs.hr.topics') }}"
                                                                                         rel="category tag">HR Topics</a>
                                                                                 </div>
 
@@ -392,6 +398,128 @@
                                                                                 intricacies of …</p>
                                                                         </div>
 
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-post-outer-container" data-total="4">
+                                                                <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                                    <div class="premium-blog-thumb-effect-wrapper">
+                                                                        <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                            <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                                src="..\wp-content\uploads\2024\02\Strategies for Increasing Employee Engagement.png"
+                                                                                class="attachment-full size-full wp-image-8787"
+                                                                                alt="Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024"
+                                                                                sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                            <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
+                                                                                preserveaspectratio="none">
+                                                                                <path d="M350,10L340,0h20L350,10z"></path>
+                                                                            </svg>
+                                                                        </div>
+                                                                        <div class="premium-blog-thumbnail-overlay">
+                                                                            <a class="elementor-icon" href="{{ route('blogs.panel.revitalizing_workplace_morale') }}" target="_blank" aria-hidden="true">
+                                                                                <span>Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="premium-blog-content-wrapper">
+                                                                        <div class="premium-blog-inner-container">
+                                                                            <h2 class="premium-blog-entry-title">
+                                                                                <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}" target="_blank">
+                                                                                    Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024
+                                                                                </a>
+                                                                            </h2>
+                                                                            
+                                                                            <div class="premium-blog-entry-meta">
+                                                                                <div class="premium-blog-post-author premium-blog-meta-data">
+                                                                                    <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                                                                                    <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                                </div>
+                                                                                <span class="premium-blog-meta-separator">•</span>
+                                                                                <div class="premium-blog-post-time premium-blog-meta-data">
+                                                                                    <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                                    <span>April 26, 2024</span>
+                                                                                </div>
+                                                                                <span class="premium-blog-meta-separator">•</span>
+                                                                                <div
+                                                                                class="premium-blog-post-categories premium-blog-meta-data">
+                                                                                <i class="fa fa-align-left fa-fw"
+                                                                                    aria-hidden="true"></i>
+                                                                                <a href="{{ route('home') }}"
+                                                                                    rel="category tag">All</a>,
+                                                                                <a href="{{ route('blogs.hr.topics') }}"
+                                                                                    rel="category tag">HR Topics</a>
+                                                                            </div>
+                                                                                <span class="premium-blog-meta-separator">•</span>
+                                                                                <div class="premium-blog-post-comments premium-blog-meta-data">
+                                                                                    <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
+                                                                                    <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}#respond">No Comments</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="premium-blob-content-inner-wrapper">
+                                                                            <p class="premium-blog-post-content">Implementing effective strategies to boost employee engagement and morale is crucial for organizational success.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-post-outer-container" data-total="4">
+                                                                <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                                    <div class="premium-blog-thumb-effect-wrapper">
+                                                                        <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                            <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                                src="..\wp-content\uploads\2024\02\Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.png"
+                                                                                class="attachment-full size-full wp-image-XXXXX"
+                                                                                alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                                sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                            <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
+                                                                                preserveaspectratio="none">
+                                                                                <path d="M350,10L340,0h20L350,10z"></path>
+                                                                            </svg>
+                                                                        </div>
+                                                                        <div class="premium-blog-thumbnail-overlay">
+                                                                            <a class="elementor-icon" href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}" target="_blank" aria-hidden="true">
+                                                                                <span>Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="premium-blog-content-wrapper">
+                                                                        <div class="premium-blog-inner-container">
+                                                                            <h2 class="premium-blog-entry-title">
+                                                                                <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}" target="_blank">
+                                                                                    Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024
+                                                                                </a>
+                                                                            </h2>
+                                                                            <div class="premium-blog-entry-meta">
+                                                                                <div class="premium-blog-post-author premium-blog-meta-data">
+                                                                                    <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                                                                                    <a href="{{ route('home') }}"  rel="author">Steven
+                                                                                </div>
+                                                                                <span class="premium-blog-meta-separator">•</span>
+                                                                                <div class="premium-blog-post-time premium-blog-meta-data">
+                                                                                    <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                                    <span>April 26, 2024</span>
+                                                                                </div>
+        
+                                                                                <span class="premium-blog-meta-separator">•</span>
+                                                                            <div
+                                                                                class="premium-blog-post-categories premium-blog-meta-data">
+                                                                                <i class="fa fa-align-left fa-fw"
+                                                                                    aria-hidden="true"></i>
+                                                                                <a href="{{ route('home') }}"
+                                                                                    rel="category tag">All</a>,
+                                                                                <a href="{{ route('blogs.hr.topics') }}"
+                                                                                    rel="category tag">HR Topics</a>
+                                                                            </div>
+                                                                                <span class="premium-blog-meta-separator">•</span>
+                                                                                <div class="premium-blog-post-comments premium-blog-meta-data">
+                                                                                    <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
+                                                                                    <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}#respond">No Comments</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="premium-blob-content-inner-wrapper">
+                                                                            <p class="premium-blog-post-content">Implementing effective recruitment marketing strategies is key to enhancing your hiring process and attracting top talent.</p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
