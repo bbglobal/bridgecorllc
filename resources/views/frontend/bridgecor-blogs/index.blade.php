@@ -2798,6 +2798,7 @@
                                                                             Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024
                                                                         </a>
                                                                     </h2>
+                                                                    
                                                                     <div class="premium-blog-entry-meta">
                                                                         <div class="premium-blog-post-author premium-blog-meta-data">
                                                                             <i class="fa fa-user fa-fw" aria-hidden="true"></i>
@@ -2809,10 +2810,15 @@
                                                                             <span>April 26, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
-                                                                            <span>Business</span>
-                                                                        </div>
+                                                                        <div
+                                                                        class="premium-blog-post-categories premium-blog-meta-data">
+                                                                        <i class="fa fa-align-left fa-fw"
+                                                                            aria-hidden="true"></i>
+                                                                        <a href="{{ route('home') }}"
+                                                                            rel="category tag">All</a>,
+                                                                        <a href="{{ route('blogs.hr.topics') }}"
+                                                                            rel="category tag">HR Topics</a>
+                                                                    </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
                                                                         <div class="premium-blog-post-comments premium-blog-meta-data">
                                                                             <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
@@ -2856,23 +2862,24 @@
                                                                     <div class="premium-blog-entry-meta">
                                                                         <div class="premium-blog-post-author premium-blog-meta-data">
                                                                             <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by [Author Name]" rel="author">Steven
+                                                                            <a href="{{ route('home') }}"  rel="author">Steven
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div
-                                                                            class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt"
-                                                                                aria-hidden="true"></i>
-                                                                            <span>February 26, 2024</span>
+                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                            <span>April 26, 2024</span>
                                                                         </div>
 
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div
-                                                                            class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw"
-                                                                                aria-hidden="true"></i>
-
-                                                                        </div>
+                                                                    <div
+                                                                        class="premium-blog-post-categories premium-blog-meta-data">
+                                                                        <i class="fa fa-align-left fa-fw"
+                                                                            aria-hidden="true"></i>
+                                                                        <a href="{{ route('home') }}"
+                                                                            rel="category tag">All</a>,
+                                                                        <a href="{{ route('blogs.hr.topics') }}"
+                                                                            rel="category tag">HR Topics</a>
+                                                                    </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
                                                                         <div class="premium-blog-post-comments premium-blog-meta-data">
                                                                             <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>

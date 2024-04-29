@@ -232,7 +232,7 @@ class AdminController extends Controller
         $leads->update();
     
         // Redirect back or to any other route as needed
-        return redirect()->route('admin.pages.leads.edit', $leads->id)->with('success', 'Lead Updated Successfully!');
+        return redirect()->route('admin.pages.leads.edit',['id' => $leads->id])->with('success', 'Lead Updated Successfully!');
     }
 
     public function viewlead($id)
