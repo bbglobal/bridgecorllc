@@ -77,7 +77,7 @@ Route::prefix('/')->group(function () {
 });
 
 Route::prefix('/admin')->group(function () {
-    Route::get('/dashboard', [MainController::class, 'showDashboard'])->name('admin.dashboard');
+    Route::get('/dashboard', [MainController::class, 'Dashboard'])->name('admin.dashboard');
     // Authentication Routes
 // Show login form
 Route::get('/login', [MainController::class, 'showLoginForm'])->name('login');
