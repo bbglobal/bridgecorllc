@@ -115,7 +115,7 @@
                             </div>
                             <!-- Add more fields as needed -->
 
-                           <a href="{{ route('admin.users.edit',['id' => $user->id]) }}" class="btn btn-primary">Edit user</a>
+                           <a href="{{ route('admin.users.edit',$user->id) }}" class="btn btn-primary">Edit user</a>
                             <a href="{{ route('admin.users.user') }}" class="btn btn-secondary">Back to users</a>
                         </div> 
                     </div>

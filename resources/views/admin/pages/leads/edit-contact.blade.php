@@ -64,7 +64,7 @@
                         <h1>Leads</h1>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <a href="{{ route('admin.leads') }}" class="btn btn-primary">New Leads</a>
+                        <a href="{{ route('admin.create') }}" class="btn btn-primary">New Leads</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                 <br>
                 <br>
                 <div class="form-container">
-                    <form action="{{ route('admin.lead.update',['id' => $leads->id]) }}" method="POST">
+                    <form action="{{ route('admin.lead.update', $leads->id) }}" method="POST">
                         @csrf
                         <noscript class="wpforms-error-noscript">
                             Please enable JavaScript in your browser to complete this form.

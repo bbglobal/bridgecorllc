@@ -119,7 +119,7 @@
                             </div>
                             <!-- Add more fields as needed -->
 
-                           <a href="{{ route('admin.jobs.edit',['id' => $jobs->id]) }}" class="btn btn-primary">Edit job</a>
+                           <a href="{{ route('admin.jobs.edit', $jobs->id) }}" class="btn btn-primary">Edit job</a>
                             <a href="{{ route('admin.jobs') }}" class="btn btn-secondary">Back to jobs</a>
                         </div> 
                     </div>

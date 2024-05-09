@@ -60,7 +60,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="form-container">
-                    <form action="{{ route('admin.jobs.update',['id' => $jobs->id]) }}" method="POST">
+                    <form action="{{ route('admin.jobs.update', $jobs->id) }}" method="POST">
                         @csrf
                         @method('post') 
                         <div class="form-group">

@@ -46,7 +46,6 @@
                                 <p class="uk-article-meta">
                                     Written by <a href="{{ route('home') }}">Steven</a> on <time
                                         datetime="2024-02-23T14:24:37+00:00">February 23, 2024</time>. Posted in <a
-                                        href="{{ route('blogs.hr.topics') }}" rel="category tag">Hr</a>, <a
                                         href="{{ route('blogs') }}" rel="category tag">All</a>
                                          </p>
 

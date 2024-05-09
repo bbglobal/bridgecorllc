@@ -64,7 +64,7 @@
                     <h1>Leads</h1>
                 </div>
                 <div class="col-sm-6 text-right">
-                    <a href="{{ route('admin.leads') }}" class="btn btn-primary">New Leads</a>
+                    <a href="{{ route('admin.create') }}" class="btn btn-primary">New Leads</a>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
                             </div>
                             <!-- Add more fields as needed -->
 
-                           <a href="{{ route('admin.lead.edit',['id' => $leads->id]) }}" class="btn btn-primary">Edit Lead</a>
+                           <a href="{{ route('admin.lead.edit', $leads->id) }}" class="btn btn-primary">Edit Lead</a>
                             <a href="{{ route('admin.leads') }}" class="btn btn-secondary">Back to Leads</a>
                         </div> 
                     </div>
