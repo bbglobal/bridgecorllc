@@ -19,6 +19,10 @@ class FrontendController extends Controller
     {
         return view('frontend.employers.index');
     }
+    public function hr()
+    {
+        return view('frontend.hr.index');
+    }
     public function candidate()
     {
         return view('frontend.candidates-2.index');

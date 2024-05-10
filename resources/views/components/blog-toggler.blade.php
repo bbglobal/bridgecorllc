@@ -2,6 +2,7 @@
     .tab-container {
         display: flex;
         padding: 20px;
+        
     }
 
     .tab-btn {
@@ -14,6 +15,7 @@
         border-width: 1px;
         border-color: #111E7E;
         border-radius: 4px;
+        
     }
 
     .tab-content {
@@ -28,8 +30,8 @@
 <div class="tab-container">
     <button class="tab-btn active" data-tab="research">Research</button>
     <button class="tab-btn" data-tab="hr-topics">HR Topics</button>
-    <button class="tab-btn" data-tab="tab3">Tab 3</button>
-    <button class="tab-btn" data-tab="tab4 ">Tab 4</button>
+    <button class="tab-btn" data-tab="news-&-trends">News & Trends</button>
+    <button class="tab-btn" data-tab="legal-compliance ">Legal Compliance</button>
 </div>
 
 <div id="research" class="tab-content active">
@@ -486,10 +488,10 @@
     </div>
 </div>
 
-<div id="tab3" class="tab-content">
+<div id="news-&-trends" class="tab-content">
     <p>Content for Tab 3</p>
 </div>
-<div id="tab4" class="tab-content">
+<div id="legal-compliance" class="tab-content">
     <p>Content for Tab 4</p>
 </div>
 

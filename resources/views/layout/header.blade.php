@@ -1894,8 +1894,18 @@
                                         </li>
                                         <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a
                                                 href="{{ route('about') }}">About us</a></li>
-                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a
-                                                href="{{ route('employers') }}">Employers</a></li>
+                                            
+
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent">
+                                            <a href="{{ route('employers') }}">Employers</a>
+                                            <ul class="uk-nav-sub">
+
+                                                <li class=" menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="{{ route('hr') }}">HR</a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent">
                                             <a href="{{ route('candidate') }}">Candidate</a>
@@ -2025,7 +2035,18 @@
                                     <li>
                                     </li>
                                     <li class="uk-parent"><a href="{{ route('employers') }}"
-                                            class=" menu-item menu-item-type-post_type menu-item-object-page">Employers</a>
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Employers</a>
+                                        <div class="uk-navbar-dropdown">
+                                            <div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
+                                                <div>
+                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                        <li><a href="{{ route('hr') }}"
+                                                                class=" menu-item menu-item-type-post_type menu-item-object-page">HR</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li class="uk-parent"><a href="{{ route('candidate') }}"
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Candidate</a>

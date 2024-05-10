@@ -12,6 +12,7 @@ Route::prefix('/')->group(function () {
     Route::get('/', [FrontendController::class, 'home'])->name('home');
     Route::get('/about', [FrontendController::class, 'about'])->name('about');
     Route::get('/employers', [FrontendController::class, 'employers'])->name('employers');
+    Route::get('/hr', [FrontendController::class, 'hr'])->name('hr');
     Route::get('/candidate', [FrontendController::class, 'candidate'])->name('candidate');
     Route::get('/find-job', [FrontendController::class, 'findJob'])->name('find.job');
     Route::get('/government', [FrontendController::class, 'government'])->name('government');
