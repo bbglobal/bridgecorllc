@@ -2264,656 +2264,1453 @@
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Tech Mavericks: Unleashing Innovation Through BridgeCor LLC's IT Staffing Solutions"
                                                                         srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2.jpg 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-300x169.jpg 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-360x203.jpg 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER-02-01-2-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
-                                                                
-                                                                
+
+
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.techMavericks') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Tech Mavericks: Unleashing Innovation Through BridgeCor LLC's IT Staffing Solutions</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.techMavericks') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Tech Mavericks: Unleashing Innovation Through
+                                                                            BridgeCor LLC's IT Staffing Solutions</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.techMavericks') }}" target="_blank">
-                                                                            Tech Mavericks: Unleashing Innovation Through BridgeCor LLC's IT Staffing Solutions
+                                                                        <a href="{{ route('blogs.techMavericks') }}"
+                                                                            target="_blank">
+                                                                            Tech Mavericks: Unleashing Innovation Through
+                                                                            BridgeCor LLC's IT Staffing Solutions
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.techMavericks') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.techMavericks') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the fast-paced world of technology, innovation is not just a
-                                                                        buzzword but a necessity for staying ahead of the curve. </p>
+                                                                    <p class="premium-blog-post-content">In the fast-paced
+                                                                        world of technology, innovation is not just a
+                                                                        buzzword but a necessity for staying ahead of the
+                                                                        curve. </p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Navigating the Digital Horizon: IT Engineering at Its Finest"
                                                                         srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2.jpg 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-300x169.jpg 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-360x203.jpg 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER02_Mesa-de-trabajo-1-2-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.horizon') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Navigating the Digital Horizon: IT Engineering at Its Finest</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.horizon') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Navigating the Digital Horizon: IT Engineering
+                                                                            at Its Finest</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.horizon') }}" target="_blank">
-                                                                            Navigating the Digital Horizon: IT Engineering at Its Finest
+                                                                        <a href="{{ route('blogs.horizon') }}"
+                                                                            target="_blank">
+                                                                            Navigating the Digital Horizon: IT Engineering
+                                                                            at Its Finest
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.horizon') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.horizon') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the era of digital transformation, where technological landscapes are constantly evolving, the demand for exceptional IT engineering talent has never been higher.</p>
+                                                                    <p class="premium-blog-post-content">In the era of
+                                                                        digital transformation, where technological
+                                                                        landscapes are constantly evolving, the demand for
+                                                                        exceptional IT engineering talent has never been
+                                                                        higher.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1.png"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Navigating the Digital Horizon: IT Engineering at Its Finest"
                                                                         srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1.png 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-300x169.png 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-360x203.png 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER_Mesa-de-trabajo-1-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
-                                                                
+
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.futureofsecurity') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Cracking the Code: How Cybersecurity Recruitment Agencies like BridgeCor LLC Shape the Future of Security</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.futureofsecurity') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Cracking the Code: How Cybersecurity
+                                                                            Recruitment Agencies like BridgeCor LLC Shape
+                                                                            the Future of Security</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.futureofsecurity') }}" target="_blank">
-                                                                            Cracking the Code: How Cybersecurity Recruitment Agencies like BridgeCor LLC Shape the Future of Security
+                                                                        <a href="{{ route('blogs.futureofsecurity') }}"
+                                                                            target="_blank">
+                                                                            Cracking the Code: How Cybersecurity Recruitment
+                                                                            Agencies like BridgeCor LLC Shape the Future of
+                                                                            Security
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.futureofsecurity') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.futureofsecurity') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In an age where digital vulnerabilities pose a substantial threat to businesses and individuals alike, the demand for cybersecurity professionals...</p>
+                                                                    <p class="premium-blog-post-content">In an age where
+                                                                        digital vulnerabilities pose a substantial threat to
+                                                                        businesses and individuals alike, the demand for
+                                                                        cybersecurity professionals...</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="From Resumes to Resilience: How Cybersecurity Recruitment Agencies Shape the Future of Digital Defense"
                                                                         srcset="../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1.png 1000w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-300x169.png 300w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-360x203.png 360w, ../wp-content/uploads/2024/01/BRIDGECHOR-BANNER03_Mesa-de-trabajo-1-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.futureofdigital') }}" target="_blank" aria-hidden="true">
-                                                                        <span>From Resumes to Resilience: How Cybersecurity Recruitment Agencies Shape the Future of Digital Defense</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.futureofdigital') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>From Resumes to Resilience: How Cybersecurity
+                                                                            Recruitment Agencies Shape the Future of Digital
+                                                                            Defense</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.futureofdigital') }}" target="_blank">
-                                                                            From Resumes to Resilience: How Cybersecurity Recruitment Agencies Shape the Future of Digital Defense
+                                                                        <a href="{{ route('blogs.futureofdigital') }}"
+                                                                            target="_blank">
+                                                                            From Resumes to Resilience: How Cybersecurity
+                                                                            Recruitment Agencies Shape the Future of Digital
+                                                                            Defense
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.futureofdigital') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.futureofdigital') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In an era defined by digital connectivity, the importance of robust cybersecurity has never been more critical.</p>
+                                                                    <p class="premium-blog-post-content">In an era defined
+                                                                        by digital connectivity, the importance of robust
+                                                                        cybersecurity has never been more critical.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/01/Blogs-Banner-01-1.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Unlocking Success: How Security Clearance Jobs Shape Your Career Path"
                                                                         srcset="../wp-content/uploads/2024/01/Blogs-Banner-01-1.jpg 1000w, ../wp-content/uploads/2024/01/Blogs-Banner-01-1-300x169.jpg 300w, ../wp-content/uploads/2024/01/Blogs-Banner-01-1-360x203.jpg 360w, ../wp-content/uploads/2024/01/Blogs-Banner-01-1-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.unlockingSuccess') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Unlocking Success: How Security Clearance Jobs Shape Your Career Path</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.unlockingSuccess') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Unlocking Success: How Security Clearance Jobs
+                                                                            Shape Your Career Path</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.unlockingSuccess') }}" target="_blank">
-                                                                            Unlocking Success: How Security Clearance Jobs Shape Your Career Path
+                                                                        <a href="{{ route('blogs.unlockingSuccess') }}"
+                                                                            target="_blank">
+                                                                            Unlocking Success: How Security Clearance Jobs
+                                                                            Shape Your Career Path
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.unlockingSuccess') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.unlockingSuccess') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the dynamic landscape of today’s job market, where opportunities abound in various industries...</p>
+                                                                    <p class="premium-blog-post-content">In the dynamic
+                                                                        landscape of today’s job market, where opportunities
+                                                                        abound in various industries...</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg"
                                                                         class="attachment-full size-full wp-image-8784"
                                                                         alt="Future-Ready Workforce: Trends in IT Staffing and Recruitment"
                                                                         srcset="../wp-content/uploads/2024/01/Blogs-Banner-02-1.jpg 1000w, ../wp-content/uploads/2024/01/Blogs-Banner-02-1-300x169.jpg 300w, ../wp-content/uploads/2024/01/Blogs-Banner-02-1-360x203.jpg 360w, ../wp-content/uploads/2024/01/Blogs-Banner-02-1-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.futureready') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Future-Ready Workforce: Trends in IT Staffing and Recruitment</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.futureready') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Future-Ready Workforce: Trends in IT Staffing
+                                                                            and Recruitment</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.futureready') }}" target="_blank">
-                                                                            Future-Ready Workforce: Trends in IT Staffing and Recruitment
+                                                                        <a href="{{ route('blogs.futureready') }}"
+                                                                            target="_blank">
+                                                                            Future-Ready Workforce: Trends in IT Staffing
+                                                                            and Recruitment
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.futureready') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.futureready') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the dynamic and ever-evolving landscape of Information Technology (IT), the significance of having a future-ready workforce cannot be overstated.</p>
+                                                                    <p class="premium-blog-post-content">In the dynamic
+                                                                        and ever-evolving landscape of Information
+                                                                        Technology (IT), the significance of having a
+                                                                        future-ready workforce cannot be overstated.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/02/4-1.png"
                                                                         class="attachment-full size-full wp-image-8785"
                                                                         alt="Cybersecurity in IT Engineering Services: Navigating the Digital Threat Landscape"
                                                                         srcset="../wp-content/uploads/2024/02/4-1.png 1000w, ../wp-content/uploads/2024/02/4-1-300x169.png 300w, ../wp-content/uploads/2024/02/4-1-360x203.png 360w, ../wp-content/uploads/2024/02/4-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.cybersecurityInEngineering') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Cybersecurity in IT Engineering Services: Navigating the Digital Threat Landscape</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.cybersecurityInEngineering') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Cybersecurity in IT Engineering Services:
+                                                                            Navigating the Digital Threat Landscape</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.cybersecurityInEngineering') }}" target="_blank">
-                                                                            Cybersecurity in IT Engineering Services: Navigating the Digital Threat Landscape
+                                                                        <a href="{{ route('blogs.cybersecurityInEngineering') }}"
+                                                                            target="_blank">
+                                                                            Cybersecurity in IT Engineering Services:
+                                                                            Navigating the Digital Threat Landscape
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.cybersecurityInEngineering') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.cybersecurityInEngineering') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the ever-evolving landscape of Information Technology (IT) engineering services, the importance of cybersecurity cannot be overstated.</p>
+                                                                    <p class="premium-blog-post-content">In the
+                                                                        ever-evolving landscape of Information Technology
+                                                                        (IT) engineering services, the importance of
+                                                                        cybersecurity cannot be overstated.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1.png"
                                                                         class="attachment-full size-full wp-image-8786"
                                                                         alt="Enhancing Business Agility with IT Engineering Services: A Comprehensive Guide"
                                                                         srcset="../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1.png 1000w, ../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-300x169.png 300w, ../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-360x203.png 360w, ../wp-content/uploads/2024/02/5_Mesa-de-trabajo-1-1-768x432.png 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.unlockingBusinessPotential') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Enhancing Business Agility with IT Engineering Services: A Comprehensive Guide</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.unlockingBusinessPotential') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Enhancing Business Agility with IT Engineering
+                                                                            Services: A Comprehensive Guide</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.unlockingBusinessPotential') }}" target="_blank">
-                                                                            Enhancing Business Agility with IT Engineering Services: A Comprehensive Guide
+                                                                        <a href="{{ route('blogs.unlockingBusinessPotential') }}"
+                                                                            target="_blank">
+                                                                            Enhancing Business Agility with IT Engineering
+                                                                            Services: A Comprehensive Guide
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.unlockingBusinessPotential') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.unlockingBusinessPotential') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the ever-evolving landscape of the business world, staying ahead of the competition requires a strategic approach that embraces innovation and adapts to rapid changes.</p>
+                                                                    <p class="premium-blog-post-content">In the
+                                                                        ever-evolving landscape of the business world,
+                                                                        staying ahead of the competition requires a
+                                                                        strategic approach that embraces innovation and
+                                                                        adapts to rapid changes.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="../wp-content/uploads/2024/02/Blogs-Banner-03-1.jpg"
                                                                         class="attachment-full size-full wp-image-8787"
                                                                         alt="Balancing Act: How IT Staffing Companies Navigate the Demand for Specialized vs. Generalist Skills"
                                                                         srcset="../wp-content/uploads/2024/02/Blogs-Banner-03-1.jpg 1000w, ../wp-content/uploads/2024/02/Blogs-Banner-03-1-300x169.jpg 300w, ../wp-content/uploads/2024/02/Blogs-Banner-03-1-360x203.jpg 360w, ../wp-content/uploads/2024/02/Blogs-Banner-03-1-768x432.jpg 768w"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.balancingAct') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Balancing Act: How IT Staffing Companies Navigate the Demand for Specialized vs. Generalist Skills</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.balancingAct') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Balancing Act: How IT Staffing Companies
+                                                                            Navigate the Demand for Specialized vs.
+                                                                            Generalist Skills</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.balancingAct') }}" target="_blank">
-                                                                            Balancing Act: How IT Staffing Companies Navigate the Demand for Specialized vs. Generalist Skills
+                                                                        <a href="{{ route('blogs.balancingAct') }}"
+                                                                            target="_blank">
+                                                                            Balancing Act: How IT Staffing Companies
+                                                                            Navigate the Demand for Specialized vs.
+                                                                            Generalist Skills
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 18, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-categories premium-blog-meta-data">
-                                                                            <i class="fa fa-align-left fa-fw" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
                                                                             <span>Business</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.balancingAct') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.balancingAct') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the dynamic realm of Information Technology (IT), the demand for skilled professionals has never been higher.</p>
+                                                                    <p class="premium-blog-post-content">In the dynamic
+                                                                        realm of Information Technology (IT), the demand for
+                                                                        skilled professionals has never been higher.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="..\wp-content\uploads\2024\02\Strategies for Increasing Employee Engagement.png"
                                                                         class="attachment-full size-full wp-image-8787"
                                                                         alt="Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.panel.revitalizing_workplace_morale') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.panel.revitalizing_workplace_morale') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Revitalizing Workplace Morale: Innovative
+                                                                            Strategies for Increasing Employee Engagement in
+                                                                            2024</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}" target="_blank">
-                                                                            Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024
+                                                                        <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}"
+                                                                            target="_blank">
+                                                                            Revitalizing Workplace Morale: Innovative
+                                                                            Strategies for Increasing Employee Engagement in
+                                                                            2024
                                                                         </a>
                                                                     </h2>
-                                                                    
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}" title="Posts by Steven" rel="author">Steven</a>
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by Steven"
+                                                                                rel="author">Steven</a>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 26, 2024</span>
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
                                                                         <div
-                                                                        class="premium-blog-post-categories premium-blog-meta-data">
-                                                                        <i class="fa fa-align-left fa-fw"
-                                                                            aria-hidden="true"></i>
-                                                                        <a href="{{ route('home') }}"
-                                                                            rel="category tag">All</a>,
-                                                                        <a href="{{ route('blogs.hr.topics') }}"
-                                                                            rel="category tag">HR Topics</a>
-                                                                    </div>
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>Business</span>
+                                                                        </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.panel.revitalizing_workplace_morale') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.panel.revitalizing_workplace_morale') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">Implementing effective strategies to boost employee engagement and morale is crucial for organizational success.</p>
+                                                                    <p class="premium-blog-post-content">Implementing
+                                                                        effective strategies to boost employee engagement
+                                                                        and morale is crucial for organizational success.
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <div class="premium-blog-post-outer-container" data-total="4">
-                                                        <div class="premium-blog-post-container premium-blog-skin-classic">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
                                                             <div class="premium-blog-thumb-effect-wrapper">
-                                                                <div class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
-                                                                    <img loading="lazy" decoding="async" width="1000" height="563"
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
                                                                         src="..\wp-content\uploads\2024\02\Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.png"
                                                                         class="attachment-full size-full wp-image-XXXXX"
                                                                         alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
-                                                                    <svg class="premium-blog-shape-divider-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 10"
-                                                                        preserveaspectratio="none">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
                                                                         <path d="M350,10L340,0h20L350,10z"></path>
                                                                     </svg>
                                                                 </div>
                                                                 <div class="premium-blog-thumbnail-overlay">
-                                                                    <a class="elementor-icon" href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}" target="_blank" aria-hidden="true">
-                                                                        <span>Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024</span>
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span>Recruitment Marketing Strategies: Improve Your
+                                                                            Hiring Process and Attract Talent in 2024</span>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="premium-blog-content-wrapper">
                                                                 <div class="premium-blog-inner-container">
                                                                     <h2 class="premium-blog-entry-title">
-                                                                        <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}" target="_blank">
-                                                                            Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024
+                                                                        <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}"
+                                                                            target="_blank">
+                                                                            Recruitment Marketing Strategies: Improve Your
+                                                                            Hiring Process and Attract Talent in 2024
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
-                                                                        <div class="premium-blog-post-author premium-blog-meta-data">
-                                                                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('home') }}"  rel="author">Steven
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
                                                                         </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-time premium-blog-meta-data">
-                                                                            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
                                                                             <span>April 26, 2024</span>
                                                                         </div>
 
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                    <div
-                                                                        class="premium-blog-post-categories premium-blog-meta-data">
-                                                                        <i class="fa fa-align-left fa-fw"
-                                                                            aria-hidden="true"></i>
-                                                                        <a href="{{ route('home') }}"
-                                                                            rel="category tag">All</a>,
-                                                                        <a href="{{ route('blogs.hr.topics') }}"
-                                                                            rel="category tag">HR Topics</a>
-                                                                    </div>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
                                                                         <span class="premium-blog-meta-separator">•</span>
-                                                                        <div class="premium-blog-post-comments premium-blog-meta-data">
-                                                                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>
-                                                                            <a href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}#respond">No Comments</a>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.panel.Recruitment-Marketing-Strategies') }}#respond">No
+                                                                                Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">Implementing effective recruitment marketing strategies is key to enhancing your hiring process and attracting top talent.</p>
+                                                                    <p class="premium-blog-post-content">Implementing
+                                                                        effective recruitment marketing strategies is key to
+                                                                        enhancing your hiring process and attracting top
+                                                                        talent.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-01-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.rising') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.rising') }}"
+                                                                            target="_blank">
+                                                                            Rising Demand for IT Engineering Services:
+                                                                            Trends and Insights by Bridgecor LLC
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.rising') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the
+                                                                        ever-evolving landscape of technology, the demand
+                                                                        for IT engineering services is witnessing an
+                                                                        unprecedented surge.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-02-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.navigating') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.navigating') }}"
+                                                                            target="_blank">
+                                                                            Navigating Cybersecurity Challenges: IT Engineering Solutions by Bridgecor LLC
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.navigating') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the digital age, cybersecurity has become a paramount concern for organizations across industries.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-03-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.emerging') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.emerging') }}"
+                                                                            target="_blank">
+                                                                            Emerging Technologies Impacting IT Staffing Companies: Navigating the Future with Bridgecor LLC
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.emerging') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the dynamic landscape of information technology (IT) staffing, the emergence of cutting-edge technologies is reshaping the industry at an unprecedented pace.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-04-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.futureWork') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.futureWork') }}"
+                                                                            target="_blank">
+                                                                            Levels and Requirements: Understanding Security Clearance Criteria
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.futureWork') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the realm of Security Clearance Jobs, understanding the nuances of security clearance levels and their associated requirements is paramount.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-05-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.levels') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.levels') }}"
+                                                                            target="_blank">
+                                                                            Levels and Requirements: Understanding Security Clearance Criteria
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.levels') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the realm of Security Clearance Jobs, understanding the nuances of security clearance levels and their associated requirements is paramount.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-06-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.cybersecurity') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.cybersecurity') }}"
+                                                                            target="_blank">
+                                                                            Cybersecurity Skills Gap: Training Next-Gen IT Security Engineers
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.cybersecurity') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the digital age, where technology permeates every aspect of our lives, the importance of cybersecurity cannot be overstated.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\02\banners_may-07-transformed.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.bootcamps') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.bootcamps') }}"
+                                                                            target="_blank">
+                                                                            Cybersecurity Bootcamps and Training Programs: A Gateway to Recruitment Success
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>May 5, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.bootcamps') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">In the ever-evolving landscape of cybersecurity, the demand for skilled professionals continues to soar. As cyber threats become more sophisticated and prevalent,</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+
+
+
+
                                                 </div>
 
                                                 <!-- <div class="premium-blog-footer">
-                                                                <nav class="premium-blog-pagination-container" role="navigation"
-                                                                    aria-label="Pagination">
-                                                                    <span aria-current="page" class="page-numbers current">1</span>
-                                                                    <a class="page-numbers" href="page/2/">2</a>
-                                                                    <a class="page-numbers" href="page/3/">3</a>
-                                                                    <a class="page-numbers" href="page/4/">4</a>
-                                                                    <a class="next page-numbers" href="page/2/">Next »</a>
-                                                                </nav>
-                                                            </div> -->
+                                                                        <nav class="premium-blog-pagination-container" role="navigation"
+                                                                            aria-label="Pagination">
+                                                                            <span aria-current="page" class="page-numbers current">1</span>
+                                                                            <a class="page-numbers" href="page/2/">2</a>
+                                                                            <a class="page-numbers" href="page/3/">3</a>
+                                                                            <a class="page-numbers" href="page/4/">4</a>
+                                                                            <a class="next page-numbers" href="page/2/">Next »</a>
+                                                                        </nav>
+                                                                    </div> -->
                                             </div>
                                         </div>
                                     </div>

@@ -12,6 +12,7 @@ Route::prefix('/')->group(function () {
     Route::get('/', [FrontendController::class, 'home'])->name('home');
     Route::get('/about', [FrontendController::class, 'about'])->name('about');
     Route::get('/employers', [FrontendController::class, 'employers'])->name('employers');
+    Route::get('/hr', [FrontendController::class, 'hr'])->name('hr');
     Route::get('/candidate', [FrontendController::class, 'candidate'])->name('candidate');
     Route::get('/find-job', [FrontendController::class, 'findJob'])->name('find.job');
     Route::get('/government', [FrontendController::class, 'government'])->name('government');
@@ -24,12 +25,12 @@ Route::prefix('/')->group(function () {
     Route::get('/industry-insights-and-trends', [FrontendController::class, 'industryTrends'])->name('blogs.industry.trends');
     Route::get('/interview-success-tips', [FrontendController::class, 'interviewSuccess'])->name('blogs.interview.success');
     Route::get('/career-guidance-and-skill-development', [FrontendController::class, 'careerGuidance'])->name('blogs.career.guidance');
-    
+
     Route::get('/revitalizing-workplace-morale-2024', [FrontendController::class, 'showRevitalizingWorkplaceMorale'])
-    ->name('blogs.panel.revitalizing_workplace_morale');
+        ->name('blogs.panel.revitalizing_workplace_morale');
 
     Route::get('/Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024', [FrontendController::class, 'RecruitmentMarketing'])
-    ->name('blogs.panel.Recruitment-Marketing-Strategies');
+        ->name('blogs.panel.Recruitment-Marketing-Strategies');
 
     Route::get('/mastering-panel-interviews-strategies-for-success-in-group-interview-settings', [FrontendController::class, 'masteringPanel'])->name('blogs.panel.interviews');
     Route::get('/mentorship-matters-the-impact-of-mentorship-on-career-development', [FrontendController::class, 'mentorship'])->name('blogs.mentorship');
@@ -69,6 +70,27 @@ Route::prefix('/')->group(function () {
     Route::get('/balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills', [FrontendController::class, 'balancingAct'])
         ->name('blogs.balancingAct');
 
+    Route::get('/rising-demand-for-it-engineering-services', [FrontendController::class, 'engineeringServices'])
+        ->name('blogs.rising');
+
+    Route::get('/navigating-cybersecurity-challenges', [FrontendController::class, 'navigating'])
+        ->name('blogs.navigating');
+
+    Route::get('/emerging-technologies-impacting-it-staffing-companies', [FrontendController::class, 'emerging'])
+        ->name('blogs.emerging');
+
+    Route::get('/the-future-of-work', [FrontendController::class, 'futureWork'])
+        ->name('blogs.futureWork');
+
+    Route::get('/levels-and-requirements', [FrontendController::class, 'levels'])
+        ->name('blogs.levels');
+
+    Route::get('/cybersecurity-skills-gap', [FrontendController::class, 'cybersecurity'])
+        ->name('blogs.cybersecurity');
+
+    Route::get('/cybersecurity-bootcamps-and-training-programs', [FrontendController::class, 'bootcamps'])
+        ->name('blogs.bootcamps');
+
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 
     // Backend routes
@@ -77,13 +99,14 @@ Route::prefix('/')->group(function () {
 });
 
 Route::prefix('/admin')->group(function () {
+
     Route::get('/dashboard', [MainController::class, 'showDashboard'])->name('admin.dashboard');
     // Authentication Routes
-// Show login form
-Route::get('/login', [MainController::class, 'showLoginForm'])->name('login');
+    // Show login form
+    Route::get('/login', [MainController::class, 'showLoginForm'])->name('login');
 
-// Handle login form submission
-Route::post('/login', [MainController::class, 'login'])->name('login.submit');
+    // Handle login form submission
+    Route::post('/login', [MainController::class, 'login'])->name('login.submit');
     Route::get('/logout', [MainController::class, 'logout'])->name('logout');
 
 

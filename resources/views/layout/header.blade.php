@@ -28,8 +28,7 @@
     <meta property="og:image" content="https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Bridgecor1">
-    <script type="application/ld+json"
-		class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bridgecorllc.com/#article","isPartOf":{"@id":"https://bridgecorllc.com/"},"author":{"name":"Steven","@id":"https://bridgecorllc.com/#/schema/person/be50f5ea83f822cf38e6860cd8eae705"},"headline":"Home","datePublished":"2024-01-17T11:37:13+00:00","dateModified":"2024-03-18T11:10:20+00:00","mainEntityOfPage":{"@id":"https://bridgecorllc.com/"},"wordCount":1081,"publisher":{"@id":"https://bridgecorllc.com/#organization"},"image":{"@id":"https://bridgecorllc.com/#primaryimage"},"thumbnailUrl":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://bridgecorllc.com/","url":"https://bridgecorllc.com/","name":"IT Staffing Companies | IT Engineering Services - Bridgecor LLC","isPartOf":{"@id":"https://bridgecorllc.com/#website"},"about":{"@id":"https://bridgecorllc.com/#organization"},"primaryImageOfPage":{"@id":"https://bridgecorllc.com/#primaryimage"},"image":{"@id":"https://bridgecorllc.com/#primaryimage"},"thumbnailUrl":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","datePublished":"2024-01-17T11:37:13+00:00","dateModified":"2024-03-18T11:10:20+00:00","description":"Bridgecor LLC: Your staffing solution for IT, cybersecurity, design, web development, and more. Skilled professionals ready to propel your success.","breadcrumb":{"@id":"https://bridgecorllc.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://bridgecorllc.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bridgecorllc.com/#primaryimage","url":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","contentUrl":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","width":55,"height":29},{"@type":"BreadcrumbList","@id":"https://bridgecorllc.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://bridgecorllc.com/#website","url":"https://bridgecorllc.com/","name":"Bridgecor LLC","description":"Where Diversity Meets Engineering","publisher":{"@id":"https://bridgecorllc.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://bridgecorllc.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://bridgecorllc.com/#organization","name":"Bridgecor LLC","url":"https://bridgecorllc.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bridgecorllc.com/#/schema/logo/image/","url":"https://bridgecorllc.com/wp-content/uploads/2021/07/bridgecorllc-logo-b3c6de9e.png","contentUrl":"https://bridgecorllc.com/wp-content/uploads/2021/07/bridgecorllc-logo-b3c6de9e.png","width":248,"height":55,"caption":"Bridgecor LLC"},"image":{"@id":"https://bridgecorllc.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/bridgecor1","https://twitter.com/Bridgecor1","https://www.instagram.com/bridgecorllc/"]},{"@type":"Person","@id":"https://bridgecorllc.com/#/schema/person/be50f5ea83f822cf38e6860cd8eae705","name":"Steven","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bridgecorllc.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/08ca79512958ade14d18adc965e9d69d?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/08ca79512958ade14d18adc965e9d69d?s=96&d=mm&r=g","caption":"Steven"},"sameAs":["https://bridgecorllc.com"]}]}
+    <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bridgecorllc.com/#article","isPartOf":{"@id":"https://bridgecorllc.com/"},"author":{"name":"Steven","@id":"https://bridgecorllc.com/#/schema/person/be50f5ea83f822cf38e6860cd8eae705"},"headline":"Home","datePublished":"2024-01-17T11:37:13+00:00","dateModified":"2024-03-18T11:10:20+00:00","mainEntityOfPage":{"@id":"https://bridgecorllc.com/"},"wordCount":1081,"publisher":{"@id":"https://bridgecorllc.com/#organization"},"image":{"@id":"https://bridgecorllc.com/#primaryimage"},"thumbnailUrl":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://bridgecorllc.com/","url":"https://bridgecorllc.com/","name":"IT Staffing Companies | IT Engineering Services - Bridgecor LLC","isPartOf":{"@id":"https://bridgecorllc.com/#website"},"about":{"@id":"https://bridgecorllc.com/#organization"},"primaryImageOfPage":{"@id":"https://bridgecorllc.com/#primaryimage"},"image":{"@id":"https://bridgecorllc.com/#primaryimage"},"thumbnailUrl":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","datePublished":"2024-01-17T11:37:13+00:00","dateModified":"2024-03-18T11:10:20+00:00","description":"Bridgecor LLC: Your staffing solution for IT, cybersecurity, design, web development, and more. Skilled professionals ready to propel your success.","breadcrumb":{"@id":"https://bridgecorllc.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://bridgecorllc.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bridgecorllc.com/#primaryimage","url":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","contentUrl":"https://bridgecorllc.com/wp-content/uploads/2024/01/big-arrow-down.svg","width":55,"height":29},{"@type":"BreadcrumbList","@id":"https://bridgecorllc.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://bridgecorllc.com/#website","url":"https://bridgecorllc.com/","name":"Bridgecor LLC","description":"Where Diversity Meets Engineering","publisher":{"@id":"https://bridgecorllc.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://bridgecorllc.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://bridgecorllc.com/#organization","name":"Bridgecor LLC","url":"https://bridgecorllc.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bridgecorllc.com/#/schema/logo/image/","url":"https://bridgecorllc.com/wp-content/uploads/2021/07/bridgecorllc-logo-b3c6de9e.png","contentUrl":"https://bridgecorllc.com/wp-content/uploads/2021/07/bridgecorllc-logo-b3c6de9e.png","width":248,"height":55,"caption":"Bridgecor LLC"},"image":{"@id":"https://bridgecorllc.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/bridgecor1","https://twitter.com/Bridgecor1","https://www.instagram.com/bridgecorllc/"]},{"@type":"Person","@id":"https://bridgecorllc.com/#/schema/person/be50f5ea83f822cf38e6860cd8eae705","name":"Steven","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bridgecorllc.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/08ca79512958ade14d18adc965e9d69d?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/08ca79512958ade14d18adc965e9d69d?s=96&d=mm&r=g","caption":"Steven"},"sameAs":["https://bridgecorllc.com"]}]}
 	</script>
     <!-- / Yoast SEO Premium plugin. -->
 
@@ -1314,11 +1313,9 @@
         href='{{ asset('wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5') }}'
         type='text/css' media='all'>
     <link rel='stylesheet' id='elementor-post-5312-css'
-        href='{{ asset('wp-content/uploads/elementor/css/post-5312.css?ver=1710735007') }}' type='text/css'
-        media='all'>
+        href='{{ asset('wp-content/uploads/elementor/css/post-5312.css?ver=1710735007') }}' type='text/css' media='all'>
     <link rel='stylesheet' id='elementor-pro-css'
-        href='wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1710735007' type='text/css'
-        media='all'>
+        href='wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1710735007' type='text/css' media='all'>
     <link rel='stylesheet' id='ooohboi-steroids-styles-css'
         href='wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/main.css?ver=2.1.626082023' type='text/css'
         media='all'>
@@ -1328,24 +1325,22 @@
     <link rel='stylesheet' id='font-awesome-4-shim-css'
         href='wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.20.1' type='text/css'
         media='all'>
-    <link rel='stylesheet' id='elementor-global-css'
-        href='wp-content/uploads/elementor/css/global.css?ver=1710735010' type='text/css' media='all'>
+    <link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global.css?ver=1710735010'
+        type='text/css' media='all'>
     <link rel='stylesheet' id='elementor-post-7048-css'
         href='wp-content/uploads/elementor/css/post-7048.css?ver=1710760605' type='text/css' media='all'>
     @stack('style')
-    <link rel='stylesheet' id='megamenu-css' href='wp-content/uploads/maxmegamenu/style.css?ver=bc6204'
-        type='text/css' media='all'>
+    <link rel='stylesheet' id='megamenu-css' href='wp-content/uploads/maxmegamenu/style.css?ver=bc6204' type='text/css'
+        media='all'>
     <link rel='stylesheet' id='dashicons-css' href='wp-includes/css/dashicons.min.css?ver=6.4.3' type='text/css'
         media='all'>
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
-        href='wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3' type='text/css'
-        media='all'>
+        href='wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3' type='text/css' media='all'>
     <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
         href='wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3' type='text/css'
         media='all'>
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
-        href='wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3' type='text/css'
-        media='all'>
+        href='wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3' type='text/css' media='all'>
     <link rel='stylesheet' id='wpforms-smart-phone-field-css'
         href='wp-content/plugins/wpforms/pro/assets/css/vendor/intl-tel-input.min.css?ver=17.0.3' type='text/css'
         media='all'>
@@ -1363,8 +1358,9 @@
         href='css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.4.3'
         type='text/css' media='all'>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <script type="text/javascript" src="{{ asset('/wp-includes/js/jquery/jquery.min.js?ver=3.7.1') }}" id="jquery-core-js">
-    </script>
+    <script type="text/javascript" src="{{ asset('/wp-includes/js/jquery/jquery.min.js?ver=3.7.1') }}"
+        id="jquery-core-js">
+        </script>
     <script type="text/javascript" src="{{ asset('/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1') }}"
         id="jquery-migrate-js"></script>
     <script type="text/javascript" src="{{ asset('/wp-content/plugins/mailchimp/js/scrollTo.js?ver=1.5.8') }}"
@@ -1388,7 +1384,7 @@
         id="uikit2-js"></script>
     <script type="text/javascript"
         src="{{ asset('/wp-content/plugins/widgetkit/cache/wk-scripts-6d937947.js?ver=6.4.3') }}" id="wk-scripts-js">
-    </script>
+        </script>
     <script type="text/javascript"
         src="{{ asset('/wp-content/plugins/wp-contact-form-7-spam-blocker/frontend/js/spam-protect-for-contact-form7.js?ver=1.0.0') }}"
         id="spam-protect-for-contact-form7-js"></script>
@@ -1404,8 +1400,8 @@
     <script type="text/javascript" src="{{ asset('/wp-content/themes/yootheme/js/theme.js?ver=1.10.8') }}"
         id="theme-script-js"></script>
     <script type="text/javascript">
-        jQuery(function($) {
-            $('.date-pick').each(function() {
+        jQuery(function ($) {
+            $('.date-pick').each(function () {
                 var format = $(this).data('format') || 'mm/dd/yyyy';
                 format = format.replace(/yyyy/i, 'yy');
                 $(this).datepicker({
@@ -1413,14 +1409,14 @@
                     constrainInput: false,
                     changeMonth: true,
                     changeYear: true,
-                    beforeShow: function(input, inst) {
+                    beforeShow: function (input, inst) {
                         $('#ui-datepicker-div').addClass('show');
                     },
                     dateFormat: format.toLowerCase(),
                 });
             });
             d = new Date();
-            $('.birthdate-pick').each(function() {
+            $('.birthdate-pick').each(function () {
                 var format = $(this).data('format') || 'mm/dd';
                 format = format.replace(/yyyy/i, 'yy');
                 $(this).datepicker({
@@ -1430,7 +1426,7 @@
                     changeYear: false,
                     minDate: new Date(d.getFullYear(), 1 - 1, 1),
                     maxDate: new Date(d.getFullYear(), 12 - 1, 31),
-                    beforeShow: function(input, inst) {
+                    beforeShow: function (input, inst) {
                         $('#ui-datepicker-div').removeClass('show');
                     },
                     dateFormat: format.toLowerCase(),
@@ -1856,8 +1852,7 @@
                     <a class="uk-navbar-item uk-logo" href="{{ route('home') }}">
                         <img src="{{ asset('/wp-content/themes/yootheme/cache/bridgecorllc-logo-10983bb7.png') }}"
                             srcset="wp-content/themes/yootheme/cache/bridgecorllc-logo-9c9a59e1.png 144w, wp-content/themes/yootheme/cache/bridgecorllc-logo-a84376dc.png 360w, wp-content/themes/yootheme/cache/bridgecorllc-logo-10983bb7.png 180w"
-                            sizes="(min-width: 180px) 180px, 100vw" width="180" class="uk-responsive-height"
-                            alt="">
+                            sizes="(min-width: 180px) 180px, 100vw" width="180" class="uk-responsive-height" alt="">
                     </a>
 
 
@@ -1899,8 +1894,18 @@
                                         </li>
                                         <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a
                                                 href="{{ route('about') }}">About us</a></li>
-                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a
-                                                href="{{ route('employers') }}">Employers</a></li>
+                                            
+
+                                        <li
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent">
+                                            <a href="{{ route('employers') }}">Employers</a>
+                                            <ul class="uk-nav-sub">
+
+                                                <li class=" menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="{{ route('hr') }}">HR</a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent">
                                             <a href="{{ route('candidate') }}">Candidate</a>
@@ -1965,8 +1970,8 @@
 
 
 
-                                    <form id="search-472" action="https://bridgecorllc.com/" method="get"
-                                        role="search" class="uk-search uk-search-default">
+                                    <form id="search-472" action="https://bridgecorllc.com/" method="get" role="search"
+                                        class="uk-search uk-search-default">
                                         <span uk-search-icon=""></span>
                                         <input name="s" placeholder="Search &hellip;" type="search"
                                             class="uk-search-input">
@@ -2007,8 +2012,8 @@
                                 <a href="{{ asset('/') }}" class="uk-navbar-item uk-logo">
                                     <img src="{{ asset('/wp-content/themes/yootheme/cache/bridgecorllc-logo-b3c6de9e.png') }}"
                                         srcset="/wp-admin/admin-ajax.php?action=kernel&p=theme%2Fimage&src=d3AtY29udGVudC91cGxvYWRzLzIwMjIvMDgvYnJpZGdlY29ybGxjLWxvZ28ucG5nI3RodW1ibmFpbD0xOTglMkM0NA%3D%3D&hash=b222db2b321d249942d4687cef07fe0c, wp-content/themes/yootheme/cache/bridgecorllc-logo-df0a2089.png 496w, wp-content/themes/yootheme/cache/bridgecorllc-logo-b3c6de9e.png 248w"
-                                        sizes="(min-width: 248px) 248px, 100vw" width="248"
-                                        class="uk-responsive-height" alt=""></a>
+                                        sizes="(min-width: 248px) 248px, 100vw" width="248" class="uk-responsive-height"
+                                        alt=""></a>
 
 
                                 <ul class="uk-navbar-nav">
@@ -2027,8 +2032,21 @@
                                     <li><a href="{{ route('about') }}"
                                             class=" menu-item menu-item-type-post_type menu-item-object-page">About
                                             us</a></li>
-                                    <li><a href="{{ route('employers') }}"
-                                            class=" menu-item menu-item-type-post_type menu-item-object-page">Employers</a>
+                                    <li>
+                                    </li>
+                                    <li class="uk-parent"><a href="{{ route('employers') }}"
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Employers</a>
+                                        <div class="uk-navbar-dropdown">
+                                            <div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
+                                                <div>
+                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                        <li><a href="{{ route('hr') }}"
+                                                                class=" menu-item menu-item-type-post_type menu-item-object-page">HR</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li class="uk-parent"><a href="{{ route('candidate') }}"
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Candidate</a>
@@ -2100,14 +2118,12 @@
                                     <div id="search-163-modal" class="uk-modal-full" uk-modal="">
                                         <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle"
                                             uk-height-viewport="">
-                                            <button class="uk-modal-close-full" type="button"
-                                                uk-close=""></button>
+                                            <button class="uk-modal-close-full" type="button" uk-close=""></button>
                                             <div class="uk-search uk-search-large">
-                                                <form id="search-163" action="https://bridgecorllc.com/"
-                                                    method="get" role="search" class="uk-search uk-search-large">
-                                                    <input name="s" placeholder="Search &hellip;"
-                                                        type="search" class="uk-search-input uk-text-center"
-                                                        autofocus/="">
+                                                <form id="search-163" action="https://bridgecorllc.com/" method="get"
+                                                    role="search" class="uk-search uk-search-large">
+                                                    <input name="s" placeholder="Search &hellip;" type="search"
+                                                        class="uk-search-input uk-text-center" autofocus/="">
                                                 </form>
                                             </div>
                                         </div>
