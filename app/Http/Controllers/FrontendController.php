@@ -199,4 +199,47 @@ class FrontendController extends Controller
     {
         return view('frontend.balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills.index');
     }
+    public function showRevitalizingWorkplaceMorale()
+    {
+        return view('frontend.revitalizing-workplace-morale-innovative-strategies-2024.index');
+    }
+
+    public function RecruitmentMarketing()
+    {
+        return view('frontend.Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.index');
+    }
+
+    public function engineeringServices()
+    {
+        return view('frontend.rising-demand-for-it-engineering-services.index');
+    }
+
+    public function navigating()
+    {
+        return view('frontend.navigating-cybersecurity-challenges.index');
+    }
+
+    public function emerging()
+    {
+        return view('frontend.emerging-technologies-impacting-it-staffing-companies.index');
+    }
+    public function futureWork()
+    {
+        return view('frontend.the-future-of-work.index');
+    }
+
+    public function levels()
+    {
+        return view('frontend.levels-and-requirements.index');
+    }
+
+    public function cybersecurity()
+    {
+        return view('frontend.cybersecurity-skills-gap.index');
+    }
+
+    public function bootcamps()
+    {
+        return view('frontend.cybersecurity-bootcamps-and-training-programs.index');
+    }
 }

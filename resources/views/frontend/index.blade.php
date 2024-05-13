@@ -9,7 +9,6 @@
 @endpush
 
 @section('main-section')
-
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
         <div class="uk-container">
 
@@ -36,7 +35,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="e-hosted-video elementor-wrapper elementor-open-inline">
                                                     <video class="elementor-video"
-                                                        src="wp-content/uploads/2024/01/a16edf24-3fb8-4f11-af76-d5b92ef6cf21.mp4"
+                                                        src="wp-content/uploads/2024/01/a16edf24-3fb8-4f11-af76-d5b92ef6cf212.mp4"
                                                         autoplay loop muted controlslist="nodownload"></video>
                                                 </div>
                                             </div>
@@ -1158,19 +1157,16 @@
                                                                         <div class="wpforms-container wpforms-container-full subscriber"
                                                                             id="wpforms-4896">
                                                                             <form id="wpforms-form-4896"
-                                                                                class="wpforms-validate wpforms-form"
-                                                                                data-formid="4896" method="post"
+                                                                                class="wpforms-validate wpforms-form js-form-newsletter"
+                                                                                method="post"
                                                                                 enctype="multipart/form-data"
-                                                                                action="/"><noscript
-                                                                                    class="wpforms-error-noscript">Please
-                                                                                    enable JavaScript in your
-                                                                                    browser to complete this
-                                                                                    form.</noscript>
+                                                                                action="{{ route('newsletter.subscribe') }}">
+                                                                                @csrf
                                                                                 <div class="wpforms-field-container">
                                                                                     <div id="wpforms-4896-field_2-container"
                                                                                         class="wpforms-field wpforms-field-name"
-                                                                                        data-field-id="2"><input
-                                                                                            type="text"
+                                                                                        data-field-id="2">
+                                                                                        <input type="text"
                                                                                             id="wpforms-4896-field_2"
                                                                                             class="wpforms-field-medium"
                                                                                             name="wpforms[fields][2]"
@@ -1178,8 +1174,8 @@
                                                                                     </div>
                                                                                     <div id="wpforms-4896-field_1-container"
                                                                                         class="wpforms-field wpforms-field-email"
-                                                                                        data-field-id="1"><input
-                                                                                            type="email"
+                                                                                        data-field-id="1">
+                                                                                        <input type="email"
                                                                                             id="wpforms-4896-field_1"
                                                                                             class="wpforms-field-medium"
                                                                                             name="wpforms[fields][1]"
@@ -1189,24 +1185,24 @@
                                                                                 <div
                                                                                     class="wpforms-field wpforms-field-hp">
                                                                                     <label for="wpforms-4896-field-hp"
-                                                                                        class="wpforms-field-label">Comment</label><input
-                                                                                        type="text" name="wpforms[hp]"
+                                                                                        class="wpforms-field-label">Comment</label>
+                                                                                    <input type="text"
+                                                                                        name="wpforms[hp]"
                                                                                         id="wpforms-4896-field-hp"
                                                                                         class="wpforms-field-medium">
                                                                                 </div>
                                                                                 <div class="wpforms-submit-container">
                                                                                     <input type="hidden"
-                                                                                        name="wpforms[id]"
-                                                                                        value="4896"><input
-                                                                                        type="hidden"
+                                                                                        name="wpforms[id]" value="4896">
+                                                                                    <input type="hidden"
                                                                                         name="wpforms[author]"
-                                                                                        value="1"><input
-                                                                                        type="hidden"
+                                                                                        value="1">
+                                                                                    <input type="hidden"
                                                                                         name="wpforms[post_id]"
-                                                                                        value="7048"><button
-                                                                                        type="submit"
+                                                                                        value="7048">
+                                                                                    <button type="button"
                                                                                         name="wpforms[submit]"
-                                                                                        class="wpforms-submit "
+                                                                                        class="wpforms-submit"
                                                                                         id="wpforms-submit-4896"
                                                                                         value="wpforms-submit"
                                                                                         aria-live="assertive"
@@ -1214,6 +1210,9 @@
                                                                                         data-submit-text="Subscribe">Subscribe</button>
                                                                                 </div>
                                                                             </form>
+                                                                            <div class="message uk-margin uk-hidden"
+                                                                                id="message-2"></div>
+
                                                                         </div> <!-- .wpforms-container -->
                                                                     </div>
                                                                 </div>
@@ -1437,4 +1436,45 @@
 
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('.js-form-newsletter');
+            const emailInput = document.getElementById('wpforms-4896-field_1');
+            const nameInput = document.getElementById('wpforms-4896-field_2');
+            const messageElement = document.getElementById('message-2');
+            const subscribeBtn = document.getElementById('wpforms-submit-4896');
+
+            subscribeBtn.addEventListener('click', function() {
+                const email = emailInput.value.trim();
+                const name = nameInput.value.trim();
+
+                if (!email) {
+                    showMessage('error', 'Please enter an email address.');
+                    return;
+                }
+
+                // You can add validation for name if needed
+
+                axios.post('/subscribe', {
+                        email: email,
+                        name: name
+                    })
+                    .then(function(response) {
+                        if (response.data.success) {
+                            showMessage('success', response.data.message);
+                        } else {
+                            showMessage('error', response.data.message);
+                        }
+                    })
+                    .catch(function(error) {
+                        showMessage('error', 'Failed to subscribe. Please try again later.');
+                    });
+            });
+
+            function showMessage(type, message) {
+                messageElement.textContent = message;
+                messageElement.classList.remove('uk-hidden');
+            }
+        });
+    </script>
 @endsection

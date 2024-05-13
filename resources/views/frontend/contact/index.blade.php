@@ -105,7 +105,8 @@
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-e7ce195 ob-has-background-overlay elementor-widget elementor-widget-video"
-                                                            data-id="e7ce195" data-element_type="widget"
+                                                            style="padding: 40px;" data-id="e7ce195"
+                                                            data-element_type="widget"
                                                             data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
                                                             data-widget_type="video.default">
                                                             <div class="elementor-widget-container">
@@ -152,12 +153,14 @@
                                                                 <div class="elementor-shortcode">
                                                                     <div class="wpforms-container wpforms-container-full"
                                                                         id="wpforms-4622">
-                                                                        <form id="wpforms-form-4622"
-                                                                            class="wpforms-validate wpforms-form wpforms-ajax-form"
-                                                                            data-formid="4622" method="post"
-                                                                            enctype="multipart/form-data"
-                                                                            action="/contact/"><noscript
-                                                                                class="wpforms-error-noscript">Please
+
+                                                                        <form id=""
+                                                                            class="wpforms-validate wpforms-form"
+                                                                            method="post"
+                                                                            action={{ route('admin.leads') }}>
+                                                                            @csrf
+                                                                            <noscript class="wpforms-error-noscript">
+                                                                                Please
                                                                                 enable JavaScript in your browser to
                                                                                 complete this form.</noscript>
                                                                             <div class="wpforms-field-container">
@@ -167,12 +170,12 @@
                                                                                         class="wpforms-field-label"
                                                                                         for="wpforms-4622-field_5">Name
                                                                                         <span
-                                                                                            class="wpforms-required-label">*</span></label><input
-                                                                                        type="text"
+                                                                                            class="wpforms-required-label">*</span></label>
+                                                                                    <input type="text"
                                                                                         id="wpforms-4622-field_5"
                                                                                         class="wpforms-field-medium wpforms-field-required"
-                                                                                        name="wpforms[fields][5]"
-                                                                                        required=""></div>
+                                                                                        name="name">
+                                                                                </div>
                                                                                 <div id="wpforms-4622-field_3-container"
                                                                                     class="wpforms-field wpforms-field-email"
                                                                                     data-field-id="3"><label
@@ -183,25 +186,30 @@
                                                                                         type="email"
                                                                                         id="wpforms-4622-field_3"
                                                                                         class="wpforms-field-medium wpforms-field-required"
-                                                                                        name="wpforms[fields][3]"
-                                                                                        required=""></div>
-                                                                                <div id="wpforms-4622-field_12-container"
+                                                                                        name="email"></div>
+
+                                                                                {{-- <div id="wpforms-4622-field_12-container"
                                                                                     class="wpforms-field wpforms-field-phone"
-                                                                                    data-field-id="12"><label
+                                                                                    data-field-id="phone"><label
                                                                                         class="wpforms-field-label"
                                                                                         for="wpforms-4622-field_12">Phone
                                                                                         <span
                                                                                             class="wpforms-required-label">*</span></label><input
-                                                                                        type="tel"
+                                                                                        type="text"
                                                                                         id="wpforms-4622-field_12"
                                                                                         class="wpforms-field-medium wpforms-field-required wpforms-smart-phone-field"
                                                                                         data-rule-smart-phone-field="true"
-                                                                                        name="wpforms[fields][12]"
-                                                                                        value="+1" required="">
+                                                                                        name="phone">
                                                                                     <div class="wpforms-field-description">
                                                                                         Please enter USA or CANADA
                                                                                         number only.</div>
-                                                                                </div>
+                                                                                </div> --}}
+
+                                                                                <label for="phone"
+                                                                                    class="wpforms-field-label">Phone</label>
+                                                                                <input type="text" name="phone"
+                                                                                    id="phone">
+
                                                                                 <div id="wpforms-4622-field_4-container"
                                                                                     class="wpforms-field wpforms-field-select wpforms-field-select-style-modern"
                                                                                     data-field-id="4"><label
@@ -209,16 +217,8 @@
                                                                                         for="wpforms-4622-field_4">Tell
                                                                                         Us About
                                                                                         Yourself</label><select
-                                                                                        id="wpforms-4622-field_4"
-                                                                                        class="wpforms-field-medium choicesjs-select"
-                                                                                        data-size-class="wpforms-field-row wpforms-field-medium"
-                                                                                        name="wpforms[fields][4]">
-                                                                                        <option value=""
-                                                                                            class="placeholder"
-                                                                                            disabled=""
-                                                                                            selected='selected'>
-                                                                                            Employer</option>
-                                                                                        <option value="Employer">
+                                                                                        name="role">
+                                                                                        <option value="Employer" selected>
                                                                                             Employer</option>
                                                                                         <option value="Candidate">
                                                                                             Candidate</option>
@@ -228,40 +228,39 @@
                                                                                     data-field-id="7"><label
                                                                                         class="wpforms-field-label"
                                                                                         for="wpforms-4622-field_7">Message</label>
-                                                                                    <textarea id="wpforms-4622-field_7" class="wpforms-field-medium" name="wpforms[fields][7]"></textarea>
+                                                                                    <textarea id="wpforms-4622-field_7" class="wpforms-field-medium" name="message"></textarea>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="wpforms-field wpforms-field-hp">
+                                                                            {{-- <div class="wpforms-field wpforms-field-hp">
                                                                                 <label for="wpforms-4622-field-hp"
                                                                                     class="wpforms-field-label">Comment</label><input
                                                                                     type="text" name="wpforms[hp]"
                                                                                     id="wpforms-4622-field-hp"
                                                                                     class="wpforms-field-medium">
-                                                                            </div>
+                                                                            </div> --}}
                                                                             <div class="wpforms-recaptcha-container">
                                                                                 <div class="g-recaptcha"
                                                                                     data-sitekey="6LcKsMsaAAAAAK0vuzqcpC7QJgxUGUoxtICkVxxh">
                                                                                 </div><input type="text"
                                                                                     name="g-recaptcha-hidden"
                                                                                     class="wpforms-recaptcha-hidden"
-                                                                                    style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
-                                                                                    required="">
+                                                                                    style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;">
                                                                             </div>
                                                                             <div class="wpforms-submit-container">
                                                                                 <input type="hidden" name="wpforms[id]"
                                                                                     value="4622"><input type="hidden"
-                                                                                    name="wpforms[author]"
-                                                                                    value="1"><input type="hidden"
+                                                                                    name="wpforms[author]" value="1">
+                                                                                <input type="hidden"
                                                                                     name="wpforms[post_id]"
-                                                                                    value="7325"><button type="submit"
-                                                                                    name="wpforms[submit]"
+                                                                                    value="7325">
+                                                                                <button type="submit"
                                                                                     class="wpforms-submit "
                                                                                     id="wpforms-submit-4622"
                                                                                     value="wpforms-submit"
                                                                                     aria-live="assertive"
                                                                                     data-alt-text="Sending..."
-                                                                                    data-submit-text="Submit">Submit</button><img
-                                                                                    decoding="async"
+                                                                                    data-submit-text="Submit">Submit</button>
+                                                                                <img decoding="async"
                                                                                     src="../wp-content/plugins/wpforms/assets/images/submit-spin.svg"
                                                                                     class="wpforms-submit-spinner"
                                                                                     style="display: none;" width="26"

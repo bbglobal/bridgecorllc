@@ -2,19 +2,28 @@
 
 namespace App\Http\Controllers\Admin;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5219786e16850104b177abc92ec54797166206a2
+=======
+
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05
 use App\Http\Controllers\Controller;
 use App\Models\Lead;
 use App\Models\Jobsrequest;
 use App\Models\User;
 use Illuminate\Http\Request;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 
 =======
 >>>>>>> 5219786e16850104b177abc92ec54797166206a2
+=======
+use Illuminate\Support\Facades\Auth;
+
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05
 class MainController extends Controller
 {
     public function showDashboard()
@@ -23,6 +32,9 @@ class MainController extends Controller
         $totalJobs = Jobsrequest::count();
         $totalUsers = User::count();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05
 
         if (Auth::user()->role == "user") {
 
@@ -30,6 +42,7 @@ class MainController extends Controller
         } else {
             return redirect()->back();
         }
+<<<<<<< HEAD
 =======
     
     
@@ -37,6 +50,8 @@ class MainController extends Controller
             return view('admin.pages.dashboard', compact('totalContacts', 'totalJobs', 'totalUsers'));    }
 
 >>>>>>> 5219786e16850104b177abc92ec54797166206a2
+=======
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05
     }
     public function showLoginForm()
     {
@@ -45,11 +60,16 @@ class MainController extends Controller
     public function logout()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Auth::logout();
         return view('admin.pages.login');
 =======
         return view('admin.pages.logout');
 >>>>>>> 5219786e16850104b177abc92ec54797166206a2
+=======
+        Auth::logout();
+        return view('admin.pages.login');
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05
     }
     // public function login(Request $request)
     // {
@@ -76,6 +96,9 @@ class MainController extends Controller
 
     // }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05
     public function login(Request $request)
     {
         $credentials = $request->validate([
@@ -94,6 +117,7 @@ class MainController extends Controller
         ])->onlyInput('email');
     }
 }
+<<<<<<< HEAD
 =======
 public function login(Request $request)
     {
@@ -118,3 +142,5 @@ public function login(Request $request)
     }
 }   
 >>>>>>> 5219786e16850104b177abc92ec54797166206a2
+=======
+>>>>>>> 0707951ee2a8b23f3de87ea2d655f6a0cf147e05

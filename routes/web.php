@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\NewsletterController;
 use Illuminate\Support\Facades\Route;
+
 
 
 
@@ -22,6 +26,14 @@ Route::prefix('/')->group(function () {
     Route::get('/industry-insights-and-trends', [FrontendController::class, 'industryTrends'])->name('blogs.industry.trends');
     Route::get('/interview-success-tips', [FrontendController::class, 'interviewSuccess'])->name('blogs.interview.success');
     Route::get('/career-guidance-and-skill-development', [FrontendController::class, 'careerGuidance'])->name('blogs.career.guidance');
+
+    Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
+
+    Route::get('/revitalizing-workplace-morale-2024', [FrontendController::class, 'showRevitalizingWorkplaceMorale'])
+        ->name('blogs.panel.revitalizing_workplace_morale');
+
+    Route::get('/Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024', [FrontendController::class, 'RecruitmentMarketing'])
+        ->name('blogs.panel.Recruitment-Marketing-Strategies');
 
     Route::get('/mastering-panel-interviews-strategies-for-success-in-group-interview-settings', [FrontendController::class, 'masteringPanel'])->name('blogs.panel.interviews');
     Route::get('/mentorship-matters-the-impact-of-mentorship-on-career-development', [FrontendController::class, 'mentorship'])->name('blogs.mentorship');
@@ -61,5 +73,74 @@ Route::prefix('/')->group(function () {
     Route::get('/balancing-act-how-it-staffing-companies-navigate-the-demand-for-specialized-vs-generalist-skills', [FrontendController::class, 'balancingAct'])
         ->name('blogs.balancingAct');
 
+    Route::get('/rising-demand-for-it-engineering-services', [FrontendController::class, 'engineeringServices'])
+        ->name('blogs.rising');
+
+    Route::get('/navigating-cybersecurity-challenges', [FrontendController::class, 'navigating'])
+        ->name('blogs.navigating');
+
+    Route::get('/emerging-technologies-impacting-it-staffing-companies', [FrontendController::class, 'emerging'])
+        ->name('blogs.emerging');
+
+    Route::get('/the-future-of-work', [FrontendController::class, 'futureWork'])
+        ->name('blogs.futureWork');
+
+    Route::get('/levels-and-requirements', [FrontendController::class, 'levels'])
+        ->name('blogs.levels');
+
+    Route::get('/cybersecurity-skills-gap', [FrontendController::class, 'cybersecurity'])
+        ->name('blogs.cybersecurity');
+
+    Route::get('/cybersecurity-bootcamps-and-training-programs', [FrontendController::class, 'bootcamps'])
+        ->name('blogs.bootcamps');
+
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+
+    // Backend routes
+
+});
+
+Route::prefix('/admin')->group(function () {
+
+    Route::get('/dashboard', [MainController::class, 'showDashboard'])->name('admin.dashboard');
+    // Authentication Routes
+    // Show login form
+    Route::get('/login', [MainController::class, 'showLoginForm'])->name('login');
+
+    // Handle login form submission
+    Route::post('/login', [MainController::class, 'login'])->name('login.submit');
+    Route::get('/logout', [MainController::class, 'logout'])->name('logout');
+
+
+    // Routes for user management
+    Route::get('/users', [AdminController::class, 'indexuser'])->name('admin.users.user');
+    Route::post('/users/store', [AdminController::class, 'storeuser'])->name('admin.users.store');
+    Route::get('/users/edit/{id}', [AdminController::class, 'edituser'])->name('admin.users.edit');
+    Route::post('/users/update/{id}', [AdminController::class, 'updateuser'])->name('admin.users.update');
+    Route::delete('/users/delete/{id}', [AdminController::class, 'destroyuser'])->name('admin.users.destroy');
+    Route::get('/users/view/{id}', [AdminController::class, 'viewuser'])->name('admin.users.view');
+
+
+    // Routes for job requests management
+    Route::get('/jobs', [AdminController::class, 'jobs'])->name('admin.jobs');
+    Route::post('/jobs', [AdminController::class, 'jobreq'])->name('admin.jobreq');
+    Route::delete('/jobs/delete/{id}', [AdminController::class, 'destroyj'])->name('jobs.destroy');
+
+    // Route for editing a lead
+    Route::get('/jobs/edit/{id}', [AdminController::class, 'editj'])->name('admin.jobs.edit');
+    Route::post('/jobs/update/{id}', [AdminController::class, 'updatej'])->name('admin.jobs.update');
+
+    Route::get('/jobs/view/{id}', [AdminController::class, 'viewleadj'])->name('admin.jobs.view');
+
+    // Route for contact management
+    Route::get('/leads', [AdminController::class, 'contact'])->name('admin.contact');
+    Route::post('/leads', [AdminController::class, 'leads'])->name('admin.leads');
+    // Route for deleting a lead
+    Route::delete('/leads/delete/{id}', [AdminController::class, 'destroy'])->name('leads.destroy');
+
+    // Route for editing a lead
+    Route::get('/leads/edit/{id}', [AdminController::class, 'edit'])->name('admin.lead.edit');
+    Route::post('/leads/update/{id}', [AdminController::class, 'update'])->name('admin.lead.update');
+
+    Route::get('/leads/view/{id}', [AdminController::class, 'viewlead'])->name('admin.lead.view');
 });
