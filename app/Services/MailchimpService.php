@@ -17,10 +17,10 @@ class MailchimpService
     {
         $this->client = new Client([
             'base_uri' => 'https://us18.api.mailchimp.com/3.0/',
-            'auth' => ['apikey', '439689f6e36138090811c1c466db0f5e-us18']
+            'auth' => ['apikey', 'xxxxxxxxxxxxxxx']
         ]);
 
-        $this->listId = '133ac0d1ba';
+        $this->listId = 'xxxxxxxxx';
     }
 
     public function subscribe($email)
