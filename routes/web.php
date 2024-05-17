@@ -1,9 +1,11 @@
 <?php
 
-use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\MainController;
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\NewsletterController;
 use Illuminate\Support\Facades\Route;
+
 
 
 
@@ -25,6 +27,8 @@ Route::prefix('/')->group(function () {
     Route::get('/industry-insights-and-trends', [FrontendController::class, 'industryTrends'])->name('blogs.industry.trends');
     Route::get('/interview-success-tips', [FrontendController::class, 'interviewSuccess'])->name('blogs.interview.success');
     Route::get('/career-guidance-and-skill-development', [FrontendController::class, 'careerGuidance'])->name('blogs.career.guidance');
+
+    Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 
     Route::get('/revitalizing-workplace-morale-2024', [FrontendController::class, 'showRevitalizingWorkplaceMorale'])
         ->name('blogs.panel.revitalizing_workplace_morale');
@@ -94,7 +98,6 @@ Route::prefix('/')->group(function () {
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 
     // Backend routes
-
 
 });
 

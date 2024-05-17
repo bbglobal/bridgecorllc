@@ -1549,7 +1549,7 @@
         }
 
         .uk-section-primary {
-            margin-top: 50px;
+            margin-top: 150px;
             background: #202125;
         }
 
@@ -1819,6 +1819,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position: fixed;
+            z-index: 1000;
+            background: #fff;
+        }
+
+        html, body {
+            overflow: hidden;
         }
 
         h1 {
