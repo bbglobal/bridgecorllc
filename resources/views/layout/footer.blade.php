@@ -73,23 +73,19 @@
                 <div>
 
                     <form class="uk-form uk-panel js-form-newsletter" method="post"
-                        action="/wp-admin/admin-ajax.php?action=kernel&amp;p=theme%2Fnewsletter%2Fsubscribe">
-
-                        <div uk-grid="" class="uk-child-width-1-1">
-
-
-                            <div><input class="uk-input el-input" type="email" name="email"
-                                    placeholder="Email address" required=""></div>
-                            <div><button class="el-button uk-button uk-button-default" type="submit">Subscribe</button>
+                        action="{{ route('newsletter.subscribe') }}">
+                        @csrf
+                        <div uk-grid class="uk-child-width-1-1">
+                            <div>
+                                <input class="uk-input el-input" type="email" name="email" id="email"
+                                    placeholder="Email address" required>
                             </div>
-
-
+                            <div>
+                                <button class="el-button uk-button uk-button-default" type="button"
+                                    id="subscribeBtn">Subscribe</button>
+                            </div>
                         </div>
-
-                        <input type="hidden" name="settings"
-                            value="nYRipH7yxEezyb99m1I9og==.Mi9KQlN2ZVN3OEZWbVNyZFpNRHVYNk1wN3Y4b3B4RDRjV0FSYXhmbXlXRGtiZ3FEaGd4UHpwN0pTdmtKc0E1d21GUUZSbVNoSGVuVDNuYlg0SHJMQ0ZCRkhpUmoyQlJnSDAvd3o2bjlmUjJiemxZWXNURkRMSkFTeGJaL2NhcGwzSSswS2FmTGVLVmE2NlNRWFFCcEVER0NLUXd6VnpTc1JLYlF3M2VoR2ZCdVJBTFBmN2FFNjhsaVBHekI0V2wxa0Vad1RJVmUvTUwxUDVQQWFCTTdvMUVCRWpCQjg5N09QVHZ5dHhDY3Y2amlrZ3NxcC8ydmVpb1NqNExObEIxWllyYzZXbm1HOTFibnVqNENMT25mT0pSQzU1dHZ3NWFBUGtwWWMxVG0wZEk9.YmEyMDEzYjM5ZTdiMzE5OTIwOTVkYzFhMTBhMmMxNGE4Zjc1ZDU4YjQ1ODA4ZDNmZjM4Mjg4MDU5Yjg0Yzk1Mw==">
-                        <div class="message uk-margin uk-hidden"></div>
-
+                        <div class="message uk-margin uk-hidden" id="message"></div>
                     </form>
 
                 </div>
@@ -207,6 +203,45 @@
 </div>
 
 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('.js-form-newsletter');
+        const emailInput = document.getElementById('email');
+        const messageElement = document.getElementById('message');
+        const subscribeBtn = document.getElementById('subscribeBtn');
+
+        subscribeBtn.addEventListener('click', function() {
+            const email = emailInput.value.trim();
+
+            if (!email) {
+                showMessage('error', 'Please enter an email address.');
+                return;
+            }
+
+            axios.post('/subscribe', {
+                    email: email
+                })
+                .then(function(response) {
+                    if (response.data.success) {
+                        showMessage('success', response.data.message);
+                    } else {
+                        showMessage('error', response.data.message);
+                    }
+                })
+                .catch(function(error) {
+                    showMessage('error', 'Failed to subscribe. Please try again later.');
+                });
+        });
+
+        function showMessage(type, message) {
+            messageElement.textContent = message;
+            messageElement.classList.remove('uk-hidden');
+            messageElement.classList.add(type === 'success' ? 'uk-text-success' : 'uk-text-danger');
+        }
+    });
+</script>
+
 
 
 <script>
@@ -293,17 +328,20 @@
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-
         var loader = document.getElementById("preloader");
+        var ukBody = document.querySelector('body');
+        var ukHtml = document.querySelector('html');
 
         function preLoader() {
+            ukBody.style.overflowY = "auto";
+            ukHtml.style.overflowY = "auto";
             loader.style.display = "none";
         }
+
         window.addEventListener("load", () => {
             preLoader();
-        }, );
+        });
     });
-
 </script>
 <script type="text/javascript" src="{{ asset('/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.2') }}"
     id="contact-form-7-js"></script>

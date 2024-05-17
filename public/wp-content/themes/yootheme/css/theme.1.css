@@ -8870,7 +8870,8 @@ ul.uk-nav-sub {
 }
 
 .uk-text-danger {
-    color: #f95860 !important
+    color: #FFF !important;
+    margin-left: 20px;
 }
 
 .uk-text-background {
