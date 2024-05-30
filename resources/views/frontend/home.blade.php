@@ -10,304 +10,311 @@
 
 @push('style')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    
+
     <style>
-        
+        .hero-wrapper {
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, .90) 0%, rgba(0, 0, 0, .90) 100%), url("https://bridgecorllc.com/wp-content/uploads/2024/01/hero-bg.jpg") !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 10rem 3rem 1.5rem 10rem;
+            height: 80dvh;
+            position: relative;
+        }
 
-.hero-wrapper {
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, .90) 0%, rgba(0, 0, 0, .90) 100%), url("https://bridgecorllc.com/wp-content/uploads/2024/01/hero-bg.jpg") !important;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	padding:10rem 3rem 1.5rem 10rem;
-	height: 80dvh;
-	position:relative;
-}
+        .hero-txt-wrapper * {
+            color: #fff;
+            font-weight: bold;
+            margin: 0;
+            text-align: left;
+        }
 
-.hero-txt-wrapper * {
-	color: #fff;
-	font-weight: bold;
-	margin: 0;
-	text-align: left;
-}
+        .hero-txt-wrapper {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 2rem;
+        }
 
-.hero-txt-wrapper {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	gap: 2rem;
-}
+        .hero-txt-wrapper h1 {
+            font-family: "Oswald", Sans-serif;
+            font-weight: 600;
+            font-size: clamp(2rem, -0.8rem + 6.4vw, 3rem);
+        }
 
-.hero-txt-wrapper h1 {
-	font-family: "Oswald", Sans-serif;
-	font-weight: 600;
-	font-size: clamp(2rem, -0.8rem + 6.4vw, 3rem);
-}
+        .hero-txt-wrapper span {
+            color: #32beff;
+        }
 
-.hero-txt-wrapper span {
-	color: #32beff;
-}
+        .divider {
+            width: 100px;
+            height: 3px;
+            background: #32beff;
+        }
 
-.divider {
-	width: 100px;
-	height: 3px;
-	background: #32beff;
-}
+        .form-header-txt * {
+            color: #fff;
+            padding: 0 2rem;
+        }
 
-.form-header-txt * {
-	color: #fff;
-	padding: 0 2rem;
-}
+        .form-header-txt {
+            background-image: url("https://bridgecorllc.com/wp-content/uploads/2024/01/bg.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 100%;
+            position: relative;
+            z-index: 1;
+            padding: 1rem 0;
+            padding-bottom: 3rem;
+        }
 
-.form-header-txt {
-	background-image: url(https://bridgecorllc.com/wp-content/uploads/2024/01/bg.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-width: 100%;
-	position: relative;
-	z-index: 1;
-	padding: 1rem 0;
-	padding-bottom: 3rem;
-}
+        .form-body {
+            background: #181818;
+            padding: 2rem;
+            position: relative;
+            z-index: 0;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            top: -12rem;
+        }
 
-.form-body {
-	background: #181818;
-	padding: 2rem;
-	position: relative;
-	z-index: 0;
-	height: 500px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	top: -12rem;
-}
+        .hero-form-wrpper {
+            margin: auto;
+            width: 476px;
+            height: 726px;
+        }
 
-.hero-form-wrpper {
-	margin: auto;
-	width: 476px;
-	height: 726px;
-}
+        .hero-form-control {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
 
-.hero-form-control {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 1rem;
-}
+        .hero-form-control input {
+            height: 4rem;
+            width: 100%;
+            margin: .5rem 0;
+            background: #e6e6e6;
+        }
 
-.hero-form-control input {
-	height: 3rem;
-	width: 100%;
-	margin: .5rem 0;
-	background: #e6e6e6;
-}
+        .hero-form-control input:focus-visible {
+            border: none;
+        }
 
-.hero-form-control input:focus-visible {
-	border: none;
-}
+        input#first-name {
+            width: 50%;
+        }
 
-input#first-name {
-	width: 50%;
-}
+        input#last-name {
+            width: 50%;
+        }
 
-input#last-name {
-	width: 50%;
-}
+        .btn-form button {
+            background: #111e7e;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            height: 3rem;
+            width: 100%;
+            margin-top: 10px;
+            cursor: pointer;
+        }
 
-.btn-form button {
-	background: #111e7e;
-	color: #fff;
-	font-weight: bold;
-	border: none;
-	height: 3rem;
-	width: 100%;
-	margin-top: 10px;
-	cursor: pointer;
-}
+        .hero-img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            max-width: 100%;
+            z-index: 100;
+        }
 
-.hero-img {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	max-width: 100%;
-	z-index:100;
-}
+        .ceo {
+            position: absolute;
+            right: 21%;
+            bottom: 0;
+            color: #fff;
+            font-size: clamp(1.75rem, -0.7903rem + 3.2258vw, 3rem);
+            font-weight: bold;
+        }
 
-.ceo {
-	position: absolute;
-	right: 21%;
-	bottom: 0;
-	color: #fff;
-	font-size: clamp(1.75rem, -0.7903rem + 3.2258vw, 3rem);
-	font-weight: bold;
-}
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
 
-.swiper {
-	width: 100%;
-	height: 100%;
-}
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-.swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+        .swiper-slide img:first-child {
+            border-radius: 50%;
+        }
 
-.swiper-slide img:first-child{
-	border-radius:50%;
-}
+        .info-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
 
-.info-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
+        .reviews {
+            background-image: url("../../../wp-content/uploads/2024/01/Mask-group-20.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 5rem 0;
+            padding-bottom: 10rem;
+        }
 
-.reviews {
-	background-image: url("../../../wp-content/uploads/2024/01/Mask-group-20.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 5rem 0;
-	padding-bottom: 10rem;
-}
+        .reviews h2 {
+            font-family: "Oswald", Sans-serif;
+            font-weight: 600;
+            text-align: center;
+            font-size: clamp(1.625rem, -0.0156rem + 5.4688vw, 3.375rem);
+        }
 
-.reviews h2 {
-	font-family: "Oswald", Sans-serif;
-	font-weight: 600;
-	text-align: center;
-	font-size: clamp(1.625rem, -0.0156rem + 5.4688vw, 3.375rem);
-}
+        .tes-wrapper {
+            background: #ffffff;
+            box-shadow: -20px 20px 40px #d4d4d4,
+                20px -20px 40px #ffffff;
+            border: 1px solid #333;
+            padding: 1rem;
+            margin: 5rem 0;
+            width: 336px;
+        }
 
-.tes-wrapper {
-	background: #ffffff;
-	box-shadow: -20px 20px 40px #d4d4d4,
-		20px -20px 40px #ffffff;
-	border: 1px solid #333;
-	padding: 1rem;
-	margin: 5rem 0;
-	width: 336px;
-}
+        .tes-body::-webkit-scrollbar-track {
+            background: #ffffff;
+            width: 6px;
+        }
 
-.tes-body::-webkit-scrollbar-track {
-	background: #ffffff;
-	width: 6px;
-}
+        .tes-body::-webkit-scrollbar {
+            background: #ffffff;
+            width: 6px;
+        }
 
-.tes-body::-webkit-scrollbar {
-	background: #ffffff;
-	width: 6px;
-}
-
-.tes-body::-webkit-scrollbar-thumb {
-	background: #111e7e;
-	width: 5px;
-	border-radius: 10px;
-}
+        .tes-body::-webkit-scrollbar-thumb {
+            background: #111e7e;
+            width: 5px;
+            border-radius: 10px;
+        }
 
 
-.tes-head-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
+        .tes-head-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-.tes-body {
-    height: 150px;
-    overflow: auto;
-    margin: 1rem 0;
-}
+        .tes-body {
+            height: 150px;
+            overflow: auto;
+            margin: 1rem 0;
+        }
 
-.tes-body p{
-    line-height: 1.7rem;
-}
+        .tes-body p {
+            line-height: 1.7rem;
+        }
 
-.text-center {
-	text-align: center;
-}
+        .text-center {
+            text-align: center;
+        }
 
-.video-wrapper {
-	background: #e5e5e5;
-	padding: 5rem 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-}
+        .video-wrapper {
+            background: #e5e5e5;
+            padding: 5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
 
-.banner {
-	position: absolute;
-	top: -8rem;
-}
+        .banner {
+            position: absolute;
+            top: -8rem;
+        }
 
-.video-wrapper video {
-	background: #e5e5e5;
-	width: 940px;
-	max-width: 100%;
-	/* height: auto; */
-}
+        .video-wrapper video {
+            background: #e5e5e5;
+            width: 940px;
+            max-width: 100%;
+            /* height: auto; */
+        }
 
-div#message-2 {
-    color: #fff;
-    margin-left: 1rem;
-    font-weight: 600;
-}
+        .alert-success {
+            color: #fff;
+            font-size: 20px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
 
-@media (max-width: 1520px) {
-    .hero-img {
-        width: 250px;
-    }
-    
-    .hero-wrapper {
-        padding: 3rem 1.5rem;
-        height:100dvh;
-    }
-    .form-header-txt {
-        margin-top: 2rem;
-    }
-}
+        div#message-2 {
+            color: #fff;
+            margin-left: 1rem;
+            font-weight: 600;
+        }
 
-@media (max-width:1260px) {
-     .hero-wrapper {
-        height:100%;
-    }
-}
+        @media (max-width: 1520px) {
+            .hero-img {
+                width: 250px;
+            }
 
-@media (max-width: 992.98px) {
-	.hero-wrapper {
-		align-items: center;
-		padding: 3rem 1.5rem;
-		height: 100%;
-	}
+            .hero-wrapper {
+                padding: 3rem 1.5rem;
+                height: 100dvh;
+            }
 
-	.hero-img {
-	    width:150px;
-	}
-	
-	.ceo {
-	   right: 40%;
-	}
+            .form-header-txt {
+                margin-top: 2rem;
+            }
+        }
 
-	.form-header-txt {
-		margin-top: 2rem;
-	}
-	
-	
-    .hero-wrapper {
-        height: 100%;
-    }
-    
-    .rev-img img{
-        width:150px;
-    }
+        @media (max-width:1260px) {
+            .hero-wrapper {
+                height: 100%;
+            }
+        }
 
-}
+        @media (max-width: 992.98px) {
+            .hero-wrapper {
+                align-items: center;
+                padding: 3rem 1.5rem;
+                height: 100%;
+            }
+
+            .hero-img {
+                width: 150px;
+            }
+
+            .ceo {
+                right: 40%;
+            }
+
+            .form-header-txt {
+                margin-top: 2rem;
+            }
+
+
+            .hero-wrapper {
+                height: 100%;
+            }
+
+            .rev-img img {
+                width: 150px;
+            }
+
+        }
     </style>
 @endpush
 
@@ -323,42 +330,43 @@ div#message-2 {
                 <h2>Bridgecor LLC</h2>
                 <div class="divider"></div>
                 <h4>Empowering careers and businesses</h4>
-                <h5>Discover exceptional talent for your company or <br /> land your ideal job with our seamless platform. <br>
+                <h5>Discover exceptional talent for your company or <br /> land your ideal job with our seamless platform.
+                    <br>
                     Join us
-                    and redefine success together!</h5>
+                    and redefine success together!
+                </h5>
 
                 <div class="rev-img">
                     <a href="https://www.facebook.com/Bridgecorllc-115061103954266" target="_blank"><img
-                            src="{{ asset('/wp-content/uploads/2024/01/fb-new2.png') }}" alt="image" style="margin:1rem 0;"></a>
+                            src="{{ asset('/wp-content/uploads/2024/01/fb-new2.png') }}" alt="image"
+                            style="margin:1rem 0;"></a>
                     <a href="#"><img src="{{ asset('/wp-content/uploads/2024/01/google-new2.png') }}"
                             alt="image"></a>
                 </div>
             </div>
-
             <div class="hero-form-wrpper">
-                <form action="">
+                <form method="POST" id="contact-form">
+                    @csrf
                     <div class="form-header-txt">
                         <h3>Ready to take your career or business to new heights?</h3>
                         <p>Let's connect! Reach out to BridgecorLLC today and let us be your bridge to success. We're here
                             to help you thrive in the ever-evolving world of work.</p>
                     </div>
 
+                    <div class="alert-success uk-hidden" id="message-3"></div>
+
                     <div class="form-body">
                         <div class="hero-form-control">
-                            <input type="text" id="first-name" name="fname" placeholder="&nbsp;&nbsp;First Name">
-                            <input type="text" id="last-name" name="lname" placeholder="&nbsp;&nbsp;Last Name">
+                            <input type="text" id="name" name="name" placeholder="&nbsp;&nbsp;Full Name">
                         </div>
                         <div class="hero-form-control">
-                            <input type="email" id="h-email" name="email" placeholder="&nbsp;&nbsp;Email Address">
+                            <input type="email" id="email" name="email" placeholder="&nbsp;&nbsp;Email Address">
                         </div>
                         <div class="hero-form-control">
                             <input type="text" id="phone" name="phone" placeholder="&nbsp;&nbsp;Phone Number">
                         </div>
-                        <div class="hero-form-control">
-                            <input type="text" id="address" name="address" placeholder="&nbsp;&nbsp;Address">
-                        </div>
                         <div class="btn-form">
-                            <button>CONNECT WIHT US</button>
+                            <button type="submit" id="connectBtn">CONNECT WITH US</button>
                         </div>
                     </div>
                 </form>
@@ -370,9 +378,10 @@ div#message-2 {
                 OUR REVIEWS
             </h2>
             <div class="divider text-center" style="margin: auto;"></div>
-            <p class="text-center" style="display:flex; align-items:center; justify-content:center; gap:.5rem;">EXCELLENT <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
-                    max-width="100%"> REVIEWS ON <img src="{{ asset('/wp-content/uploads/2024/01/google-1.webp') }}"
-                    alt="image" width="100px"></p>
+            <p class="text-center" style="display:flex; align-items:center; justify-content:center; gap:.5rem;">EXCELLENT
+                <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image" max-width="100%"> REVIEWS ON
+                <img src="{{ asset('/wp-content/uploads/2024/01/google-1.webp') }}" alt="image" width="100px">
+            </p>
 
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -422,12 +431,17 @@ div#message-2 {
                             </div>
 
                             <div class="tes-body">
-                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show an aptitude for aesthetics and understanding of clients that makes them stand out. Paying close attention to what is being said during consultation sessions and have been spot on capturing the essence of our requests. In other words, not just providing candidate that looks good on paper but capturing the candidate that has been a good fit for our culture and organization. Bridgecor has serviced us well.</p>
+                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show
+                                    an aptitude for aesthetics and understanding of clients that makes them stand out.
+                                    Paying close attention to what is being said during consultation sessions and have been
+                                    spot on capturing the essence of our requests. In other words, not just providing
+                                    candidate that looks good on paper but capturing the candidate that has been a good fit
+                                    for our culture and organization. Bridgecor has serviced us well.</p>
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
 
                     <div class="swiper-slide">
                         <div class="tes-wrapper">
@@ -447,7 +461,13 @@ div#message-2 {
                             </div>
 
                             <div class="tes-body">
-                                <p>Working with Bridgecor LLC has been an absolute game-changer for our business. Their IT staff augmentation services provided us with top-tier talent that seamlessly integrated with our team. The professionalism and expertise demonstrated by their consultants have significantly boosted our project outcomes. Bridgecor LLC's human resource solutions have also streamlined our hiring processes, saving us time and resources. We couldn't be happier with the results and highly recommend their services to any organization looking to enhance their IT capabilities.</p>
+                                <p>Working with Bridgecor LLC has been an absolute game-changer for our business. Their IT
+                                    staff augmentation services provided us with top-tier talent that seamlessly integrated
+                                    with our team. The professionalism and expertise demonstrated by their consultants have
+                                    significantly boosted our project outcomes. Bridgecor LLC's human resource solutions
+                                    have also streamlined our hiring processes, saving us time and resources. We couldn't be
+                                    happier with the results and highly recommend their services to any organization looking
+                                    to enhance their IT capabilities.</p>
                             </div>
                         </div>
                     </div>
@@ -1703,11 +1723,57 @@ div#message-2 {
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
             const form = document.querySelector('.js-form-newsletter');
             const emailInput = document.getElementById('wpforms-4896-field_1');
             const nameInput = document.getElementById('wpforms-4896-field_2');
             const messageElement = document.getElementById('message-2');
+            const connectElement = document.getElementById('message-3');
+            const connectBtn = document.getElementById('connectBtn');
             const subscribeBtn = document.getElementById('wpforms-submit-4896');
+
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const phone = document.getElementById('phone').value.trim();
+
+                if (!email) {
+                    showMessage('error', 'Please enter an email address.');
+                    return;
+                } else if (!name) {
+                    showMessage('error', 'Please enter a Name.');
+                } else if (!phone) {
+                    showMessage('error', 'Please enter a Phone Number.');
+                }
+
+
+                connectBtn.style = "opacity: .5";
+                 connectBtn.disabled = true;
+                connectBtn.textContent = "Sending...";
+
+                axios.post('/contact/submit', {
+                        name: name,
+                        email: email,
+                        phone: phone
+                    })
+                    .then(function(response) {
+                        if (response.data.success) {
+                            messageShow('success', response.data.message);
+
+                            connectBtn.disabled = false;
+                            connectBtn.style = "opacity: 1";
+                            connectBtn.textContent = "CONNECT WITH US";
+                            contactForm.reset();
+                        } else {
+                            messageShow('error', response.data.message);
+                        }
+                    })
+                    .catch(function(error) {
+                        messageShow('error', 'Failed to send. Please try again later.');
+                    });
+            });
 
             subscribeBtn.addEventListener('click', function() {
                 const email = emailInput.value.trim();
@@ -1717,8 +1783,6 @@ div#message-2 {
                     showMessage('error', 'Please enter an email address.');
                     return;
                 }
-
-                // You can add validation for name if needed
 
                 axios.post('/subscribe', {
                         email: email,
@@ -1736,6 +1800,11 @@ div#message-2 {
                     });
             });
 
+            function messageShow(type, message) {
+                connectElement.textContent = message;
+                connectElement.classList.remove('uk-hidden');
+            }
+
             function showMessage(type, message) {
                 messageElement.textContent = message;
                 messageElement.classList.remove('uk-hidden');
@@ -1744,7 +1813,7 @@ div#message-2 {
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <script>
+    <script>
         var swiper = new Swiper(".mySwiper", {
             centeredSlides: true,
             spaceBetween: 30,
@@ -1754,19 +1823,19 @@ div#message-2 {
                 clickable: true,
             },
             breakpoints: {
-        640: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 30,
-        },
-      },
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            },
         });
     </script>
 @endsection
