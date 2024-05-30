@@ -94,6 +94,9 @@ Route::prefix('/')->group(function () {
     Route::get('/cybersecurity-bootcamps-and-training-programs', [FrontendController::class, 'bootcamps'])
         ->name('blogs.bootcamps');
 
+    Route::get('/employee-mental-health', [FrontendController::class, 'mentalHealth'])
+        ->name('blogs.mentalHealth');
+
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 
     // Backend routes

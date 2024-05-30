@@ -8,8 +8,177 @@
     <link rel="canonical" href="https://bridgecorllc.com/">
 @endpush
 
+@push('style')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+@endpush
+
 @section('main-section')
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
+
+        <section class="hero-wrapper">
+            <img src="{{ asset('/wp-content/uploads/2024/01/chacha.png') }}" alt="hero-img" class="hero-img">
+            <h2 class="ceo">Steven Thompson <br /> CEO Bridgecor LLC</h2>
+            <div class="hero-txt-wrapper">
+                <h1> <span>Find Your Dream Candidate</span> <br />
+                    Build Your Dream Team</h1>
+                <h2>Bridgecor LLC</h2>
+                <div class="divider"></div>
+                <h4>Empowering careers and businesses</h4>
+                <h5>Discover exceptional talent for your company or land your ideal job with our seamless platform. <br>
+                    Join us
+                    and redefine success together!</h5>
+
+                <div>
+                    <a href="https://www.facebook.com/Bridgecorllc-115061103954266" target="_blank"><img
+                            src="{{ asset('/wp-content/uploads/2024/01/fb-new2.png') }}" alt="image"></a>
+                    <a href="#"><img src="{{ asset('/wp-content/uploads/2024/01/google-new2.png') }}"
+                            alt="image"></a>
+                </div>
+            </div>
+
+            <div class="hero-form-wrpper">
+                <form action="">
+                    <div class="form-header-txt">
+                        <h3>Ready to take your career or business to new heights?</h3>
+                        <p>Let's connect! Reach out to BridgecorLLC today and let us be your bridge to success. We're here
+                            to help you thrive in the ever-evolving world of work.</p>
+                    </div>
+
+                    <div class="form-body">
+                        <div class="hero-form-control">
+                            <input type="text" id="first-name" name="fname" placeholder="&nbsp;&nbsp;First Name">
+                            <input type="text" id="last-name" name="lname" placeholder="&nbsp;&nbsp;Last Name">
+                        </div>
+                        <div class="hero-form-control">
+                            <input type="email" id="h-email" name="email" placeholder="&nbsp;&nbsp;Email Address">
+                        </div>
+                        <div class="hero-form-control">
+                            <input type="text" id="phone" name="phone" placeholder="&nbsp;&nbsp;Phone Number">
+                        </div>
+                        <div class="hero-form-control">
+                            <input type="text" id="address" name="address" placeholder="&nbsp;&nbsp;Address">
+                        </div>
+                        <div class="btn-form">
+                            <button>CONNECT WIHT US</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2 class="text-center">
+                OUR REVIEWS
+            </h2>
+            <div class="divider text-center" style="margin: auto;"></div>
+            <p class="text-center">EXCELLENT <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                    max-width="100%"> 147 REVIEWS ON <img src="{{ asset('/wp-content/uploads/2024/01/google-1.webp') }}"
+                    alt="image"></p>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial.png') }}" alt="image"
+                                        max-width="100%">
+                                    <div>
+                                        <div class="tes-name">Luis Zaragoza</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>Steven was a delight to work with at Bridgecor LLC. He assisted me in obtaining a new
+                                    employment that more than doubles my salary and provides me with a lot more balanced
+                                    work life. Provided sound advice throughout the application process, which contributed
+                                    to my eventual success. Steven was exceptionally helpful, and I cannot recommend him or
+                                    Bridgecor enough!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial2.jpeg') }}" alt="image"
+                                        width="40px">
+                                    <div>
+                                        <div class="tes-name">Dr James L Moll</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show
+                                    an aptitude for aesthetics and understanding of clients that makes them stand out.
+                                    Paying close attention to what is being said during consultation sessions and have been
+                                    spot on capturing the essence of our requests. In other words, not just providing
+                                    candidate that looks good on paper but capturing the candidate that has been a good fit
+                                    for our culture and organization. Bridgecor has serviced us well.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial3.png') }}" alt="image"
+                                        width="40px">
+                                    <div>
+                                        <div class="tes-name">Charles Raglin</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>Working with Bridgecor LLC has been an absolute game-changer for our business. Their IT
+                                    staff augmentation services provided us with top-tier talent that seamlessly integrated
+                                    with our team. The professionalism and expertise demonstrated by their consultants have
+                                    significantly boosted our project outcomes. Bridgecor LLC's human resource solutions
+                                    have also streamlined our hiring processes, saving us time and resources. We couldn't be
+                                    happier with the results and highly recommend their services to any organization looking
+                                    to enhance their IT capabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <section class="video-wrapper">
+
+            <div class="banner">
+                <img src="{{ asset('/wp-content/uploads/2024/01/banner.png') }}" alt="banner">
+            </div>
+
+            <video controls poster="{{ asset('/wp-content/uploads/2024/01/poster.jpg') }}">
+                <source src="{{ asset('/wp-content/uploads/2024/01/hero.mp4') }}" type="video/mp4">
+            </video>
+        </section>
+
         <div class="uk-container">
 
             <div class="uk-grid" uk-grid="">
@@ -19,7 +188,8 @@
                     <div data-elementor-type="wp-page" data-elementor-id="7048" class="elementor elementor-7048"
                         data-elementor-settings="{&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}"
                         data-elementor-post-type="page">
-                        <section
+
+                        {{-- <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-71de28c elementor-section-full_width elementor-section-height-min-height elementor-section-stretched elementor-section-height-default elementor-section-items-middle"
                             style="height: 100%;" data-id="71de28c" data-element_type="section"
                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
@@ -43,7 +213,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> --}}
+
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-2766d93 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
                             data-id="2766d93" data-element_type="section" id="home-2"
@@ -171,6 +342,7 @@
                                 </div>
                             </div>
                         </section>
+
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-a13cd5a elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
                             data-id="a13cd5a" data-element_type="section"
@@ -590,6 +762,7 @@
                                 </div>
                             </div>
                         </section>
+
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-14fcf9a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="14fcf9a" data-element_type="section" id="home-5"
@@ -1087,6 +1260,7 @@
                                 </div>
                             </div>
                         </section>
+
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-8a9b005 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="8a9b005" data-element_type="section"
@@ -1100,6 +1274,7 @@
                                 </div>
                             </div>
                         </section>
+
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-3f29392 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="3f29392" data-element_type="section"
@@ -1113,6 +1288,7 @@
                                 </div>
                             </div>
                         </section>
+
                         <section
                             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-9a04c71 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="9a04c71" data-element_type="section" id="home-8"
@@ -1222,207 +1398,6 @@
                                                 </div>
                                             </div>
                                         </section>
-                                        <div class="elementor-element elementor-element-bf8a89b ob-has-background-overlay elementor-widget elementor-widget-image"
-                                            data-id="bf8a89b" data-element_type="widget"
-                                            data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <a href="{{ url('#home-eight') }}">
-                                                    <img decoding="async" width="55" height="29"
-                                                        src="{{ asset('/wp-content/uploads/2024/01/big-arrow-down.svg') }}"
-                                                        class="attachment-large size-large wp-image-7248" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-a72f7a5 elementor-testimonial--layout-image_above elementor-testimonial--skin-default elementor-testimonial--align-center elementor-arrows-yes elementor-pagination-type-bullets ob-has-background-overlay elementor-widget elementor-widget-testimonial-carousel"
-                                            data-id="a72f7a5" data-element_type="widget"
-                                            data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                            data-widget_type="testimonial-carousel.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-swiper">
-                                                    <div class="elementor-main-swiper swiper">
-                                                        <div class="swiper-wrapper">
-                                                            <div class="swiper-slide">
-                                                                <div class="elementor-testimonial">
-                                                                    <div class="elementor-testimonial__content">
-                                                                        <div class="elementor-testimonial__text">
-                                                                            I have worked with the recruiters at
-                                                                            Bridgecor for some time and they
-                                                                            continuously show an aptitude for
-                                                                            aesthetics and understanding of clients
-                                                                            that makes them stand out. Paying close
-                                                                            attention to what is being said during
-                                                                            consultation sessions and have been spot
-                                                                            on capturing the essence of our
-                                                                            requests. In other words, not just
-                                                                            providing candidate that looks good on
-                                                                            paper but capturing the candidate that
-                                                                            has been a good fit for our culture and
-                                                                            organization. Bridgecor has serviced us
-                                                                            well. </div>
-                                                                        <cite class="elementor-testimonial__cite"><span
-                                                                                class="elementor-testimonial__name">Dr
-                                                                                James L Moll</span></cite>
-                                                                    </div>
-                                                                    <div class="elementor-testimonial__footer">
-                                                                        <div class="elementor-testimonial__image">
-                                                                            <img decoding="async"
-                                                                                src="{{ asset('/wp-content/uploads/2024/02/WhatsApp-Image-2022-09-01-at-17.02.55-b2d8a2b37cc1d51235870bc6774f454d.jpeg') }}"
-                                                                                alt="Dr James L Moll">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="swiper-slide">
-                                                                <div class="elementor-testimonial">
-                                                                    <div class="elementor-testimonial__content">
-                                                                        <div class="elementor-testimonial__text">
-                                                                            Steven Thompson is an impeccable
-                                                                            recruiting professional with an uncanny
-                                                                            knack for recruiting top talent. Mr.
-                                                                            Thompson has been a great resource and
-                                                                            mentor for me in the field of recruiting
-                                                                            over the past several years. His
-                                                                            professional advice and guidance have
-                                                                            taken my recruiting and talent
-                                                                            management skills to a much higher
-                                                                            level. I appreciate Mr. Thompson’s
-                                                                            drive, tenacity, and patience to get the
-                                                                            job done the right way. Any client
-                                                                            utilizing Steven ‘s services will
-                                                                            receive extremely high-quality work from
-                                                                            an experienced, accomplished, and tested
-                                                                            professional in the recruiting industry.
-                                                                        </div>
-                                                                        <cite class="elementor-testimonial__cite"><span
-                                                                                class="elementor-testimonial__name">Charlene
-                                                                                Holder</span></cite>
-                                                                    </div>
-                                                                    <div class="elementor-testimonial__footer">
-                                                                        <div class="elementor-testimonial__image">
-                                                                            <img decoding="async"
-                                                                                src="{{ asset('/wp-content/uploads/2024/02/WhatsApp-Image-2022-09-01-at-16.59.17-ddea2569d85e0a6b7d31ff80cbe90f82-1.jpeg') }}"
-                                                                                alt="Charlene Holder">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="swiper-slide">
-                                                                <div class="elementor-testimonial">
-                                                                    <div class="elementor-testimonial__content">
-                                                                        <div class="elementor-testimonial__text">
-                                                                            In today’s job market it has been hard
-                                                                            to find qualified candidate with solid
-                                                                            skill sets. After many months working
-                                                                            with several staffing organizations
-                                                                            Bridgecor and I stumbled across each
-                                                                            other. Steven was able to recommend
-                                                                            several candidate that met our
-                                                                            expectations and ultimately place a
-                                                                            qualified member to the team. Thanks
-                                                                            Steven, I’ll be back! </div>
-                                                                        <cite class="elementor-testimonial__cite"><span
-                                                                                class="elementor-testimonial__name">Donald
-                                                                                B. Kesner</span></cite>
-                                                                    </div>
-                                                                    <div class="elementor-testimonial__footer">
-                                                                        <div class="elementor-testimonial__image">
-                                                                            <img decoding="async"
-                                                                                src="{{ asset('/wp-content/uploads/2024/02/WhatsApp-Image-2022-08-29-at-12.11.07-47e1c6ac4fbdca21e0483bf480b3cd74.jpeg') }}"
-                                                                                alt="Donald B. Kesner">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="swiper-slide">
-                                                                <div class="elementor-testimonial">
-                                                                    <div class="elementor-testimonial__content">
-                                                                        <div class="elementor-testimonial__text">
-                                                                            I have been working with Bridgecor for
-                                                                            some time now, they have been able to
-                                                                            provide us with great quality
-                                                                            candidate. Some of the roles were
-                                                                            software/hardware engineers, product
-                                                                            managers etc…. Our relationship has
-                                                                            grown over the years they have been able
-                                                                            to do a great job for us. </div>
-                                                                        <cite class="elementor-testimonial__cite"><span
-                                                                                class="elementor-testimonial__name">Eugene
-                                                                                Hunter</span></cite>
-                                                                    </div>
-                                                                    <div class="elementor-testimonial__footer">
-                                                                        <div class="elementor-testimonial__image">
-                                                                            <img decoding="async"
-                                                                                src="{{ asset('/wp-content/uploads/2024/02/WhatsApp-Image-2022-09-01-at-17.02.22-af9fab837338c8cfae64f966f15b8cb0.jpeg') }}"
-                                                                                alt="Eugene Hunter">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="swiper-slide">
-                                                                <div class="elementor-testimonial">
-                                                                    <div class="elementor-testimonial__content">
-                                                                        <div class="elementor-testimonial__text">
-                                                                            I have been working with Steven Thompson
-                                                                            for some years now and as the doors of
-                                                                            Bridgecor has opened there has not been
-                                                                            a lack of quality of service that I have
-                                                                            received. From HR consulting to
-                                                                            consistent talent. The engineers that he
-                                                                            has found for me have made and still
-                                                                            making a dynamic impact for our company,
-                                                                            his customer service and attention to
-                                                                            details as it relates to our culture,
-                                                                            patience and understanding what is
-                                                                            needed has been great! </div>
-                                                                        <cite class="elementor-testimonial__cite"><span
-                                                                                class="elementor-testimonial__name">Charles
-                                                                                Raglin</span></cite>
-                                                                    </div>
-                                                                    <div class="elementor-testimonial__footer">
-                                                                        <div class="elementor-testimonial__image">
-                                                                            <img decoding="async"
-                                                                                src="{{ asset('/wp-content/uploads/2024/02/WhatsApp-Image-Square-0ac396959696b05ca572e4b8cf21c3ba.jpeg') }}"
-                                                                                alt="Charles Raglin">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-pagination"></div>
-                                                        <div class="elementor-swiper-button elementor-swiper-button-prev"
-                                                            role="button" tabindex="0">
-                                                            <i aria-hidden="true" class="eicon-chevron-left"></i>
-                                                            <span class="elementor-screen-only">Previous</span>
-                                                        </div>
-                                                        <div class="elementor-swiper-button elementor-swiper-button-next"
-                                                            role="button" tabindex="0">
-                                                            <i aria-hidden="true" class="eicon-chevron-right"></i>
-                                                            <span class="elementor-screen-only">Next</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <section
-                                            class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-a28134e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                            data-id="a28134e" data-element_type="section"
-                                            data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2562859"
-                                                    data-id="2562859" data-element_type="column"
-                                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                                    <div class="elementor-widget-wrap">
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-77705f1"
-                                                    data-id="77705f1" data-element_type="column"
-                                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                                    <div class="elementor-widget-wrap">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -1475,6 +1450,25 @@
                 messageElement.textContent = message;
                 messageElement.classList.remove('uk-hidden');
             }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
         });
     </script>
 @endsection
