@@ -1911,6 +1911,7 @@
 
                                                 <li class=" menu-item menu-item-type-post_type menu-item-object-page">
                                                     <a href="{{ route('hr') }}">HR Consulting</a>
+
                                                 </li>
                                             </ul>
                                         </li>
@@ -2044,6 +2045,7 @@
                                     </li>
                                     <li class="uk-parent"><a href="{{ route('employers') }}"
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Employer Services</a>
+
                                         <div class="uk-navbar-dropdown">
                                             <div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
                                                 <div>
@@ -2051,6 +2053,7 @@
 
                                                         <li><a href="{{ route('hr') }}"
                                                                 class=" menu-item menu-item-type-post_type menu-item-object-page">HR Consulting</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
