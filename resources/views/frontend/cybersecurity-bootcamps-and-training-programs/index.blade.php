@@ -5,7 +5,7 @@
 @endpush
 
 @push('canonical')
-    <link rel="canonical" href="https://bridgecorllc.com/cybersecurity-skills-gap">
+    <link rel="canonical" href="https://bridgecorllc.com/cybersecurity-bootcamps-and-training-programs">
 @endpush
 
 @push('style')

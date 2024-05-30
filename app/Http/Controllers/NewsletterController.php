@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Mail\ContactMail;
 use App\Services\MailchimpService;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class NewsletterController extends Controller
 {
@@ -15,7 +17,6 @@ class NewsletterController extends Controller
 
         $email = $request->input('email');
 
-        // Subscribe user to Mailchimp list
         $response = $mailchimp->subscribe($email);
 
         if ($response === 200) {
@@ -27,5 +28,26 @@ class NewsletterController extends Controller
         } else {
             return response()->json(['success' => false, 'message' => 'Failed to subscribe. Please try again later.'], 500);
         }
+    }
+
+    public function submit(Request $request) {
+        
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+        ]);
+
+        // dd($request->all());
+
+        $data = [
+            'name' => $request->input('name'),
+            'email' => $request->input('email'),
+            'phone' => $request->input('phone'),
+        ];
+
+        Mail::to('david.brandboosters@gmail.com')->send(new ContactMail($data));
+
+        return response()->json(['success' => true, 'message' => 'Thank you for your message. We will get back to you soon!']);
     }
 }

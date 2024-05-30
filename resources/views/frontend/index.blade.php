@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>IT Staffing Companies | IT Engineering Services - Bridgecor LLC</title>
@@ -8,81 +8,245 @@
     <link rel="canonical" href="https://bridgecorllc.com/">
 @endpush
 
+@push('style')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <style>
+        div#message-2 {
+            color: #fff;
+            margin-left: 1rem;
+            font-weight: 600;
+        }
+    </style>
+@endpush
+
 @section('main-section')
+    <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
 
-<div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
+        {{-- <section class="hero-wrapper">
+            <img src="{{ asset('/wp-content/uploads/2024/01/chacha.png') }}" alt="hero-img" class="hero-img">
+            <h2 class="ceo">Steven Thompson <br /> CEO Bridgecor LLC</h2>
+            <div class="hero-txt-wrapper">
+                <h1> <span>Find Your Dream Candidate</span> <br />
+                    Build Your Dream Team</h1>
+                <h2>Bridgecor LLC</h2>
+                <div class="divider"></div>
+                <h4>Empowering careers and businesses</h4>
+                <h5>Discover exceptional talent for your company or land your ideal job with our seamless platform. <br>
+                    Join us
+                    and redefine success together!</h5>
 
-    <div class="uk-container">
+                <div>
+                    <a href="https://www.facebook.com/Bridgecorllc-115061103954266" target="_blank"><img
+                            src="{{ asset('/wp-content/uploads/2024/01/fb-new2.png') }}" alt="image"></a>
+                    <a href="#"><img src="{{ asset('/wp-content/uploads/2024/01/google-new2.png') }}"
+                            alt="image"></a>
+                </div>
+            </div>
 
-        <div class="uk-grid" uk-grid="">
-            <div class="uk-width-expand@m">
+            <div class="hero-form-wrpper">
+                <form action="">
+                    <div class="form-header-txt">
+                        <h3>Ready to take your career or business to new heights?</h3>
+                        <p>Let's connect! Reach out to BridgecorLLC today and let us be your bridge to success. We're here
+                            to help you thrive in the ever-evolving world of work.</p>
+                    </div>
 
-
-                <div data-elementor-type="wp-page" data-elementor-id="7048" class="elementor elementor-7048"
-                    data-elementor-settings="{&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}"
-                    data-elementor-post-type="page">
-
-                    <section>
-                        <div class="hero-txt-warpper">
-
+                    <div class="form-body">
+                        <div class="hero-form-control">
+                            <input type="text" id="first-name" name="fname" placeholder="&nbsp;&nbsp;First Name">
+                            <input type="text" id="last-name" name="lname" placeholder="&nbsp;&nbsp;Last Name">
                         </div>
-                    </section>
+                        <div class="hero-form-control">
+                            <input type="email" id="h-email" name="email" placeholder="&nbsp;&nbsp;Email Address">
+                        </div>
+                        <div class="hero-form-control">
+                            <input type="text" id="phone" name="phone" placeholder="&nbsp;&nbsp;Phone Number">
+                        </div>
+                        <div class="hero-form-control">
+                            <input type="text" id="address" name="address" placeholder="&nbsp;&nbsp;Address">
+                        </div>
+                        <div class="btn-form">
+                            <button>CONNECT WIHT US</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-71de28c elementor-section-full_width elementor-section-height-min-height elementor-section-stretched elementor-section-height-default elementor-section-items-middle"
-                        style="height: 100%;" data-id="71de28c" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4684f4a"
-                                data-id="4684f4a" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-3f27b48 elementor-widget__width-inherit ob-has-background-overlay elementor-widget elementor-widget-video"
-                                        data-id="3f27b48" data-element_type="widget"
-                                        data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                        data-widget_type="video.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="e-hosted-video elementor-wrapper elementor-open-inline">
-                                                <video class="elementor-video"
-                                                    src="wp-content/uploads/2024/01/a16edf24-3fb8-4f11-af76-d5b92ef6cf212.mp4"
-                                                    autoplay loop muted controlslist="nodownload"></video>
+        <section class="reviews">
+            <h2 class="text-center">
+                OUR REVIEWS
+            </h2>
+            <div class="divider text-center" style="margin: auto;"></div>
+            <p class="text-center">EXCELLENT <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                    max-width="100%"> 147 REVIEWS ON <img src="{{ asset('/wp-content/uploads/2024/01/google-1.webp') }}"
+                    alt="image"></p>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial.png') }}" alt="image"
+                                        max-width="100%">
+                                    <div>
+                                        <div class="tes-name">Luis Zaragoza</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>Steven was a delight to work with at Bridgecor LLC. He assisted me in obtaining a new
+                                    employment that more than doubles my salary and provides me with a lot more balanced
+                                    work life. Provided sound advice throughout the application process, which contributed
+                                    to my eventual success. Steven was exceptionally helpful, and I cannot recommend him or
+                                    Bridgecor enough!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial2.jpeg') }}" alt="image"
+                                        width="40px">
+                                    <div>
+                                        <div class="tes-name">Dr James L Moll</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show an aptitude for aesthetics and understanding of clients that makes them stand out. Paying close attention to what is being said during consultation sessions and have been spot on capturing the essence of our requests. In other words, not just providing candidate that looks good on paper but capturing the candidate that has been a good fit for our culture and organization. Bridgecor has serviced us well.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial3.png') }}" alt="image"
+                                        width="40px">
+                                    <div>
+                                        <div class="tes-name">Charles Raglin - President & CEO - Steira Travels</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show an aptitude for aesthetics and understanding of clients that makes them stand out. Paying close attention to what is being said during consultation sessions and have been spot on capturing the essence of our requests. In other words, not just providing candidate that looks good on paper but capturing the candidate that has been a good fit for our culture and organization. Bridgecor has serviced us well.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <section class="video-wrapper">
+
+            <div class="banner">
+                <img src="{{ asset('/wp-content/uploads/2024/01/banner.png') }}" alt="banner">
+            </div>
+
+            <video controls poster="{{ asset('/wp-content/uploads/2024/01/poster.jpg') }}">
+                <source src="{{ asset('/wp-content/uploads/2024/01/hero.mp4') }}" type="video/mp4">
+            </video>
+        </section> --}}
+
+        <div class="uk-container">
+
+            <div class="uk-grid" uk-grid="">
+                <div class="uk-width-expand@m">
+
+
+                    <div data-elementor-type="wp-page" data-elementor-id="7048" class="elementor elementor-7048"
+                        data-elementor-settings="{&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}"
+                        data-elementor-post-type="page">
+
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-71de28c elementor-section-full_width elementor-section-height-min-height elementor-section-stretched elementor-section-height-default elementor-section-items-middle"
+                            style="height: 100%;" data-id="71de28c" data-element_type="section"
+                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4684f4a"
+                                    data-id="4684f4a" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-3f27b48 elementor-widget__width-inherit ob-has-background-overlay elementor-widget elementor-widget-video"
+                                            data-id="3f27b48" data-element_type="widget"
+                                            data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="video.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                                                    <video class="elementor-video"
+                                                        src="wp-content/uploads/2024/01/hero.mp4"
+                                                        autoplay loop muted controlslist="nodownload"></video>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
 
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-2766d93 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
-                        data-id="2766d93" data-element_type="section" id="home-2"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-04f7bb0"
-                                data-id="04f7bb0" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section
-                                        class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-130c402 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="130c402" data-element_type="section"
-                                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-efce674"
-                                                data-id="efce674" data-element_type="column"
-                                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-a355941 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
-                                                        data-id="a355941" data-element_type="widget"
-                                                        data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:1000,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p>Our intuitive platform employs advanced algorithms to
-                                                                swiftly pair employers with their ideal candidates and
-                                                                vice versa, ensuring seamless integration and
-                                                                productivity from day one.
-                                                            </p>
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-2766d93 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+                            data-id="2766d93" data-element_type="section" id="home-2"
+                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                            <div class="elementor-background-overlay"></div>
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-04f7bb0"
+                                    data-id="04f7bb0" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <section
+                                            class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-130c402 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                            data-id="130c402" data-element_type="section"
+                                            data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-efce674"
+                                                    data-id="efce674" data-element_type="column"
+                                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-a355941 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
+                                                            data-id="a355941" data-element_type="widget"
+                                                            data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:1000,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                            data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <p>At Bridgecor LLC, we understand that the heart of
+                                                                    every successful organization lies in its
+                                                                    people. As your dedicated talent acquisition
+                                                                    firm, we are committed to being your exclusive
+                                                                    partner in discovering highly qualified,
+                                                                    dependable, and diverse talent. Our mission is
+                                                                    simple: to provide you with recruitment
+                                                                    solutions that not only meet but exceed your
+                                                                    expectations, ensuring 100% customer
+                                                                    satisfaction.</p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -173,38 +337,40 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
 
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-a13cd5a elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
-                        data-id="a13cd5a" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba69682"
-                                data-id="ba69682" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section
-                                        class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-856d3f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="856d3f3" data-element_type="section" id="we-telent-"
-                                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-89c7eb8"
-                                                data-id="89c7eb8" data-element_type="column"
-                                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-65d7801 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
-                                                        data-id="65d7801" data-element_type="widget"
-                                                        data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:3000,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p>From crafting standout resumes to acing interviews, our
-                                                                dedicated team of advisors is committed to providing
-                                                                personalized guidance and assistance, empowering you to
-                                                                navigate the job market with confidence and clarity.
-                                                            </p>
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-a13cd5a elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+                            data-id="a13cd5a" data-element_type="section"
+                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                            <div class="elementor-background-overlay"></div>
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba69682"
+                                    data-id="ba69682" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <section
+                                            class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-856d3f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                            data-id="856d3f3" data-element_type="section" id="we-telent-"
+                                            data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-89c7eb8"
+                                                    data-id="89c7eb8" data-element_type="column"
+                                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-65d7801 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
+                                                            data-id="65d7801" data-element_type="widget"
+                                                            data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:3000,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                            data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <p>Bridgecor is your one-stop solution for all your
+                                                                    staffing needs, spanning various industries.
+                                                                    From IT and cybersecurity to design, web
+                                                                    development, database administration, and
+                                                                    software engineering, we have a vast pool of
+                                                                    skilled professionals ready to contribute to
+                                                                    your success.</p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -576,27 +742,29 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
 
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-14fcf9a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="14fcf9a" data-element_type="section" id="home-5"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4734803"
-                                data-id="4734803" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-2eb1bb9 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
-                                        data-id="2eb1bb9" data-element_type="widget"
-                                        data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p><strong> Our goal is to be your exclusive talent acquisition firm
-                                                    by discovering highly-qualified, dependable and diverse
-                                                    talent quickly.   </strong></p>
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-14fcf9a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="14fcf9a" data-element_type="section" id="home-5"
+                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                            <div class="elementor-background-overlay"></div>
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4734803"
+                                    data-id="4734803" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-2eb1bb9 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
+                                            data-id="2eb1bb9" data-element_type="widget"
+                                            data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p><strong> Our goal is to be your exclusive talent acquisition firm
+                                                        by discovering highly-qualified, dependable and diverse
+                                                        talent quickly, and with 100% customer
+                                                        satisfaction.  </strong></p>
+                                            </div>
+
                                         </div>
                                     </div>
                                     <section
@@ -1094,60 +1262,64 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-8a9b005 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="8a9b005" data-element_type="section"
-                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-924d42f"
-                                data-id="924d42f" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap">
+                        </section>
+
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-8a9b005 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="8a9b005" data-element_type="section"
+                            data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-924d42f"
+                                    data-id="924d42f" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-3f29392 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="3f29392" data-element_type="section"
-                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3c2f3fe"
-                                data-id="3c2f3fe" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap">
+                        </section>
+
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-3f29392 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="3f29392" data-element_type="section"
+                            data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3c2f3fe"
+                                    data-id="3c2f3fe" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                    <section
-                        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-9a04c71 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="9a04c71" data-element_type="section" id="home-8"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bbba458"
-                                data-id="bbba458" data-element_type="column"
-                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section
-                                        class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-a6da194 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="a6da194" data-element_type="section" id="home-seven"
-                                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7a1bb8f"
-                                                data-id="7a1bb8f" data-element_type="column"
-                                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-ef51ab2 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading"
-                                                        data-id="ef51ab2" data-element_type="widget"
-                                                        data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">
-                                                                NEWSLETTER</h2>
+                        </section>
+
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-9a04c71 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="9a04c71" data-element_type="section" id="home-8"
+                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                            <div class="elementor-background-overlay"></div>
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bbba458"
+                                    data-id="bbba458" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <section
+                                            class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-a6da194 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                            data-id="a6da194" data-element_type="section" id="home-seven"
+                                            data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;_ha_eqh_enable&quot;:false}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7a1bb8f"
+                                                    data-id="7a1bb8f" data-element_type="column"
+                                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-ef51ab2 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading"
+                                                            data-id="ef51ab2" data-element_type="widget"
+                                                            data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                            data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h2 class="elementor-heading-title elementor-size-default">
+                                                                    NEWSLETTER</h2>
+                                                            </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1224,6 +1396,19 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+                                        </section>
+                                        
+                                        <div class="elementor-element elementor-element-bf8a89b ob-has-background-overlay elementor-widget elementor-widget-image"
+                                            data-id="bf8a89b" data-element_type="widget"
+                                            data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <a href="{{ url('#home-eight') }}">
+                                                    <img decoding="async" width="55" height="29"
+                                                        src="{{ asset('/wp-content/uploads/2024/01/big-arrow-down.svg') }}"
+                                                        class="attachment-large size-large wp-image-7248" alt="">
+                                                </a>
                                             </div>
                                         </div>
                                     </section>
@@ -1475,11 +1660,21 @@
                     showMessage('error', 'Failed to subscribe. Please try again later.');
                 });
         });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-        function showMessage(type, message) {
-            messageElement.textContent = message;
-            messageElement.classList.remove('uk-hidden');
-        }
-    });
-</script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 @endsection
+

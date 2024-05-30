@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024</title>
@@ -6,7 +6,7 @@
 
 @push('canonical')
     <link rel="canonical"
-        href="https://bridgecorllc.com/Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024">
+        href="https://bridgecorllc.com/recruitment-marketing-strategies-improve-your-hiring-process-and-attract-talent-in-2024">
 @endpush
 
 @push('style')
@@ -33,7 +33,7 @@
 
                         <div class="uk-margin-large-bottom" property="image" typeof="ImageObject">
                             <img fetchpriority="high" width="100%" height="563"
-                                src="..\wp-content\uploads\2024\02\Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.png"
+                                src="..\wp-content\uploads\2024\02\recruitment-marketing-strategies-improve-your-hiring-process-and-attract-talent-in-2024.png"
                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                 property="url" decoding="async">
                         </div>

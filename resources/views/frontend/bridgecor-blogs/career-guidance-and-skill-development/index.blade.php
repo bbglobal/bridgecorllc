@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>Interview Success Tips - Bridgecor LLC</title>
@@ -376,6 +376,7 @@
                                                                         </div>
 
                                                                     </div>
+
                                                                     <div class="premium-blog-content-wrapper ">
 
                                                                         <div class="premium-blog-inner-container">
@@ -441,6 +442,92 @@
                                                                                 uncharted …</p>
                                                                         </div>
 
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                            <div class="premium-blog-post-outer-container" data-total="4">
+                                                                <div
+                                                                    class="premium-blog-post-container premium-blog-skin-classic">
+                                                                    <div class="premium-blog-thumb-effect-wrapper">
+                                                                        <div
+                                                                            class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                            <img loading="lazy" decoding="async"
+                                                                                width="1000" height="563"
+                                                                                src="..\wp-content\uploads\2024\02\banners_may-02-transformed.jpg"
+                                                                                class="attachment-full size-full wp-image-XXXXX"
+                                                                                alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                                sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                            <svg class="premium-blog-shape-divider-svg"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                viewbox="0 0 700 10"
+                                                                                preserveaspectratio="none">
+                                                                                <path d="M350,10L340,0h20L350,10z"></path>
+                                                                            </svg>
+                                                                        </div>
+                                                                        <div class="premium-blog-thumbnail-overlay">
+                                                                            <a class="elementor-icon"
+                                                                                href="{{ route('blogs.navigating') }}"
+                                                                                target="_blank" aria-hidden="true">
+                                                                                <span></span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="premium-blog-content-wrapper">
+                                                                        <div class="premium-blog-inner-container">
+                                                                            <h2 class="premium-blog-entry-title">
+                                                                                <a href="{{ route('blogs.navigating') }}"
+                                                                                    target="_blank">
+                                                                                    Navigating Cybersecurity Challenges: IT
+                                                                                    Engineering Solutions by Bridgecor LLC
+                                                                                </a>
+                                                                            </h2>
+                                                                            <div class="premium-blog-entry-meta">
+                                                                                <div
+                                                                                    class="premium-blog-post-author premium-blog-meta-data">
+                                                                                    <i class="fa fa-user fa-fw"
+                                                                                        aria-hidden="true"></i>
+                                                                                    <a href="{{ route('home') }}"
+                                                                                        title="Posts by [Author Name]"
+                                                                                        rel="author">Steven
+                                                                                </div>
+                                                                                <span
+                                                                                    class="premium-blog-meta-separator">•</span>
+                                                                                <div
+                                                                                    class="premium-blog-post-time premium-blog-meta-data">
+                                                                                    <i class="fa fa-calendar-alt"
+                                                                                        aria-hidden="true"></i>
+                                                                                    <span>May 7, 2024</span>
+                                                                                </div>
+
+                                                                                <span
+                                                                                    class="premium-blog-meta-separator">•</span>
+                                                                                <div
+                                                                                    class="premium-blog-post-categories premium-blog-meta-data">
+                                                                                    <i class="fa fa-align-left fa-fw"
+                                                                                        aria-hidden="true"></i>
+
+                                                                                </div>
+                                                                                <span
+                                                                                    class="premium-blog-meta-separator">•</span>
+                                                                                <div
+                                                                                    class="premium-blog-post-comments premium-blog-meta-data">
+                                                                                    <i class="fa fa-comments-o fa-fw"
+                                                                                        aria-hidden="true"></i>
+                                                                                    <a
+                                                                                        href="{{ route('blogs.navigating') }}#respond">No
+                                                                                        Comments</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="premium-blob-content-inner-wrapper">
+                                                                            <p class="premium-blog-post-content">In the
+                                                                                digital age, cybersecurity has become a
+                                                                                paramount concern for organizations across
+                                                                                industries.</p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>

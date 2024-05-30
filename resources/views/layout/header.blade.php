@@ -1508,7 +1508,7 @@
     <style type="text/css" id="wp-custom-css">
         .uk-margin.uk-text-left\@m.uk-text-center.uk-text-meta p {
             margin-top: -15px !important;
-            /* text-align: right; */
+            /* text-align: right; */    
         }
 
         .elementor-7257 .elementor-element.elementor-element-f53291b {
@@ -1790,6 +1790,7 @@
             background: #0E92DF !important;
             padding: 12px 20px;
             border-radius: 35px;
+            cursor: pointer;
         }
 
         input#wpforms-4896-field_2 {
@@ -1905,11 +1906,12 @@
 
                                         <li
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent">
-                                            <a href="{{ route('employers') }}">Employers</a>
+                                            <a href="{{ route('employers') }}">Employer Services</a>
                                             <ul class="uk-nav-sub">
 
                                                 <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                    <a href="{{ route('hr') }}">HR</a>
+                                                    <a href="{{ route('hr') }}">HR Consulting</a>
+
                                                 </li>
                                             </ul>
                                         </li>
@@ -2042,14 +2044,16 @@
                                     <li>
                                     </li>
                                     <li class="uk-parent"><a href="{{ route('employers') }}"
-                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Employers</a>
+                                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Employer Services</a>
+
                                         <div class="uk-navbar-dropdown">
                                             <div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
                                                 <div>
                                                     <ul class="uk-nav uk-navbar-dropdown-nav">
 
                                                         <li><a href="{{ route('hr') }}"
-                                                                class=" menu-item menu-item-type-post_type menu-item-object-page">HR</a></li>
+                                                                class=" menu-item menu-item-type-post_type menu-item-object-page">HR Consulting</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>

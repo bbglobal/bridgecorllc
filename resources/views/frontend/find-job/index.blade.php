@@ -9,7 +9,14 @@
 @push('style')
     <link rel='stylesheet' id='elementor-post-7564-css' href='../wp-content/uploads/elementor/css/post-7564.css?ver=1710760360'
         type='text/css' media='all'>
+        
+        <style>
+            .uk-section-primary {
+                margin-top: 112px !important;
+            }
+        </style>
 @endpush
+
 
 @section('main-section')
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
@@ -125,7 +132,7 @@
                                                             <ul></ul>
                                                         </div>
                                                         <form id="contact-form" class="wpforms-validate wpforms-form"
-                                                            method="post" action="{{ route('admin.jobreq') }}">
+                                                            method="post" action="">
                                                             @csrf
                                                             <noscript class="wpforms-error-noscript">
                                                                 Please enable JavaScript in your browser to complete this

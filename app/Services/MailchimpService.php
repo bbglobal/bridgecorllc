@@ -1,7 +1,5 @@
 <?php
 
-// app/Services/MailchimpService.php
-
 namespace App\Services;
 
 use GuzzleHttp\Client;
@@ -17,7 +15,7 @@ class MailchimpService
     {
         $this->client = new Client([
             'base_uri' => 'https://us18.api.mailchimp.com/3.0/',
-            'auth' => ['apikey', 'xxxxxxxxxxxxxxx']
+            'auth' => ['apikey', 'xxxxxxxx-xxxxx']
         ]);
 
         $this->listId = 'xxxxxxxxx';

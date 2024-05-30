@@ -206,7 +206,7 @@
                 </div>
                 <div class="oakslider__controls">
                     <div class="oakslider__arrow oakslider__arrow--left oakslider__prev">
-                        << /div>
+                        <</div>
                             <div class="oakslider__arrow oakslider__arrow--right oakslider__next">></div>
                     </div>
                 </div>

@@ -5,17 +5,41 @@
 @endpush
 
 @push('canonical')
-    <link rel="canonical" href="https://bridgecorllc.com/employers">
+    <link rel="canonical" href="https://bridgecorllc.com/hr">
 @endpush
 
 @push('style')
-    <link rel='stylesheet' id='elementor-post-72578-css'
+    <link rel='stylesheet' id='elementor-post-7258-css'
         href='/wp-content/uploads/elementor/css/post-7258.css?ver=1710760169' type='text/css' media='all'>
 
     <style>
         p {
             color: #fff;
         }
+        .uk-section-primary {
+             margin-top: 0 !important; 
+        }
+    
+        section.elementor-section {
+            display: flex ;
+            align-items: center ;
+            justify-content: center ;
+            height: 100vh ;
+        }
+        section#employer-btm {
+            height: inherit;
+        }
+        .elementor-widget-image a img[src$=".svg"] {
+            display: none;
+        }
+        .qodef-m-title {
+            font-size: clamp(2.25rem, 1.1594rem + 1.9388vw, 3.4375rem) !important;
+        }
+        @media (max-width: 767px) {
+            section.elementor-section {
+                height: inherit !important;
+        }
+    }
     </style>
 @endpush
 
@@ -40,7 +64,7 @@
                                 playsinline="" loop=""></video>
                         </div>
                         <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-container elementor-column-gap-default" style="width:100%;">
                             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0c2cb3d"
                                 data-id="0c2cb3d" data-element_type="column"
                                 data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
@@ -53,7 +77,7 @@
                                             <div class="qodef-shortcode qodef-m  qodef-qi-animated-text qodef--animated-by-letter qodef--alignment-left qodef-qi--has-appear qodef--appear-fade"
                                                 data-appear-delay="random">
                                                 <h2 class="qodef-m-title">
-                                                    <span class="qodef-e-word-holder">HR</span>
+                                                    <span class="qodef-e-word-holder">HR Consulting</span>
                                                 </h2>
                                             </div>
                                         </div>

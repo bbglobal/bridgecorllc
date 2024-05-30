@@ -246,4 +246,9 @@ class FrontendController extends Controller
     {
         return view('frontend.cybersecurity-bootcamps-and-training-programs.index');
     }
+    
+    public function mentalHealth()
+    {
+        return view('frontend.employee-mental-health.index');
+    }
 }
