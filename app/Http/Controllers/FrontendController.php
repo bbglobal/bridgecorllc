@@ -17,7 +17,11 @@ class FrontendController extends Controller
     }
     public function employers()
     {
-        return view('frontend.employers-2.index');
+        return view('frontend.employers.index');
+    }
+    public function hr()
+    {
+        return view('frontend.hr.index');
     }
     public function candidate()
     {
@@ -242,7 +246,7 @@ class FrontendController extends Controller
     {
         return view('frontend.cybersecurity-bootcamps-and-training-programs.index');
     }
-
+    
     public function mentalHealth()
     {
         return view('frontend.employee-mental-health.index');

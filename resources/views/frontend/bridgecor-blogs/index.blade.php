@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>All Type Of Informative Blog - Bridgecor LLC</title>
@@ -16,6 +16,9 @@
     <style>
         .premium-blog-content-wrapper {
             height: 201.625px;
+        }
+        .uk-section-primary {
+            margin-top: 112px !important;
         }
     </style>
 @endpush
@@ -3000,7 +3003,7 @@
                                                                     class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async"
                                                                         width="1000" height="563"
-                                                                        src="..\wp-content\uploads\2024\02\Strategies for Increasing Employee Engagement.png"
+                                                                        src="..\wp-content\uploads\2024\02\revitalizing-workplace-morale-2024.png"
                                                                         class="attachment-full size-full wp-image-8787"
                                                                         alt="Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
@@ -3082,7 +3085,7 @@
                                                                     class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
                                                                     <img loading="lazy" decoding="async"
                                                                         width="1000" height="563"
-                                                                        src="..\wp-content\uploads\2024\02\Recruitment-Marketing-Strategies-Improve-Your-Hiring-Process-and-Attract-Talent-in-2024.png"
+                                                                        src="..\wp-content\uploads\2024\02\recruitment-marketing-strategies-improve-your-hiring-process-and-attract-talent-in-2024.png"
                                                                         class="attachment-full size-full wp-image-XXXXX"
                                                                         alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
                                                                         sizes="(max-width: 1000px) 100vw, 1000px">
@@ -3233,7 +3236,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div> 
+                                                    </div>
 
                                                     <div class="premium-blog-post-outer-container" data-total="4">
                                                         <div
@@ -3418,7 +3421,7 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.futureWork') }}"
                                                                             target="_blank">
-                                                                            THE FUTURE OF WORK: TRENDS SHAPING THE IT STAFFING INDUSTRY IN 2024
+                                                                            Levels and Requirements: Understanding Security Clearance Criteria
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3690,7 +3693,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    </div>
+
+
+
+
 
                                                     <div class="premium-blog-post-outer-container" data-total="4">
                                                         <div
@@ -3767,11 +3773,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-
-
-
-
-
 
 
 

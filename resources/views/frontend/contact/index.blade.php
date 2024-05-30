@@ -157,7 +157,7 @@
                                                                         <form id=""
                                                                             class="wpforms-validate wpforms-form"
                                                                             method="post"
-                                                                            action={{ route('admin.leads') }}>
+                                                                            action=>
                                                                             @csrf
                                                                             <noscript class="wpforms-error-noscript">
                                                                                 Please

@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>Interview Success Tips - Bridgecor LLC</title>

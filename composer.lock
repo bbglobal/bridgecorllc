@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47e6793efea5a658d8edfaa6db0db720",
+    "content-hash": "968f73bcf5520ee401d641d0d79555ec",
     "packages": [
         {
             "name": "brick/math",
@@ -263,7 +263,7 @@
                 }
             ],
             "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
-            "homepage": "https://www.doctrine-project.org/projects/inflector.blade.php",
+            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
             "keywords": [
                 "inflection",
                 "inflector",
@@ -282,7 +282,7 @@
             },
             "funding": [
                 {
-                    "url": "https://www.doctrine-project.org/sponsorship.blade.php",
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
                     "type": "custom"
                 },
                 {
@@ -345,7 +345,7 @@
                 }
             ],
             "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
-            "homepage": "https://www.doctrine-project.org/projects/lexer.blade.php",
+            "homepage": "https://www.doctrine-project.org/projects/lexer.html",
             "keywords": [
                 "annotations",
                 "docblock",
@@ -359,7 +359,7 @@
             },
             "funding": [
                 {
-                    "url": "https://www.doctrine-project.org/sponsorship.blade.php",
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
                     "type": "custom"
                 },
                 {
@@ -6765,7 +6765,7 @@
             },
             "funding": [
                 {
-                    "url": "https://phpunit.de/sponsors.blade.php",
+                    "url": "https://phpunit.de/sponsors.html",
                     "type": "custom"
                 },
                 {
@@ -8132,5 +8132,5 @@
         "php": "^8.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

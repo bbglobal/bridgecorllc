@@ -1,11 +1,11 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>Revitalizing Workplace Morale: Innovative Strategies for Increasing Employee Engagement in 2024</title>
 @endpush
 
 @push('canonical')
-    <link rel="canonical" href="https://bridgecorllc.com/revitalizing-workplace-morale-innovative-strategies-2024">
+    <link rel="canonical" href="https://bridgecorllc.com/revitalizing-workplace-morale-2024">
 @endpush
 
 @push('style')
@@ -32,7 +32,7 @@
 
                         <div class="uk-margin-large-bottom" property="image" typeof="ImageObject">
                             <img fetchpriority="high" width="100%" height="563"
-                                src="..\wp-content\uploads\2024\02\Strategies for Increasing Employee Engagement.png"
+                                src="..\wp-content\uploads\2024\02\revitalizing-workplace-morale-2024.png"
                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                 property="url" decoding="async">
                         </div>

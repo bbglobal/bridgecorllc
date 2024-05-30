@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>News &amp; Trends - Bridgecor LLC</title>
@@ -209,7 +209,6 @@
 
                                                         <div class="premium-blog-wrap premium-blog-masked premium-blog-even"
                                                             data-page="8964">
-                                                            
                                                             <div class="premium-blog-post-outer-container" data-total="1">
                                                                 <div
                                                                     class="premium-blog-post-container premium-blog-skin-classic">
@@ -415,6 +414,7 @@
                                                                 </div>
                                                             </div>
 
+
                                                             <div class="premium-blog-post-outer-container" data-total="1">
                                                                 <div
                                                                     class="premium-blog-post-container premium-blog-skin-classic">
@@ -500,6 +500,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            
+                                                            
 
                                                             <div class="premium-blog-post-outer-container" data-total="1">
                                                                 <div
@@ -551,7 +553,7 @@
                                                                                     class="premium-blog-post-time premium-blog-meta-data">
                                                                                     <i class="fa fa-calendar-alt"
                                                                                         aria-hidden="true"></i>
-                                                                                    <span>May 26, 2024</span>
+                                                                                    <span>May 29, 2024</span>
                                                                                 </div>
 
                                                                                 <span

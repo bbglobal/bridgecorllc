@@ -1,4 +1,4 @@
-﻿@extends('layout.main')
+@extends('layout.main')
 
 @push('title')
     <title>Expert Advice and Industry Best Practices - Bridgecor LLC</title>
