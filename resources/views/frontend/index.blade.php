@@ -10,7 +10,7 @@
 
 @push('style')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    
+
     <style>
         div#message-2 {
             color: #fff;
@@ -21,160 +21,8 @@
 @endpush
 
 @section('main-section')
+
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
-
-        {{-- <section class="hero-wrapper">
-            <img src="{{ asset('/wp-content/uploads/2024/01/chacha.png') }}" alt="hero-img" class="hero-img">
-            <h2 class="ceo">Steven Thompson <br /> CEO Bridgecor LLC</h2>
-            <div class="hero-txt-wrapper">
-                <h1> <span>Find Your Dream Candidate</span> <br />
-                    Build Your Dream Team</h1>
-                <h2>Bridgecor LLC</h2>
-                <div class="divider"></div>
-                <h4>Empowering careers and businesses</h4>
-                <h5>Discover exceptional talent for your company or land your ideal job with our seamless platform. <br>
-                    Join us
-                    and redefine success together!</h5>
-
-                <div>
-                    <a href="https://www.facebook.com/Bridgecorllc-115061103954266" target="_blank"><img
-                            src="{{ asset('/wp-content/uploads/2024/01/fb-new2.png') }}" alt="image"></a>
-                    <a href="#"><img src="{{ asset('/wp-content/uploads/2024/01/google-new2.png') }}"
-                            alt="image"></a>
-                </div>
-            </div>
-
-            <div class="hero-form-wrpper">
-                <form action="">
-                    <div class="form-header-txt">
-                        <h3>Ready to take your career or business to new heights?</h3>
-                        <p>Let's connect! Reach out to BridgecorLLC today and let us be your bridge to success. We're here
-                            to help you thrive in the ever-evolving world of work.</p>
-                    </div>
-
-                    <div class="form-body">
-                        <div class="hero-form-control">
-                            <input type="text" id="first-name" name="fname" placeholder="&nbsp;&nbsp;First Name">
-                            <input type="text" id="last-name" name="lname" placeholder="&nbsp;&nbsp;Last Name">
-                        </div>
-                        <div class="hero-form-control">
-                            <input type="email" id="h-email" name="email" placeholder="&nbsp;&nbsp;Email Address">
-                        </div>
-                        <div class="hero-form-control">
-                            <input type="text" id="phone" name="phone" placeholder="&nbsp;&nbsp;Phone Number">
-                        </div>
-                        <div class="hero-form-control">
-                            <input type="text" id="address" name="address" placeholder="&nbsp;&nbsp;Address">
-                        </div>
-                        <div class="btn-form">
-                            <button>CONNECT WIHT US</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-
-        <section class="reviews">
-            <h2 class="text-center">
-                OUR REVIEWS
-            </h2>
-            <div class="divider text-center" style="margin: auto;"></div>
-            <p class="text-center">EXCELLENT <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
-                    max-width="100%"> 147 REVIEWS ON <img src="{{ asset('/wp-content/uploads/2024/01/google-1.webp') }}"
-                    alt="image"></p>
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="tes-wrapper">
-                            <div class="tes-head-wrapper">
-                                <div class="info-wrapper">
-                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial.png') }}" alt="image"
-                                        max-width="100%">
-                                    <div>
-                                        <div class="tes-name">Luis Zaragoza</div>
-                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
-                                            max-width="100%">
-                                    </div>
-                                </div>
-                                <div class="rev-google-wrapper">
-                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
-                                </div>
-                            </div>
-
-                            <div class="tes-body">
-                                <p>Steven was a delight to work with at Bridgecor LLC. He assisted me in obtaining a new
-                                    employment that more than doubles my salary and provides me with a lot more balanced
-                                    work life. Provided sound advice throughout the application process, which contributed
-                                    to my eventual success. Steven was exceptionally helpful, and I cannot recommend him or
-                                    Bridgecor enough!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="tes-wrapper">
-                            <div class="tes-head-wrapper">
-                                <div class="info-wrapper">
-                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial2.jpeg') }}" alt="image"
-                                        width="40px">
-                                    <div>
-                                        <div class="tes-name">Dr James L Moll</div>
-                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
-                                            max-width="100%">
-                                    </div>
-                                </div>
-                                <div class="rev-google-wrapper">
-                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
-                                </div>
-                            </div>
-
-                            <div class="tes-body">
-                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show an aptitude for aesthetics and understanding of clients that makes them stand out. Paying close attention to what is being said during consultation sessions and have been spot on capturing the essence of our requests. In other words, not just providing candidate that looks good on paper but capturing the candidate that has been a good fit for our culture and organization. Bridgecor has serviced us well.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="tes-wrapper">
-                            <div class="tes-head-wrapper">
-                                <div class="info-wrapper">
-                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial3.png') }}" alt="image"
-                                        width="40px">
-                                    <div>
-                                        <div class="tes-name">Charles Raglin - President & CEO - Steira Travels</div>
-                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
-                                            max-width="100%">
-                                    </div>
-                                </div>
-                                <div class="rev-google-wrapper">
-                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
-                                </div>
-                            </div>
-
-                            <div class="tes-body">
-                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show an aptitude for aesthetics and understanding of clients that makes them stand out. Paying close attention to what is being said during consultation sessions and have been spot on capturing the essence of our requests. In other words, not just providing candidate that looks good on paper but capturing the candidate that has been a good fit for our culture and organization. Bridgecor has serviced us well.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </section>
-
-        <section class="video-wrapper">
-
-            <div class="banner">
-                <img src="{{ asset('/wp-content/uploads/2024/01/banner.png') }}" alt="banner">
-            </div>
-
-            <video controls poster="{{ asset('/wp-content/uploads/2024/01/poster.jpg') }}">
-                <source src="{{ asset('/wp-content/uploads/2024/01/hero.mp4') }}" type="video/mp4">
-            </video>
-        </section> --}}
 
         <div class="uk-container">
 
@@ -201,8 +49,7 @@
                                             data-widget_type="video.default">
                                             <div class="elementor-widget-container">
                                                 <div class="e-hosted-video elementor-wrapper elementor-open-inline">
-                                                    <video class="elementor-video"
-                                                        src="wp-content/uploads/2024/01/hero.mp4"
+                                                    <video class="elementor-video" src="wp-content/uploads/2024/01/hero.mp4"
                                                         autoplay loop muted controlslist="nodownload"></video>
                                                 </div>
                                             </div>
@@ -1395,7 +1242,7 @@
                                                 </div>
                                             </div>
                                         </section>
-                                        
+
                                         <div class="elementor-element elementor-element-bf8a89b ob-has-background-overlay elementor-widget elementor-widget-image"
                                             data-id="bf8a89b" data-element_type="widget"
                                             data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
@@ -1610,6 +1457,7 @@
 
         </div>
     </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const form = document.querySelector('.js-form-newsletter');

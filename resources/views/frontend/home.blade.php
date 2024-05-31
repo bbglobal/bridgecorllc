@@ -441,8 +441,6 @@
                         </div>
                     </div>
 
-
-
                     <div class="swiper-slide">
                         <div class="tes-wrapper">
                             <div class="tes-head-wrapper">
@@ -468,6 +466,91 @@
                                     have also streamlined our hiring processes, saving us time and resources. We couldn't be
                                     happier with the results and highly recommend their services to any organization looking
                                     to enhance their IT capabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial4.jpeg') }}"
+                                        alt="image" width="40px">
+                                    <div>
+                                        <div class="tes-name">Michael Thompson</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>As a recent graduate, I was feeling overwhelmed by the daunting task of finding a job
+                                    that matched my skills and aspirations. That's when I discovered BridgecorLLC. Their
+                                    team of experts truly understood my needs and guided me through the entire process with
+                                    professionalism and care. Thanks to their tailored job matches, I landed my dream role
+                                    at a company that aligns perfectly with my career goals. BridgecorLLC is an invaluable
+                                    resource for anyone seeking their next professional opportunity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial5.jpeg') }}"
+                                        alt="image" width="40px">
+                                    <div>
+                                        <div class="tes-name">Andrew Lewis</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>Changing careers can be a nerve-wracking experience, but BridgecorLLC made the transition
+                                    seamless for me. Their in-depth industry knowledge and extensive network of employers
+                                    allowed them to present me with opportunities that I would never have found on my own.
+                                    The team at BridgecorLLC took the time to understand my unique background and
+                                    aspirations, resulting in a perfect job match that has reignited my passion for work. I
+                                    can't thank them enough for their dedication and expertise.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="tes-wrapper">
+                            <div class="tes-head-wrapper">
+                                <div class="info-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/testimonial6.jpeg') }}"
+                                        alt="image" width="40px">
+                                    <div>
+                                        <div class="tes-name">Shanice Jackson</div>
+                                        <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
+                                            max-width="100%">
+                                    </div>
+                                </div>
+                                <div class="rev-google-wrapper">
+                                    <img src="{{ asset('/wp-content/uploads/2024/01/rev-google.webp') }}" alt="image">
+                                </div>
+                            </div>
+
+                            <div class="tes-body">
+                                <p>As an executive seeking a new challenge, I had high expectations when it came to finding
+                                    a reputable job placement service. BridgecorLLC exceeded those expectations at every
+                                    turn. Their commitment to discretion and confidentiality, coupled with their deep
+                                    understanding of the executive job market, made the entire process effortless. The
+                                    opportunities they presented were tailored to my specific goals and aspirations, and
+                                    their guidance throughout the negotiation process was invaluable. I cannot recommend
+                                    BridgecorLLC highly enough to any professional seeking their next career move.</p>
                             </div>
                         </div>
                     </div>
@@ -1750,7 +1833,7 @@
 
 
                 connectBtn.style = "opacity: .5";
-                 connectBtn.disabled = true;
+                connectBtn.disabled = true;
                 connectBtn.textContent = "Sending...";
 
                 axios.post('/contact/submit', {
@@ -1818,6 +1901,11 @@
             centeredSlides: true,
             spaceBetween: 30,
             grabCursor: true,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
