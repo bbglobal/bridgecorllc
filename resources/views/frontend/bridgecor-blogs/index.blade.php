@@ -17,6 +17,7 @@
         .premium-blog-content-wrapper {
             height: 201.625px;
         }
+
         .uk-section-primary {
             margin-top: 112px !important;
         }
@@ -25,7 +26,7 @@
 
 @section('main-section')
     <div id="tm-main" class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
-        <div class="uk-container"> 
+        <div class="uk-container">
 
 
             <div class="uk-grid" uk-grid="">
@@ -111,7 +112,8 @@
                                                     data-id="50fa45c" data-element_type="column"
                                                     data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;,&quot;premium_particles_zindex&quot;:0,&quot;premium_particles_responsive&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
                                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div data-ha-element-link="{&quot;url&quot;:&quot;https:\/\/bridgecorllc.com\/bridgecor-blogs\/news-trends\/&quot;,&quot;is_external&quot;:&quot;on&quot;,&quot;nofollow&quot;:&quot;&quot;}"
+
+                                                        <div data-ha-element-link="{&quot;url&quot;:&quot;https:\/\/bridgecorllc.com\/news-trends\/&quot;,&quot;is_external&quot;:&quot;on&quot;,&quot;nofollow&quot;:&quot;&quot;}"
                                                             style="cursor: pointer"
                                                             class="elementor-element elementor-element-40fdaf7 elementor-flip-box--effect-zoom-out ob-has-background-overlay elementor-widget elementor-widget-flip-box"
                                                             data-id="40fdaf7" data-element_type="widget"
@@ -154,6 +156,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+
                                                         <div data-ha-element-link="{&quot;url&quot;:&quot;https:\/\/bridgecorllc.com\/legal-compliance\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;}"
                                                             style="cursor: pointer"
                                                             class="elementor-element elementor-element-5c3d6e9 elementor-flip-box--effect-zoom-out ob-has-background-overlay elementor-widget elementor-widget-flip-box"
@@ -248,19 +251,18 @@
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-a6fd238 elementor-flip-box--effect-zoom-out ob-has-background-overlay elementor-widget elementor-widget-flip-box"
+                                                        data-ha-element-link="{&quot;url&quot;:&quot;https:\/\/bridgecorllc.com\/career-guidance-and-skill-development\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;}"
                                                             data-id="a6fd238" data-element_type="widget"
                                                             data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
                                                             data-widget_type="flip-box.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-flip-box" tabindex="0">
-                                                                    <div
-                                                                        class="elementor-flip-box__layer elementor-flip-box__front">
+                                                                    <div class="elementor-flip-box__layer elementor-flip-box__front">
                                                                         <div class="elementor-flip-box__layer__overlay">
                                                                             <div class="elementor-flip-box__layer__inner">
 
-                                                                                <h3
-                                                                                    class="elementor-flip-box__layer__title">
-                                                                                    Career Placement </h3>
+                                                                                <h3 class="elementor-flip-box__layer__title">
+                                                                                    Career Guidance </h3>
 
                                                                             </div>
                                                                         </div>
@@ -271,15 +273,13 @@
                                                                             <div class="elementor-flip-box__layer__inner">
                                                                                 <h3
                                                                                     class="elementor-flip-box__layer__title">
-                                                                                    Career Placement </h3>
+                                                                                    Career Guidance </h3>
 
-                                                                                <div
-                                                                                    class="elementor-flip-box__layer__description">
+                                                                                <div class="elementor-flip-box__layer__description">
                                                                                     candidate are our best asset
                                                                                     and our goal is to place them in
                                                                                     positions aimed to elevate their
                                                                                     careers and lifestyles.
-
                                                                                 </div>
 
                                                                             </div>
@@ -337,6 +337,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-f5a3f83 elementor-flip-box--effect-zoom-out ob-has-background-overlay elementor-widget elementor-widget-flip-box"
+                                                        data-ha-element-link="{&quot;url&quot;:&quot;https:\/\/bridgecorllc.com\/industry-insights-and-trends\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;}"
                                                             data-id="f5a3f83" data-element_type="widget"
                                                             data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
                                                             data-widget_type="flip-box.default">
@@ -349,7 +350,7 @@
 
                                                                                 <h3
                                                                                     class="elementor-flip-box__layer__title">
-                                                                                    Engineering Diversified </h3>
+                                                                                    Industry Insights &amp; Trends </h3>
 
                                                                             </div>
                                                                         </div>
@@ -360,7 +361,7 @@
                                                                             <div class="elementor-flip-box__layer__inner">
                                                                                 <h3
                                                                                     class="elementor-flip-box__layer__title">
-                                                                                    Engineering Diversified </h3>
+                                                                                    Industry Insights &amp; Trends </h3>
 
                                                                                 <div
                                                                                     class="elementor-flip-box__layer__description">
@@ -3269,7 +3270,8 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.navigating') }}"
                                                                             target="_blank">
-                                                                            Navigating Cybersecurity Challenges: IT Engineering Solutions by Bridgecor LLC
+                                                                            Navigating Cybersecurity Challenges: IT
+                                                                            Engineering Solutions by Bridgecor LLC
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3308,7 +3310,9 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the digital age, cybersecurity has become a paramount concern for organizations across industries.</p>
+                                                                    <p class="premium-blog-post-content">In the digital
+                                                                        age, cybersecurity has become a paramount concern
+                                                                        for organizations across industries.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3345,7 +3349,9 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.emerging') }}"
                                                                             target="_blank">
-                                                                            Emerging Technologies Impacting IT Staffing Companies: Navigating the Future with Bridgecor LLC
+                                                                            Emerging Technologies Impacting IT Staffing
+                                                                            Companies: Navigating the Future with Bridgecor
+                                                                            LLC
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3384,7 +3390,10 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the dynamic landscape of information technology (IT) staffing, the emergence of cutting-edge technologies is reshaping the industry at an unprecedented pace.</p>
+                                                                    <p class="premium-blog-post-content">In the dynamic
+                                                                        landscape of information technology (IT) staffing,
+                                                                        the emergence of cutting-edge technologies is
+                                                                        reshaping the industry at an unprecedented pace.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3421,7 +3430,8 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.futureWork') }}"
                                                                             target="_blank">
-                                                                            Levels and Requirements: Understanding Security Clearance Criteria
+                                                                            Levels and Requirements: Understanding Security
+                                                                            Clearance Criteria
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3460,7 +3470,10 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the realm of Security Clearance Jobs, understanding the nuances of security clearance levels and their associated requirements is paramount.</p>
+                                                                    <p class="premium-blog-post-content">In the realm of
+                                                                        Security Clearance Jobs, understanding the nuances
+                                                                        of security clearance levels and their associated
+                                                                        requirements is paramount.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3497,7 +3510,8 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.levels') }}"
                                                                             target="_blank">
-                                                                            Levels and Requirements: Understanding Security Clearance Criteria
+                                                                            Levels and Requirements: Understanding Security
+                                                                            Clearance Criteria
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3536,7 +3550,10 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the realm of Security Clearance Jobs, understanding the nuances of security clearance levels and their associated requirements is paramount.</p>
+                                                                    <p class="premium-blog-post-content">In the realm of
+                                                                        Security Clearance Jobs, understanding the nuances
+                                                                        of security clearance levels and their associated
+                                                                        requirements is paramount.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3573,7 +3590,8 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.cybersecurity') }}"
                                                                             target="_blank">
-                                                                            Cybersecurity Skills Gap: Training Next-Gen IT Security Engineers
+                                                                            Cybersecurity Skills Gap: Training Next-Gen IT
+                                                                            Security Engineers
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3612,7 +3630,10 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the digital age, where technology permeates every aspect of our lives, the importance of cybersecurity cannot be overstated.</p>
+                                                                    <p class="premium-blog-post-content">In the digital
+                                                                        age, where technology permeates every aspect of our
+                                                                        lives, the importance of cybersecurity cannot be
+                                                                        overstated.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3649,7 +3670,8 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.bootcamps') }}"
                                                                             target="_blank">
-                                                                            Cybersecurity Bootcamps and Training Programs: A Gateway to Recruitment Success
+                                                                            Cybersecurity Bootcamps and Training Programs: A
+                                                                            Gateway to Recruitment Success
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3688,14 +3710,15 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">In the ever-evolving landscape of cybersecurity, the demand for skilled professionals continues to soar. As cyber threats become more sophisticated and prevalent,</p>
+                                                                    <p class="premium-blog-post-content">In the
+                                                                        ever-evolving landscape of cybersecurity, the demand
+                                                                        for skilled professionals continues to soar. As
+                                                                        cyber threats become more sophisticated and
+                                                                        prevalent,</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-
-
-
 
 
                                                     <div class="premium-blog-post-outer-container" data-total="4">
@@ -3729,7 +3752,87 @@
                                                                     <h2 class="premium-blog-entry-title">
                                                                         <a href="{{ route('blogs.mentalHealth') }}"
                                                                             target="_blank">
-                                                                            Does Your Company Help or Hurt Employee’s Mental Health?
+                                                                            Does Your Company Help or Hurt Employee’s Mental
+                                                                            Health?
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="premium-blog-entry-meta">
+                                                                        <div
+                                                                            class="premium-blog-post-author premium-blog-meta-data">
+                                                                            <i class="fa fa-user fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a href="{{ route('home') }}"
+                                                                                title="Posts by [Author Name]"
+                                                                                rel="author">Steven
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-time premium-blog-meta-data">
+                                                                            <i class="fa fa-calendar-alt"
+                                                                                aria-hidden="true"></i>
+                                                                            <span>June 4, 2024</span>
+                                                                        </div>
+
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-categories premium-blog-meta-data">
+                                                                            <i class="fa fa-align-left fa-fw"
+                                                                                aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                        <span class="premium-blog-meta-separator">•</span>
+                                                                        <div
+                                                                            class="premium-blog-post-comments premium-blog-meta-data">
+                                                                            <i class="fa fa-comments-o fa-fw"
+                                                                                aria-hidden="true"></i>
+                                                                            <a
+                                                                                href="{{ route('blogs.mentalHealth') }}#respond">No
+                                                                                Comments</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="premium-blob-content-inner-wrapper">
+                                                                    <p class="premium-blog-post-content">Imagine 87 out of
+                                                                        100 students at your school want something from
+                                                                        their teachers, but only 66 get it! What could this
+                                                                        super important thing be?</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="premium-blog-post-outer-container" data-total="4">
+                                                        <div
+                                                            class="premium-blog-post-container premium-blog-skin-classic">
+                                                            <div class="premium-blog-thumb-effect-wrapper">
+                                                                <div
+                                                                    class="premium-blog-thumbnail-container premium-blog-zoomin-effect">
+                                                                    <img loading="lazy" decoding="async"
+                                                                        width="1000" height="563"
+                                                                        src="..\wp-content\uploads\2024\03\banner_june_4.jpg"
+                                                                        class="attachment-full size-full wp-image-XXXXX"
+                                                                        alt="Recruitment Marketing Strategies: Improve Your Hiring Process and Attract Talent in 2024"
+                                                                        sizes="(max-width: 1000px) 100vw, 1000px">
+                                                                    <svg class="premium-blog-shape-divider-svg"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewbox="0 0 700 10" preserveaspectratio="none">
+                                                                        <path d="M350,10L340,0h20L350,10z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="premium-blog-thumbnail-overlay">
+                                                                    <a class="elementor-icon"
+                                                                        href="{{ route('blogs.hr-consultant') }}"
+                                                                        target="_blank" aria-hidden="true">
+                                                                        <span></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="premium-blog-content-wrapper">
+                                                                <div class="premium-blog-inner-container">
+                                                                    <h2 class="premium-blog-entry-title">
+                                                                        <a href="{{ route('blogs.hr-consultant') }}"
+                                                                            target="_blank">
+                                                                            Thinking Like an HR Consultant | Beyond Benefits
                                                                         </a>
                                                                     </h2>
                                                                     <div class="premium-blog-entry-meta">
@@ -3762,13 +3865,16 @@
                                                                             <i class="fa fa-comments-o fa-fw"
                                                                                 aria-hidden="true"></i>
                                                                             <a
-                                                                                href="{{ route('blogs.mentalHealth') }}#respond">No
+                                                                                href="{{ route('blogs.hr-consultant') }}#respond">No
                                                                                 Comments</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="premium-blob-content-inner-wrapper">
-                                                                    <p class="premium-blog-post-content">Imagine 87 out of 100 students at your school want something from their teachers, but only 66 get it! What could this super important thing be?</p>
+                                                                    <p class="premium-blog-post-content">Attract top
+                                                                        talent! HR Consultant reveals strategies to go
+                                                                        beyond benefits & create a thriving workplace
+                                                                        culture.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3776,19 +3882,18 @@
 
 
 
-
                                                 </div>
 
                                                 <!-- <div class="premium-blog-footer">
-                                                                        <nav class="premium-blog-pagination-container" role="navigation"
-                                                                            aria-label="Pagination">
-                                                                            <span aria-current="page" class="page-numbers current">1</span>
-                                                                            <a class="page-numbers" href="page/2/">2</a>
-                                                                            <a class="page-numbers" href="page/3/">3</a>
-                                                                            <a class="page-numbers" href="page/4/">4</a>
-                                                                            <a class="next page-numbers" href="page/2/">Next »</a>
-                                                                        </nav>
-                                                                    </div> -->
+                                                                            <nav class="premium-blog-pagination-container" role="navigation"
+                                                                                aria-label="Pagination">
+                                                                                <span aria-current="page" class="page-numbers current">1</span>
+                                                                                <a class="page-numbers" href="page/2/">2</a>
+                                                                                <a class="page-numbers" href="page/3/">3</a>
+                                                                                <a class="page-numbers" href="page/4/">4</a>
+                                                                                <a class="next page-numbers" href="page/2/">Next »</a>
+                                                                            </nav>
+                                                                        </div> -->
                                             </div>
                                         </div>
                                     </div>

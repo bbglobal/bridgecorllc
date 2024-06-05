@@ -1930,7 +1930,7 @@
                                         <li
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children uk-parent">
                                             <a href="{{ route('blogs') }}">Bridgecor Blogs</a>
-                                            <ul class="uk-nav-sub">
+                                            {{-- <ul class="uk-nav-sub">
 
                                                 <li class=" menu-item menu-item-type-post_type menu-item-object-page">
                                                     <a href="{{ route('blogs.research') }}">Research</a>
@@ -1965,7 +1965,7 @@
                                                     <a href="{{ route('blogs.career.guidance') }}">Career
                                                         Guidance and Skill Development:</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a
                                                 href="{{ route('contact') }}">Contact</a></li>
@@ -2080,7 +2080,7 @@
                                     <li class="uk-parent"><a href="{{ route('blogs') }}"
                                             class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">Bridgecor
                                             Blogs</a>
-                                        <div class="uk-navbar-dropdown">
+                                        {{-- <div class="uk-navbar-dropdown">
                                             <div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
                                                 <div>
                                                     <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -2112,7 +2112,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </li>
                                     <li><a href="{{ route('contact') }}"
                                             class=" menu-item menu-item-type-post_type menu-item-object-page">Contact</a>

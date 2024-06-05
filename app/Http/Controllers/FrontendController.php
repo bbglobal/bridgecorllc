@@ -251,4 +251,9 @@ class FrontendController extends Controller
     {
         return view('frontend.employee-mental-health.index');
     }
+    
+    public function hrConsultant()
+    {
+        return view('frontend.hr-consultant.index');
+    }
 }

@@ -420,7 +420,7 @@
                                     <img src="{{ asset('/wp-content/uploads/2024/01/testimonial2.jpeg') }}" alt="image"
                                         width="40px">
                                     <div>
-                                        <div class="tes-name">Dr James L Moll</div>
+                                        <div class="tes-name">Dr James L Moss</div>
                                         <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
                                             max-width="100%">
                                     </div>
@@ -477,7 +477,7 @@
                                     <img src="{{ asset('/wp-content/uploads/2024/01/testimonial4.jpeg') }}"
                                         alt="image" width="40px">
                                     <div>
-                                        <div class="tes-name">Michael Thompson</div>
+                                        <div class="tes-name">Prof Geist Ernest Keo</div>
                                         <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
                                             max-width="100%">
                                     </div>
@@ -505,7 +505,7 @@
                                     <img src="{{ asset('/wp-content/uploads/2024/01/testimonial5.jpeg') }}"
                                         alt="image" width="40px">
                                     <div>
-                                        <div class="tes-name">Andrew Lewis</div>
+                                        <div class="tes-name">Don Kesner</div>
                                         <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
                                             max-width="100%">
                                     </div>
@@ -533,7 +533,7 @@
                                     <img src="{{ asset('/wp-content/uploads/2024/01/testimonial6.jpeg') }}"
                                         alt="image" width="40px">
                                     <div>
-                                        <div class="tes-name">Shanice Jackson</div>
+                                        <div class="tes-name">Lorraine Lal-Smith</div>
                                         <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
                                             max-width="100%">
                                     </div>
