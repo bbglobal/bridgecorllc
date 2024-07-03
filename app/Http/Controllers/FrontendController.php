@@ -256,4 +256,9 @@ class FrontendController extends Controller
     {
         return view('frontend.hr-consultant.index');
     }
+    
+    public function cybersecurityGuide()
+    {
+        return view('frontend.cybersecurity-guide.index');
+    }
 }

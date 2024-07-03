@@ -128,6 +128,9 @@ Route::prefix('/')->group(function () {
     Route::get('/hr-consultant', [FrontendController::class, 'hrConsultant'])
         ->name('blogs.hr-consultant');
 
+    Route::get('/cybersecurity-guide', [FrontendController::class, 'cybersecurityGuide'])
+        ->name('blogs.cybersecurity-guide');
+
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 
     // Backend routes

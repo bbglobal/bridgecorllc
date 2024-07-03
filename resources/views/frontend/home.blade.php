@@ -431,12 +431,7 @@
                             </div>
 
                             <div class="tes-body">
-                                <p>I have worked with the recruiters at Bridgecor for some time and they continuously show
-                                    an aptitude for aesthetics and understanding of clients that makes them stand out.
-                                    Paying close attention to what is being said during consultation sessions and have been
-                                    spot on capturing the essence of our requests. In other words, not just providing
-                                    candidate that looks good on paper but capturing the candidate that has been a good fit
-                                    for our culture and organization. Bridgecor has serviced us well.</p>
+                                <p>Bridgecor LLC has been a game-changer when it comes to our IT staffing needs. Their team is very professional and has always provided us with exceptional talent. They have allowed us to deliver our projects on time and effectively.</p>
                             </div>
                         </div>
                     </div>
@@ -477,7 +472,7 @@
                                     <img src="{{ asset('/wp-content/uploads/2024/01/testimonial4.jpeg') }}"
                                         alt="image" width="40px">
                                     <div>
-                                        <div class="tes-name">Prof Geist Ernest Keo</div>
+                                        <div class="tes-name">Eugene Hunter</div>
                                         <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
                                             max-width="100%">
                                     </div>
@@ -488,12 +483,7 @@
                             </div>
 
                             <div class="tes-body">
-                                <p>As a recent graduate, I was feeling overwhelmed by the daunting task of finding a job
-                                    that matched my skills and aspirations. That's when I discovered BridgecorLLC. Their
-                                    team of experts truly understood my needs and guided me through the entire process with
-                                    professionalism and care. Thanks to their tailored job matches, I landed my dream role
-                                    at a company that aligns perfectly with my career goals. BridgecorLLC is an invaluable
-                                    resource for anyone seeking their next professional opportunity.</p>
+                                <p>We are pleased with our service from Bridgecor LLC. They really pay attention to what we're looking for and it has been a very synergistic relationship that made the staffing process smooth. I would recommend their solutions to anyone in a reputable company that is seeking IT staffing solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -516,12 +506,7 @@
                             </div>
 
                             <div class="tes-body">
-                                <p>Changing careers can be a nerve-wracking experience, but BridgecorLLC made the transition
-                                    seamless for me. Their in-depth industry knowledge and extensive network of employers
-                                    allowed them to present me with opportunities that I would never have found on my own.
-                                    The team at BridgecorLLC took the time to understand my unique background and
-                                    aspirations, resulting in a perfect job match that has reignited my passion for work. I
-                                    can't thank them enough for their dedication and expertise.</p>
+                                <p>Bridgecor LLC has been instrumental in advancing my career. They matched me with a role that perfectly fits my skills and aspirations. The support and resources provided by Bridgecor have enabled me to thrive in my new position.</p>
                             </div>
                         </div>
                     </div>
@@ -533,7 +518,7 @@
                                     <img src="{{ asset('/wp-content/uploads/2024/01/testimonial6.jpeg') }}"
                                         alt="image" width="40px">
                                     <div>
-                                        <div class="tes-name">Lorraine Lal-Smith</div>
+                                        <div class="tes-name">Charlene Holder</div>
                                         <img src="{{ asset('/wp-content/uploads/2024/01/star.webp') }}" alt="image"
                                             max-width="100%">
                                     </div>
@@ -544,13 +529,7 @@
                             </div>
 
                             <div class="tes-body">
-                                <p>As an executive seeking a new challenge, I had high expectations when it came to finding
-                                    a reputable job placement service. BridgecorLLC exceeded those expectations at every
-                                    turn. Their commitment to discretion and confidentiality, coupled with their deep
-                                    understanding of the executive job market, made the entire process effortless. The
-                                    opportunities they presented were tailored to my specific goals and aspirations, and
-                                    their guidance throughout the negotiation process was invaluable. I cannot recommend
-                                    BridgecorLLC highly enough to any professional seeking their next career move.</p>
+                                <p>Thanks to Bridgecor LLC, I found my dream job. Their team took the time to understand my career goals and placed me in a company that values my expertise. Bridgecor's commitment to employee satisfaction is truly unmatched.</p>
                             </div>
                         </div>
                     </div>
